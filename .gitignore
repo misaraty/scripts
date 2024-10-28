@@ -1,0 +1,9 @@
+# https://www.cnblogs.com/kevingrace/p/5690241.html
+
+# a.txt
+# *.txt
+# a/
+
+# !a.txt
+
+other/

@@ -1,0 +1,38 @@
+&CONTROL
+  calculation = 'nscf'
+  outdir = './out/'
+  prefix = 'qe'
+  pseudo_dir = '/opt/ohpc/pub/apps/pslibrary.1.0.0/pbe/PSEUDOPOTENTIALS/'
+/
+&SYSTEM
+  ecutwfc = 60
+  ecutrho = 600
+  ibrav = 0
+  nat = 8
+  ntyp = 2
+  occupations = 'tetrahedra'
+  degauss = 0.001
+/
+&ELECTRONS
+  conv_thr = 1.D-7
+  electron_maxstep = 1000
+  mixing_beta = 0.7
+/
+ATOMIC_SPECIES
+Cd     112.411     Cd.pbe-n-kjpaw_psl.1.0.0.UPF
+Te     127.6     Te.pbe-n-kjpaw_psl.1.0.0.UPF
+ATOMIC_POSITIONS crystal
+Cd               0.0000000000        0.0000000000        0.0000000000
+Cd               0.0000000000        0.5000000000        0.5000000000
+Cd               0.5000000000        0.0000000000        0.5000000000
+Cd               0.5000000000        0.5000000000        0.0000000000
+Te               0.2499998757        0.2499998757        0.2499998757
+Te               0.7500001243        0.7500001243        0.2499998757
+Te               0.7500001243        0.2499998757        0.7500001243
+Te               0.2499998757        0.7500001243        0.7500001243
+K_POINTS automatic
+8 8 8 0 0 0
+CELL_PARAMETERS angstrom
+   6.534125441   0.000000000   0.000000000
+   0.000000000   6.534125441   0.000000000
+   0.000000000   0.000000000   6.534125441

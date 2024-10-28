@@ -1,0 +1,44 @@
+&CONTROL
+  calculation = 'relax'
+  outdir = './out/'
+  prefix = 'qe'
+  pseudo_dir = '/opt/ohpc/pub/apps/pslibrary.1.0.0/pbe/PSEUDOPOTENTIALS/'
+  nstep = 1000
+/
+&SYSTEM
+  ecutwfc = 60
+  ecutrho = 600
+  ibrav = 0
+  nat = 8
+  ntyp = 2
+  vdw_corr = 'DFT-D3'
+/
+&ELECTRONS
+  conv_thr = 1.D-7
+  electron_maxstep = 1000
+  mixing_beta = 0.7
+/
+&IONS
+  ion_dynamics = 'bfgs'
+/
+&CELL
+  cell_dynamics = 'bfgs'
+/
+ATOMIC_SPECIES
+Cd     112.411     Cd.pbe-n-kjpaw_psl.1.0.0.UPF
+Te     127.6     Te.pbe-n-kjpaw_psl.1.0.0.UPF
+ATOMIC_POSITIONS crystal
+Cd     0.000000000         0.000000000         0.000000000
+Cd     0.000000000         0.500000000         0.500000000
+Cd     0.500000000         0.000000000         0.500000000
+Cd     0.500000000         0.500000000         0.000000000
+Te     0.250000000         0.250000000         0.250000000
+Te     0.750000000         0.750000000         0.250000000
+Te     0.750000000         0.250000000         0.750000000
+Te     0.250000000         0.750000000         0.750000000
+K_POINTS automatic
+4 4 4 0 0 0
+CELL_PARAMETERS angstrom
+        6.4099998474         0.0000000000         0.0000000000
+        0.0000000000         6.4099998474         0.0000000000
+        0.0000000000         0.0000000000         6.4099998474
