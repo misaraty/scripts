@@ -8,7 +8,7 @@
 * Intel Parallel Studio Xe-2020 Update4
 * Anaconda3-2024.02-1 | Python-3.10.9
 * Julia-1.9.4
-* Matlab-2020b
+* Matlab-2022b
 * Mathematica-12.3.1
 * Quantum ESPRESSO 7.3
 * VASP 5.4.4
