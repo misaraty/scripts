@@ -261,4 +261,4 @@ calculation_type = 'dos_plot' # 'relax' | 'vc-relax' | 'scf' | 'nscf' | 'dos_plo
 python QEtool.py
 ```
 
-![misaraty](https://github.com/misaraty/QEtool/blob/master/example/dos.jpg "")
+![misaraty](https://github.com/misaraty/scripts/tree/master/QEtool/example/dos.jpg "")
