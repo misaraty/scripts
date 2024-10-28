@@ -1,7 +1,3 @@
-## Contact
-* Website: https://www.misaraty.com
-* Email: misaraty@163.com
-
 ## Contents
 * **[QEtool](./QEtool)** - An automated tool for generating Quantum Espresso input files, data processing, and plotting.
 * **[Mathematica](./Mathematica)** - Commonly used Mathematica scripts.
@@ -14,3 +10,7 @@
 * Julia-1.9.4
 * Matlab-2020b
 * Mathematica-12.3.1
+
+## Contact
+* Website: https://www.misaraty.com
+* Email: misaraty@163.com
