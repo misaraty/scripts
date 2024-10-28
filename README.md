@@ -11,4 +11,3 @@
 
 ## Contents
 * **[QEtool](./QEtool)** - An automated tool for generating Quantum Espresso input files, data processing, and plotting.
-
