@@ -6,8 +6,8 @@
 
 ## Runtime Environment
 * Intel Parallel Studio Xe 2020 Update4
-* Anaconda3 2024.02-1 | Python 3.10.9
-* Julia 1.9.4
+* Anaconda3 2023.03-1 | Python 3.10.16
+* Julia 1.10.7
 * Matlab R2022b
 * Mathematica 12.3.1
 * Quantum ESPRESSO 7.3
