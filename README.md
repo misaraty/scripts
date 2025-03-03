@@ -14,5 +14,5 @@
 * VASP 5.4.4
 
 ## Contact
-* Website: https://www.misaraty.com
+* Blog: https://www.misaraty.com
 * Email: misaraty@163.com
