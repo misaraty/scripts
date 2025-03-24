@@ -5,5 +5,5 @@
 * Matlab R2022b
 
 ## Contact
-* Website: https://www.misaraty.com
+* Blog: https://www.misaraty.com
 * Email: misaraty@163.com

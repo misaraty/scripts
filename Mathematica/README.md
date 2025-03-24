@@ -5,5 +5,5 @@
 * Mathematica 12.3.1
 
 ## Contact
-* Website: https://www.misaraty.com
+* Blog: https://www.misaraty.com
 * Email: misaraty@163.com

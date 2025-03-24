@@ -5,5 +5,5 @@
 * Julia 1.10.7
 
 ## Contact
-* Website: https://www.misaraty.com
+* Blog: https://www.misaraty.com
 * Email: misaraty@163.com
