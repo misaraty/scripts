@@ -1,5 +1,5 @@
 ## Contents
-* **[plot_test.jl](./plot_test.jl)** - ALattice matching calculation.
+* **[plot_test.jl](./plot_test.jl)** - Julia Plot Testing.
 
 ## Runtime Environment
 * Julia 1.10.7

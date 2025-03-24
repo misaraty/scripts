@@ -1,5 +1,5 @@
 ## Contents
-* **[lattice_mismatch_ratio.nb](./lattice_mismatch_ratio.nb)** - ALattice matching calculation.
+* **[lattice_mismatch_ratio.nb](./lattice_mismatch_ratio.nb)** - Lattice matching calculation.
 
 ## Runtime Environment
 * Mathematica 12.3.1

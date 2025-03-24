@@ -1,5 +1,5 @@
 ## Contents
-* **[lattice_mismatch_ratio.m](./lattice_mismatch_ratio.m)** - ALattice matching calculation.
+* **[lattice_mismatch_ratio.m](./lattice_mismatch_ratio.m)** - Lattice matching calculation.
 
 ## Runtime Environment
 * Matlab R2022b
