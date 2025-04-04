@@ -8,7 +8,7 @@
 * Intel Parallel Studio Xe 2020 Update4
 * Anaconda3 2023.03-1 | Python 3.10.16 | tensorflow-gpu 2.10.1
 * Julia 1.10.7
-* Matlab R2022b
+* Matlab R2023b Update 10
 * Mathematica 12.3.1
 * Quantum ESPRESSO 7.3
 * VASP 5.4.4
