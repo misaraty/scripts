@@ -261,4 +261,4 @@ calculation_type = 'dos_plot' # 'relax' | 'vc-relax' | 'scf' | 'nscf' | 'dos_plo
 python QEtool.py
 ```
 
-![misaraty](./example/dos.jpg "")
+<img src="./example/dos.jpg" width="50%">
