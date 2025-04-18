@@ -262,5 +262,5 @@ python QEtool.py
 ```
 
 <div align="center">
-  <img src="./example/dos.jpg" alt="misaraty" width="50%"/>
+  <img src="./example/dos.jpg" width="50%"/>
 </div>
