@@ -1,6 +1,6 @@
 ## Contents
 * **[QEtool](./QEtool)** - An automated tool for generating Quantum Espresso input files, data processing, and plotting.
-* **[Lattice Matching Solver for Heterojunctions](./Mathematica)** - For commensurate supercell construction in heterojunction matching.
+* **[Lattice Matching Solver for Heterojunctions](./Lattice%20Matching%20Solver%20for%20Heterojunctions)** - For commensurate supercell construction in heterojunction matching.
 * **[MATLAB](./MATLAB)** - Common MATLAB scripts.
 * **[Julia](./Julia)** - Common Julia scripts.
 
