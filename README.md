@@ -1,7 +1,7 @@
 ## Contents
 * **[QEtool](./QEtool)** - An automated tool for generating Quantum Espresso input files, data processing, and plotting.
 * **[Lattice Matching Solver for Heterojunctions](./Lattice%20Matching%20Solver%20for%20Heterojunctions)** - constructing commensurate supercells for heterojunction interface matching
-* **[Python Dependency](./Lattice%20Matching%20Solver%20for%20Heterojunctions)** - resolving dependency conflicts in packages
+* **[Python Dependency](./Python%20Dependency)** - resolving dependency conflicts in packages
 
 ## Runtime Environment
 * Intel Parallel Studio Xe 2020 Update4

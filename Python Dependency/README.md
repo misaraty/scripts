@@ -38,7 +38,3 @@ pip install jax==0.4.23 jaxlib==0.4.23 numpy==1.23.5
 # Time series deep learning (tsai)
 pip install tsai fastcore==1.5.29 numpy==1.23.5
 from tsai.all import *
-
-# Classical time series forecasting (sktime)
-pip install sktime
-from sktime.forecasting.base import ForecastingHorizon
