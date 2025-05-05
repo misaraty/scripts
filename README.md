@@ -2,6 +2,7 @@
 * **[QEtool](./QEtool)** - An automated tool for generating Quantum Espresso input files, data processing, and plotting.
 * **[Lattice Matching Solver for Heterojunctions](./Lattice%20Matching%20Solver%20for%20Heterojunctions)** - constructing commensurate supercells for heterojunction interface matching
 * **[Python Dependency](./Python%20Dependency)** - resolving dependency conflicts in packages
+* **[Fewest Switch Surface Hopping](./Fewest%20Switch%20Surface%20Hopping)** - A simple Tully Model 1 surface hopping demo using either Mathematica + Python or just Python.
 
 ## Runtime Environment
 * Anaconda3 2023.03-1 | Python 3.10.16 | tensorflow-gpu 2.10.1 (open source)
