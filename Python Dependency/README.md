@@ -23,7 +23,7 @@ pip install spektral --no-deps
 # TensorFlow GNN (Graph Neural Network for TF)
 pip install tensorflow-gnn --no-deps
 
-# GPU support (tested with CUDA 11.x)
+# GPU support (CUDA 11.x)
 pip install tensorflow-gpu==2.10.1
 
 # Atomic descriptor generation: DScribe
