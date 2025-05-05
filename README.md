@@ -8,8 +8,8 @@
 * Julia 1.10.7 (open source)
 * Matlab R2024b Update 6 (licensed)
 * Mathematica 14.2.1 (licensed)
-* Quantum ESPRESSO 7.3 (licensed)
 * VASP 5.4.4 (licensed)
+* Quantum ESPRESSO 7.3 (licensed)
 
 ## Contact
 * Blog: https://www.misaraty.com
