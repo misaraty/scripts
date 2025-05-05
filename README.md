@@ -4,13 +4,12 @@
 * **[Python Dependency](./Python%20Dependency)** - resolving dependency conflicts in packages
 
 ## Runtime Environment
-* Intel Parallel Studio Xe 2020 Update4
-* Anaconda3 2023.03-1 | Python 3.10.16 | tensorflow-gpu 2.10.1
-* Julia 1.10.7
-* Matlab R2024b Update 6
-* Mathematica 14.2.1
-* Quantum ESPRESSO 7.3
-* VASP 5.4.4
+* Anaconda3 2023.03-1 | Python 3.10.16 | tensorflow-gpu 2.10.1 (open source)
+* Julia 1.10.7 (open source)
+* Matlab R2024b Update 6 (licensed)
+* Mathematica 14.2.1 (licensed)
+* Quantum ESPRESSO 7.3 (licensed)
+* VASP 5.4.4 (licensed)
 
 ## Contact
 * Blog: https://www.misaraty.com
