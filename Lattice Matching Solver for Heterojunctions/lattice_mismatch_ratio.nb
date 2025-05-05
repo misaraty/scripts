@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      4017,        127]
-NotebookOptionsPosition[      3566,        108]
-NotebookOutlinePosition[      3922,        124]
-CellTagsIndexPosition[      3879,        121]
+NotebookDataLength[      4051,        125]
+NotebookOptionsPosition[      3509,        106]
+NotebookOutlinePosition[      3970,        124]
+CellTagsIndexPosition[      3927,        121]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -58,8 +58,8 @@ Cell[BoxData[
   "]"}]], "Input",
  CellChangeTimes->{{3.7125518901194487`*^9, 3.7125520721075087`*^9}, {
   3.716935911894898*^9, 3.716935947296426*^9}, {3.7169360220370913`*^9, 
-  3.7169361164238157`*^9}},ExpressionUUID->"dbb49199-0707-40f8-98d9-\
-0a08cfd68456"],
+  3.7169361164238157`*^9}},
+ CellLabel->"In[3]:=",ExpressionUUID->"dbb49199-0707-40f8-98d9-0a08cfd68456"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -72,20 +72,8 @@ Cell[BoxData[
      RowBox[{"x4", "\[Rule]", "1"}]}], "}"}], ",", 
    RowBox[{"{", 
     RowBox[{
-     RowBox[{"x1", "\[Rule]", "7"}], ",", 
-     RowBox[{"x2", "\[Rule]", "3"}], ",", 
-     RowBox[{"x3", "\[Rule]", "2"}], ",", 
-     RowBox[{"x4", "\[Rule]", "1"}]}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
      RowBox[{"x1", "\[Rule]", "2"}], ",", 
      RowBox[{"x2", "\[Rule]", "1"}], ",", 
-     RowBox[{"x3", "\[Rule]", "9"}], ",", 
-     RowBox[{"x4", "\[Rule]", "4"}]}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     RowBox[{"x1", "\[Rule]", "7"}], ",", 
-     RowBox[{"x2", "\[Rule]", "3"}], ",", 
      RowBox[{"x3", "\[Rule]", "9"}], ",", 
      RowBox[{"x4", "\[Rule]", "4"}]}], "}"}], ",", 
    RowBox[{"{", 
@@ -98,19 +86,31 @@ Cell[BoxData[
     RowBox[{
      RowBox[{"x1", "\[Rule]", "7"}], ",", 
      RowBox[{"x2", "\[Rule]", "3"}], ",", 
+     RowBox[{"x3", "\[Rule]", "2"}], ",", 
+     RowBox[{"x4", "\[Rule]", "1"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"x1", "\[Rule]", "7"}], ",", 
+     RowBox[{"x2", "\[Rule]", "3"}], ",", 
+     RowBox[{"x3", "\[Rule]", "9"}], ",", 
+     RowBox[{"x4", "\[Rule]", "4"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"x1", "\[Rule]", "7"}], ",", 
+     RowBox[{"x2", "\[Rule]", "3"}], ",", 
      RowBox[{"x3", "\[Rule]", "25"}], ",", 
      RowBox[{"x4", "\[Rule]", "11"}]}], "}"}]}], "}"}]], "Output",
- CellChangeTimes->{{3.71255201461703*^9, 3.712552076451717*^9}, 
-   3.7169359502613926`*^9, 3.716936047586069*^9, 
-   3.7169361189955215`*^9},ExpressionUUID->"e4cbb484-b035-4d28-bf92-\
-60993a8f69ec"]
+ CellChangeTimes->{3.9554369870006237`*^9},
+ CellLabel->"Out[3]=",ExpressionUUID->"e4bbc318-6d10-5142-9782-b1bed748f584"]
 }, Open  ]]
 },
-WindowSize->{759, 709},
-WindowMargins->{{Automatic, 23}, {Automatic, 94}},
-FrontEndVersion->"11.1 for Microsoft Windows (64-bit) (2017\:5e745\:670816\
+WindowSize->{759, 607.7142857142857},
+WindowMargins->{{Automatic, 93.42857142857144}, {
+  Automatic, 12.428571428571427`}},
+FrontEndVersion->"14.2 for Microsoft Windows (64-bit) (2025\:5e743\:670814\
 \:65e5)",
-StyleDefinitions->"Default.nb"
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"d36d06e3-04cf-6240-9a85-e52bd88f8ea1"
 ]
 (* End of Notebook Content *)
 
@@ -124,10 +124,8 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 1444, 39, 179, "Input", "ExpressionUUID" -> \
-"dbb49199-0707-40f8-98d9-0a08cfd68456"],
-Cell[2027, 63, 1523, 42, 69, "Output", "ExpressionUUID" -> \
-"e4cbb484-b035-4d28-bf92-60993a8f69ec"]
+Cell[580, 22, 1465, 39, 169, "Input",ExpressionUUID->"dbb49199-0707-40f8-98d9-0a08cfd68456"],
+Cell[2048, 63, 1445, 40, 70, "Output",ExpressionUUID->"e4bbc318-6d10-5142-9782-b1bed748f584"]
 }, Open  ]]
 }
 ]
