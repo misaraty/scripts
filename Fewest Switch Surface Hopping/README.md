@@ -43,4 +43,4 @@ This script:
 - [Tully J C. Molecular dynamics with electronic transitions[J]. The Journal of Chemical Physics, 1990, 93(2): 1061-1071.](https://xuv.scs.illinois.edu/chem540/GroupProjects/Benke_Hammer_SourcePaper1.pdf)
 - [mudslide](https://github.com/smparker/mudslide)
 - [FSSH](https://github.com/binggu56/FSSH)
-- [Pedagogical Overview of the Fewest Switches Surface Hopping Method](https://pubs.acs.org/doi/10.1021/acsomega.2c04843)
+- [Jain A, Sindhu A. Pedagogical overview of the fewest switches surface hopping method[J]. ACS omega, 2022, 7(50): 45810-45824.](https://pubs.acs.org/doi/10.1021/acsomega.2c04843)
