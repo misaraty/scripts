@@ -9,7 +9,7 @@
 * Matlab R2024b Update 6 (licensed)
 * Mathematica 14.2.1 (licensed)
 * VASP 5.4.4 (licensed)
-* Quantum ESPRESSO 7.3 (licensed)
+* Quantum ESPRESSO 7.3 (open source)
 
 ## Contact
 * Blog: https://www.misaraty.com
