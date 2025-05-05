@@ -1,4 +1,4 @@
-# Fewest Switch Surface Hopping — Tully Model 1
+## Fewest Switch Surface Hopping — Tully Model 1
 
 This repository contains two versions of a simple Fewest Switch Surface Hopping (FSSH) simulation for Tully Model 1 based on [fewest-switch-surface-hopping](https://github.com/Paul-St-Young/fewest-switch-surface-hopping).
 
@@ -23,8 +23,6 @@ This repository contains two versions of a simple Fewest Switch Surface Hopping 
    - `single.jpg`: potential and coupling plot
    - `model-1-prob.jpg`: hopping statistics
 
----
-
 ## 📁 version2
 
 ### File:
@@ -40,13 +38,6 @@ This script:
 - Generates the same output figures:
   - `single.jpg`
   - `model-1-prob.jpg`
-
----
-
-## Requirements
-```bash
-pip install numpy scipy matplotlib findiff
-```
 
 ## Reference
 - [Tully J C. Molecular dynamics with electronic transitions[J]. The Journal of Chemical Physics, 1990, 93(2): 1061-1071.](https://xuv.scs.illinois.edu/chem540/GroupProjects/Benke_Hammer_SourcePaper1.pdf)
