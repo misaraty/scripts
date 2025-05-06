@@ -2,6 +2,8 @@
 
 This repository contains two versions of a simple Fewest Switch Surface Hopping (FSSH) simulation for Tully Model 1 based on [fewest-switch-surface-hopping](https://github.com/Paul-St-Young/fewest-switch-surface-hopping).
 
+## **[中文版本](https://www.misaraty.com/2025-05-06_%E6%9C%80%E5%B0%8F%E9%9D%A2%E8%B7%B3%E8%B7%83%E6%B3%95/)**
+
 ## 📁 version1
 
 ### Files:
