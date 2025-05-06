@@ -40,6 +40,13 @@ This script:
 - Generates the same output figures:
   - `single.jpg`
   - `model-1-prob.jpg`
+  
+### Results
+
+<div align="center">
+  <img src="./version2/single.jpg" width="50%"/>
+  <img src="./version2/model-1-prob.jpg" width="50%"/>
+</div>
 
 ## Reference
 - [Tully J C. Molecular dynamics with electronic transitions[J]. The Journal of Chemical Physics, 1990, 93(2): 1061-1071.](https://xuv.scs.illinois.edu/chem540/GroupProjects/Benke_Hammer_SourcePaper1.pdf)
