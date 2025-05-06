@@ -41,7 +41,7 @@ This script:
   - `single.jpg`
   - `model-1-prob.jpg`
   
-### Results
+### Results:
 
 <div align="center">
   <img src="./version2/single.jpg" width="50%"/>
