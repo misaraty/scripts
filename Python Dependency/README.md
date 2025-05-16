@@ -25,6 +25,7 @@ pip install tensorflow-gnn --no-deps
 
 # GPU support (CUDA 11.x)
 pip install tensorflow-gpu==2.10.1
+pip install pandas==1.5.3
 
 # Atomic descriptor generation: DScribe
 pip install dscribe==2.1.0
