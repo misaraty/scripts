@@ -1,4 +1,4 @@
-## **[中文版本](https://www.misaraty.com/2024-09-26_qetool/)**
+## **[中文版本](https://www.misaraty.com/2025-05-21_epw%E8%AE%A1%E7%AE%97%E8%B6%85%E5%AF%BC%E8%BD%AC%E5%8F%98%E6%B8%A9%E5%BA%A6/)**
 
 ## Directory Structure
 
