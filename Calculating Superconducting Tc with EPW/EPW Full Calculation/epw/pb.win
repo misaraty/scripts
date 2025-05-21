@@ -1,0 +1,24 @@
+begin projections
+ Pb:sp3
+end projections
+ exclude_bands = 1:5                                                            
+                                                                                
+                                                                                
+                    
+num_wann =   4
+iprint =   2
+dis_froz_min =    -3.000000000000
+dis_froz_max =    13.500000000000
+num_iter =     300
+write_bvec = .true.
+ bands_plot = .true.
+ begin kpoint_path
+ G 0.00 0.00 0.00 X 0.00 0.50 0.50
+ X 0.00 0.50 0.50 W 0.25 0.50 0.75
+ W 0.25 0.50 0.75 L 0.50 0.50 0.50
+ L 0.50 0.50 0.50 K 0.375 0.375 0.75
+ K 0.375 0.375 0.75 G 0.00 0.00 0.00
+ G 0.00 0.00 0.00 L 0.50 0.50 0.50
+ end kpoint_path
+ bands_plot_format = gnuplot
+ write_hr = .true.

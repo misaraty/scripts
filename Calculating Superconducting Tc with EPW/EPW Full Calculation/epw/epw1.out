@@ -1,0 +1,989 @@
+                                                                                      
+                                       ``:oss/                                        
+                           `.+s+.     .+ys--yh+     `./ss+.                           
+                          -sh//yy+`   +yy   +yy    -+h+-oyy                           
+                          -yh- .oyy/.-sh.   .syo-.:sy-  /yh                           
+                 `.-.`    `yh+   -oyyyo.     `/syys:    oys      `.`                  
+               `/+ssys+-` `sh+      `                   oys`   .:osyo`                
+               -yh- ./syyooyo`                          .sys+/oyo--yh/                
+               `yy+    .-:-.                             `-/+/:`  -sh-                
+                /yh.                                              oys                 
+          ``..---hho---------`   .---------..`      `.-----.`    -hd+---.             
+       `./osmNMMMMMMMMMMMMMMMs. +NNMMMMMMMMNNmh+.   yNMMMMMNm-  oNMMMMMNmo++:`        
+       +sy--/sdMMMhyyyyyyyNMMh- .oyNMMmyyyyyhNMMm+` -yMMMdyyo:` .oyyNMMNhs+syy`       
+       -yy/   /MMM+.`-+/``mMMy-   `mMMh:`````.dMMN:` `MMMy-`-dhhy```mMMy:``+hs        
+        -yy+` /MMMo:-mMM+`-oo/.    mMMh:     `dMMN/`  dMMm:`dMMMMy..MMMo-.+yo`        
+         .sys`/MMMMNNMMMs-         mMMmyooooymMMNo:   oMMM/sMMMMMM++MMN//oh:          
+          `sh+/MMMhyyMMMs- `-`     mMMMMMMMMMNmy+-`   -MMMhMMMsmMMmdMMd/yy+           
+    `-/+++oyy-/MMM+.`/hh/.`mNm:`   mMMd+/////:-.`      NMMMMMd/:NMMMMMy:/yyo/:.`      
+   +os+//:-..-oMMMo:--:::-/MMMo. .-mMMd+---`           hMMMMN+. oMMMMMo. `-+osyso:`   
+   syo     `mNMMMMMNNNNNNNNMMMo.oNNMMMMMNNNN:`         +MMMMs:`  dMMMN/`     ``:syo   
+   /yh`     :syyyyyyyyyyyyyyyy+.`+syyyyyyyyo:`         .oyys:`   .oyys:`        +yh   
+   -yh-        ````````````````    `````````              ``        ``          oys   
+   -+h/------------------------::::::::://////++++++++++++++++++++++///////::::/yd:   
+   shdddddddddddddddddddddddddddddhhhhhhhhyyyyyssssssssssssssssyyyyyyyhhhhhhhddddh`   
+                                                                                      
+ Lee, H., Poncé, S., Bushick, K., Hajinazar, S., Lafuente-Bartolome, J.,Leveillee, J.,
+    Lian, C., Lihm, J., Macheda, F., Mori, H., Paudyal, H., Sio, W., Tiwari, S.,      
+ Zacharias, M., Zhang, X., Bonini, N., Kioupakis, E., Margine, E.R., and Giustino F., 
+                                                     npj Comput Mater 9, 156 (2023)   
+                                                                                      
+
+     Program EPW v.5.8 starts on 21May2025 at 11: 7:42 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on     1 processors
+
+     MPI processes distributed on     1 nodes
+     248921 MiB available memory on the printing compute node when the environment starts
+ 
+     Reading input from epw1.in
+
+     Reading supplied temperature list.
+
+     Reading xml data from directory:
+
+     ./pb.save/
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= PZ
+                           (   1   1   0   0   0   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+ 
+     G-vector sticks info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Sum         361     361    121                 4477     4477     893
+ 
+     Using Slab Decomposition
+ 
+     Reading collected, re-writing distributed wavefunctions
+
+     --                                                                         
+
+     bravais-lattice index     =            2
+     lattice parameter (a_0)   =       9.2700  a.u.
+     unit-cell volume          =     199.1495 (a.u.)^3
+     number of atoms/cell      =            1
+     number of atomic types    =            1
+     kinetic-energy cut-off    =      30.0000  Ry
+     charge density cut-off    =     120.0000  Ry
+     Exchange-correlation= PZ
+                           (   1   1   0   0   0   0   0)
+
+
+     celldm(1)=    9.27000  celldm(2)=    0.00000  celldm(3)=    0.00000
+     celldm(4)=    0.00000  celldm(5)=    0.00000  celldm(6)=    0.00000
+
+     crystal axes: (cart. coord. in units of a_0)
+               a(1) = ( -0.5000  0.0000  0.5000 )  
+               a(2) = (  0.0000  0.5000  0.5000 )  
+               a(3) = ( -0.5000  0.5000  0.0000 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/a_0)
+               b(1) = ( -1.0000 -1.0000  1.0000 )  
+               b(2) = (  1.0000  1.0000  1.0000 )  
+               b(3) = ( -1.0000  1.0000 -1.0000 )  
+
+
+     Atoms inside the unit cell: 
+
+   Cartesian axes
+
+     site n.  atom      mass           positions (a_0 units)
+        1     Pb    207.2000   tau( 1) = (    0.00000    0.00000    0.00000  )
+ 
+     49 Sym.Ops. (with q -> -q+G )
+
+
+     G cutoff =  261.2047  (   4477 G-vectors)     FFT grid: ( 24, 24, 24)
+     number of k points=   27  gaussian broad. (Ry)=  0.0250     ngauss =   1
+                       cart. coord. in units 2pi/a_0
+        k(    1) = (   0.0000000   0.0000000   0.0000000), wk =   0.0740741
+        k(    2) = (  -0.3333333   0.3333333  -0.3333333), wk =   0.0740741
+        k(    3) = (  -0.6666667   0.6666667  -0.6666667), wk =   0.0740741
+        k(    4) = (   0.3333333   0.3333333   0.3333333), wk =   0.0740741
+        k(    5) = (   0.0000000   0.6666667   0.0000000), wk =   0.0740741
+        k(    6) = (  -0.3333333   1.0000000  -0.3333333), wk =   0.0740741
+        k(    7) = (   0.6666667   0.6666667   0.6666667), wk =   0.0740741
+        k(    8) = (   0.3333333   1.0000000   0.3333333), wk =   0.0740741
+        k(    9) = (   0.0000000   1.3333333   0.0000000), wk =   0.0740741
+        k(   10) = (  -0.3333333  -0.3333333   0.3333333), wk =   0.0740741
+        k(   11) = (  -0.6666667   0.0000000   0.0000000), wk =   0.0740741
+        k(   12) = (  -1.0000000   0.3333333  -0.3333333), wk =   0.0740741
+        k(   13) = (   0.0000000   0.0000000   0.6666667), wk =   0.0740741
+        k(   14) = (  -0.3333333   0.3333333   0.3333333), wk =   0.0740741
+        k(   15) = (  -0.6666667   0.6666667  -0.0000000), wk =   0.0740741
+        k(   16) = (   0.3333333   0.3333333   1.0000000), wk =   0.0740741
+        k(   17) = (   0.0000000   0.6666667   0.6666667), wk =   0.0740741
+        k(   18) = (  -0.3333333   1.0000000   0.3333333), wk =   0.0740741
+        k(   19) = (  -0.6666667  -0.6666667   0.6666667), wk =   0.0740741
+        k(   20) = (  -1.0000000  -0.3333333   0.3333333), wk =   0.0740741
+        k(   21) = (  -1.3333333   0.0000000   0.0000000), wk =   0.0740741
+        k(   22) = (  -0.3333333  -0.3333333   1.0000000), wk =   0.0740741
+        k(   23) = (  -0.6666667  -0.0000000   0.6666667), wk =   0.0740741
+        k(   24) = (  -1.0000000   0.3333333   0.3333333), wk =   0.0740741
+        k(   25) = (   0.0000000   0.0000000   1.3333333), wk =   0.0740741
+        k(   26) = (  -0.3333333   0.3333333   1.0000000), wk =   0.0740741
+        k(   27) = (  -0.6666667   0.6666667   0.6666667), wk =   0.0740741
+
+     PseudoPot. # 1 for Pb read from file:
+     ../pseudo/pb_s.UPF
+     MD5 check sum: 7774f596943a2055f0d8d19eea6f2ae8
+     Pseudo is Norm-conserving, Zval = 14.0
+     Generated using "atomic" code by A. Dal Corso  (Quantum ESPRESSO distribution)
+     Using radial grid of 1281 points,  2 beta functions with: 
+                l(1) =   2
+                l(2) =   1
+     EPW          :      0.05s CPU      0.07s WALL
+
+     EPW          :      0.05s CPU      0.07s WALL
+
+     -------------------------------------------------------------------
+     Wannierization on  3 x  3 x  3 electronic grid
+     -------------------------------------------------------------------
+ 
+     Spin CASE ( default = unpolarized )
+ 
+     Initializing Wannier90
+ 
+ 
+     Initial Wannier projections
+ 
+     (   0.00000   0.00000   0.00000) :  l =  -3 mr =   1
+     (   0.00000   0.00000   0.00000) :  l =  -3 mr =   2
+     (   0.00000   0.00000   0.00000) :  l =  -3 mr =   3
+     (   0.00000   0.00000   0.00000) :  l =  -3 mr =   4
+
+      - Number of bands is (  5)
+      - Number of total bands is ( 10)
+      - Number of excluded bands is (  5)
+      - Number of wannier functions is (  4)
+      - All guiding functions are given 
+ 
+  Reading data about k-point neighbours 
+ 
+      - All neighbours are found 
+ 
+     AMN
+      k points =    27 in    1 pools
+            1 of   27 on ionode
+            2 of   27 on ionode
+            3 of   27 on ionode
+            4 of   27 on ionode
+            5 of   27 on ionode
+            6 of   27 on ionode
+            7 of   27 on ionode
+            8 of   27 on ionode
+            9 of   27 on ionode
+           10 of   27 on ionode
+           11 of   27 on ionode
+           12 of   27 on ionode
+           13 of   27 on ionode
+           14 of   27 on ionode
+           15 of   27 on ionode
+           16 of   27 on ionode
+           17 of   27 on ionode
+           18 of   27 on ionode
+           19 of   27 on ionode
+           20 of   27 on ionode
+           21 of   27 on ionode
+           22 of   27 on ionode
+           23 of   27 on ionode
+           24 of   27 on ionode
+           25 of   27 on ionode
+           26 of   27 on ionode
+           27 of   27 on ionode
+ 
+     AMN calculated
+ 
+     MMN
+      k points =    27 in    1 pools
+            1 of   27 on ionode
+            2 of   27 on ionode
+            3 of   27 on ionode
+            4 of   27 on ionode
+            5 of   27 on ionode
+            6 of   27 on ionode
+            7 of   27 on ionode
+            8 of   27 on ionode
+            9 of   27 on ionode
+           10 of   27 on ionode
+           11 of   27 on ionode
+           12 of   27 on ionode
+           13 of   27 on ionode
+           14 of   27 on ionode
+           15 of   27 on ionode
+           16 of   27 on ionode
+           17 of   27 on ionode
+           18 of   27 on ionode
+           19 of   27 on ionode
+           20 of   27 on ionode
+           21 of   27 on ionode
+           22 of   27 on ionode
+           23 of   27 on ionode
+           24 of   27 on ionode
+           25 of   27 on ionode
+           26 of   27 on ionode
+           27 of   27 on ionode
+     MMN calculated
+ 
+     Running Wannier90
+ 
+     Wannier Function centers (cartesian, alat) and spreads (ang):
+ 
+     (   0.08249   0.08249   0.08249) :   1.58353
+     (   0.08249  -0.08249  -0.08249) :   1.58353
+     (  -0.08249   0.08249  -0.08249) :   1.58353
+     (  -0.08249  -0.08249   0.08249) :   1.58353
+ 
+     -------------------------------------------------------------------
+     WANNIER      :      0.61s CPU      0.78s WALL (       1 calls)
+     -------------------------------------------------------------------
+
+     Calculating kgmap
+
+     Progress kgmap: ########################################
+     kmaps        :      0.00s CPU      0.02s WALL (       1 calls)
+     Symmetries of Bravais lattice:  48
+     Symmetries of crystal:          48
+
+
+     ===================================================================
+     irreducible q point #    1
+     ===================================================================
+
+     Symmetries of small group of q: 48
+          in addition sym. q -> -q+G:
+ 
+     Number of q in the star =    1
+     List of q in the star:
+          1   0.000000000   0.000000000   0.000000000
+     Imposing acoustic sum rule on the dynamical matrix
+ 
+        q(    1 ) = (   0.0000000   0.0000000   0.0000000 )
+
+
+     ===================================================================
+     irreducible q point #    2
+     ===================================================================
+
+     Symmetries of small group of q:  6
+ 
+     Number of q in the star =    8
+     List of q in the star:
+          1  -0.333333333   0.333333333  -0.333333333
+          2   0.333333333   0.333333333  -0.333333333
+          3   0.333333333   0.333333333   0.333333333
+          4  -0.333333333   0.333333333   0.333333333
+          5   0.333333333  -0.333333333   0.333333333
+          6  -0.333333333  -0.333333333  -0.333333333
+          7   0.333333333  -0.333333333  -0.333333333
+          8  -0.333333333  -0.333333333   0.333333333
+     Message from routine init_vloc:
+     Interpolation table for Vloc re-allocated
+ 
+        q(    2 ) = (  -0.3333333   0.3333333  -0.3333333 )
+        q(    3 ) = (   0.3333333   0.3333333  -0.3333333 )
+        q(    4 ) = (   0.3333333   0.3333333   0.3333333 )
+        q(    5 ) = (  -0.3333333   0.3333333   0.3333333 )
+        q(    6 ) = (   0.3333333  -0.3333333   0.3333333 )
+        q(    7 ) = (  -0.3333333  -0.3333333  -0.3333333 )
+        q(    8 ) = (   0.3333333  -0.3333333  -0.3333333 )
+        q(    9 ) = (  -0.3333333  -0.3333333   0.3333333 )
+
+
+     ===================================================================
+     irreducible q point #    3
+     ===================================================================
+
+     Symmetries of small group of q:  8
+ 
+     Number of q in the star =    6
+     List of q in the star:
+          1   0.000000000   0.666666667   0.000000000
+          2  -0.666666667   0.000000000   0.000000000
+          3   0.000000000  -0.666666667   0.000000000
+          4   0.000000000   0.000000000   0.666666667
+          5   0.000000000   0.000000000  -0.666666667
+          6   0.666666667   0.000000000   0.000000000
+ 
+        q(   10 ) = (   0.0000000   0.6666667   0.0000000 )
+        q(   11 ) = (  -0.6666667   0.0000000   0.0000000 )
+        q(   12 ) = (   0.0000000  -0.6666667   0.0000000 )
+        q(   13 ) = (   0.0000000   0.0000000   0.6666667 )
+        q(   14 ) = (   0.0000000   0.0000000  -0.6666667 )
+        q(   15 ) = (   0.6666667   0.0000000   0.0000000 )
+
+
+     ===================================================================
+     irreducible q point #    4
+     ===================================================================
+
+     Symmetries of small group of q:  4
+ 
+     Number of q in the star =   12
+     List of q in the star:
+          1   0.666666667   0.000000000   0.666666667
+          2   0.666666667   0.000000000  -0.666666667
+          3  -0.666666667   0.000000000  -0.666666667
+          4  -0.666666667   0.000000000   0.666666667
+          5   0.000000000  -0.666666667   0.666666667
+          6  -0.666666667   0.666666667   0.000000000
+          7  -0.666666667  -0.666666667   0.000000000
+          8   0.666666667   0.666666667   0.000000000
+          9   0.666666667  -0.666666667   0.000000000
+         10   0.000000000   0.666666667   0.666666667
+         11   0.000000000   0.666666667  -0.666666667
+         12   0.000000000  -0.666666667  -0.666666667
+ 
+        q(   16 ) = (   0.6666667   0.0000000   0.6666667 )
+        q(   17 ) = (   0.6666667   0.0000000  -0.6666667 )
+        q(   18 ) = (  -0.6666667   0.0000000  -0.6666667 )
+        q(   19 ) = (  -0.6666667   0.0000000   0.6666667 )
+        q(   20 ) = (   0.0000000  -0.6666667   0.6666667 )
+        q(   21 ) = (  -0.6666667   0.6666667   0.0000000 )
+        q(   22 ) = (  -0.6666667  -0.6666667   0.0000000 )
+        q(   23 ) = (   0.6666667   0.6666667   0.0000000 )
+        q(   24 ) = (   0.6666667  -0.6666667   0.0000000 )
+        q(   25 ) = (   0.0000000   0.6666667   0.6666667 )
+        q(   26 ) = (   0.0000000   0.6666667  -0.6666667 )
+        q(   27 ) = (  -0.0000000  -0.6666667  -0.6666667 )
+
+     Band disentanglement is used: nbndsub =    4
+     Use zone-centred Wigner-Seitz cells 
+     Number of WS vectors for electrons       43
+     Number of WS vectors for phonons       43
+     Number of WS vectors for electron-phonon       43
+     Maximum number of cores for efficient parallelization      129
+     Results may improve by using use_ws == .TRUE. 
+
+     Inside velocity step 1
+ 
+
+     Velocity matrix elements calculated
+ 
+ 
+     Bloch2wane:          1 /         27
+     Bloch2wane:          2 /         27
+     Bloch2wane:          3 /         27
+     Bloch2wane:          4 /         27
+     Bloch2wane:          5 /         27
+     Bloch2wane:          6 /         27
+     Bloch2wane:          7 /         27
+     Bloch2wane:          8 /         27
+     Bloch2wane:          9 /         27
+     Bloch2wane:         10 /         27
+     Bloch2wane:         11 /         27
+     Bloch2wane:         12 /         27
+     Bloch2wane:         13 /         27
+     Bloch2wane:         14 /         27
+     Bloch2wane:         15 /         27
+     Bloch2wane:         16 /         27
+     Bloch2wane:         17 /         27
+     Bloch2wane:         18 /         27
+     Bloch2wane:         19 /         27
+     Bloch2wane:         20 /         27
+     Bloch2wane:         21 /         27
+     Bloch2wane:         22 /         27
+     Bloch2wane:         23 /         27
+     Bloch2wane:         24 /         27
+     Bloch2wane:         25 /         27
+     Bloch2wane:         26 /         27
+     Bloch2wane:         27 /         27
+
+     Writing Hamiltonian, Dynamical matrix and EP vertex in Wann rep to file
+
+     ===================================================================
+     Memory usage:  VmHWM =       154Mb
+                   VmPeak =      1741Mb
+     ===================================================================
+     
+     Using uniform q-mesh:    18   18   18
+     Size of q point mesh for interpolation:       5832
+     Using uniform MP k-mesh:    18   18   18
+     Size of k point mesh for interpolation:        390
+     Max number of k points per pool:              390
+
+     Fermi energy coarse grid =  11.391887 eV
+
+     Skipping the first    5 bands:
+
+     The Fermi level will be determined with   4.00000 electrons
+
+     Fermi energy is calculated from the fine k-mesh: Ef =  11.757718 eV
+
+     Warning: check if difference with Fermi level fine grid makes sense
+
+     ===================================================================
+
+              ibndmin =     2  ebndmin =    11.370 eV
+              ibndmax =     3  ebndmax =    12.102 eV
+
+
+     Number of ep-matrix elements per pool :         2340 ~=   18.28 Kb (@ 8 bytes/ DP)
+     Number selected, total            100            107
+     Number selected, total            200            215
+     Number selected, total            300            343
+     Number selected, total            400            445
+     Number selected, total            500            548
+     Number selected, total            600            668
+     Number selected, total            700            769
+     Number selected, total            800            869
+     Number selected, total            900            980
+     Number selected, total           1000           1080
+     Number selected, total           1100           1180
+     Number selected, total           1200           1281
+     Number selected, total           1300           1381
+     Number selected, total           1400           1481
+     Number selected, total           1500           1581
+     Number selected, total           1600           1681
+     Number selected, total           1700           1782
+     Number selected, total           1800           1883
+     Number selected, total           1900           1984
+     Number selected, total           2000           2087
+     Number selected, total           2100           2189
+     Number selected, total           2200           2290
+     Number selected, total           2300           2392
+     Number selected, total           2400           2492
+     Number selected, total           2500           2597
+     Number selected, total           2600           2700
+     Number selected, total           2700           2802
+     Number selected, total           2800           2905
+     Number selected, total           2900           3007
+     Number selected, total           3000           3111
+     Number selected, total           3100           3214
+     Number selected, total           3200           3314
+     Number selected, total           3300           3414
+     Number selected, total           3400           3516
+     Number selected, total           3500           3616
+     Number selected, total           3600           3716
+     Number selected, total           3700           3817
+     Number selected, total           3800           3917
+     Number selected, total           3900           4017
+     Number selected, total           4000           4117
+     Number selected, total           4100           4217
+     Number selected, total           4200           4317
+     Number selected, total           4300           4420
+     Number selected, total           4400           4520
+     Number selected, total           4500           4621
+     Number selected, total           4600           4726
+     Number selected, total           4700           4837
+     Number selected, total           4800           4942
+     Number selected, total           4900           5044
+     Number selected, total           5000           5167
+     Number selected, total           5100           5274
+     Number selected, total           5200           5385
+     Number selected, total           5300           5510
+     Number selected, total           5400           5617
+     Number selected, total           5500           5736
+     We only need to compute     5579 q-points
+      
+
+     Nr. of irreducible k-points on the uniform grid:       195
+
+
+     Finish mapping k+sign*q onto the fine irreducibe k-mesh and writing .ikmap file
+
+
+     Nr irreducible k-points within the Fermi shell =        30 out of       195
+
+     Progression iq (fine) =        100/      5579
+     Progression iq (fine) =        200/      5579
+     Progression iq (fine) =        300/      5579
+     Progression iq (fine) =        400/      5579
+     Progression iq (fine) =        500/      5579
+     Progression iq (fine) =        600/      5579
+     Progression iq (fine) =        700/      5579
+     Progression iq (fine) =        800/      5579
+     Progression iq (fine) =        900/      5579
+     Progression iq (fine) =       1000/      5579
+     Progression iq (fine) =       1100/      5579
+     Progression iq (fine) =       1200/      5579
+     Progression iq (fine) =       1300/      5579
+     Progression iq (fine) =       1400/      5579
+     Progression iq (fine) =       1500/      5579
+     Progression iq (fine) =       1600/      5579
+     Progression iq (fine) =       1700/      5579
+     Progression iq (fine) =       1800/      5579
+     Progression iq (fine) =       1900/      5579
+     Progression iq (fine) =       2000/      5579
+     Progression iq (fine) =       2100/      5579
+     Progression iq (fine) =       2200/      5579
+     Progression iq (fine) =       2300/      5579
+     Progression iq (fine) =       2400/      5579
+     Progression iq (fine) =       2500/      5579
+     Progression iq (fine) =       2600/      5579
+     Progression iq (fine) =       2700/      5579
+     Progression iq (fine) =       2800/      5579
+     Progression iq (fine) =       2900/      5579
+     Progression iq (fine) =       3000/      5579
+     Progression iq (fine) =       3100/      5579
+     Progression iq (fine) =       3200/      5579
+     Progression iq (fine) =       3300/      5579
+     Progression iq (fine) =       3400/      5579
+     Progression iq (fine) =       3500/      5579
+     Progression iq (fine) =       3600/      5579
+     Progression iq (fine) =       3700/      5579
+     Progression iq (fine) =       3800/      5579
+     Progression iq (fine) =       3900/      5579
+     Progression iq (fine) =       4000/      5579
+     Progression iq (fine) =       4100/      5579
+     Progression iq (fine) =       4200/      5579
+     Progression iq (fine) =       4300/      5579
+     Progression iq (fine) =       4400/      5579
+     Progression iq (fine) =       4500/      5579
+     Progression iq (fine) =       4600/      5579
+     Progression iq (fine) =       4700/      5579
+     Progression iq (fine) =       4800/      5579
+     Progression iq (fine) =       4900/      5579
+     Progression iq (fine) =       5000/      5579
+     Progression iq (fine) =       5100/      5579
+     Progression iq (fine) =       5200/      5579
+     Progression iq (fine) =       5300/      5579
+     Progression iq (fine) =       5400/      5579
+     Progression iq (fine) =       5500/      5579
+                  Fermi level (eV) =    0.117577178287792D+02
+     DOS(states/spin/eV/Unit Cell) =    0.296296311265596D+00
+            Electron smearing (eV) =    0.100000000000000D+00
+                 Fermi window (eV) =    0.400000000000000D+00
+      
+     Finish writing .ephmat files
+
+     ===================================================================
+     Memory usage:  VmHWM =       159Mb
+                   VmPeak =      1741Mb
+     ===================================================================
+
+
+     Finish writing dos file pb.dos
+
+
+     Finish writing phdos files pb.phdos and pb.phdos_proj
+
+
+     ===================================================================
+     Solve isotropic Eliashberg equations
+     ===================================================================
+
+
+     Finish reading freq file
+
+                  Fermi level (eV) =     1.1757717829E+01
+     DOS(states/spin/eV/Unit Cell) =     2.9629631127E-01
+            Electron smearing (eV) =     1.0000000000E-01
+                 Fermi window (eV) =     4.0000000000E-01
+     Nr irreducible k-points within the Fermi shell =        30 out of       195
+
+           1 bands within the Fermi window
+
+
+     Finish reading egnv file 
+
+
+     Max nr of q-points =       956
+
+
+     Finish reading ikmap files
+
+
+     Start reading .ephmat files
+
+
+     Finish reading .ephmat files
+
+     a2f file is not found to estimate initial gap: calculating a2f files
+ 
+
+     Finish reading a2f file
+
+     Electron-phonon coupling strength =    1.4494400
+ 
+     Estimated Allen-Dynes Tc =     3.101474 K for muc =    0.10000
+  
+     Estimated w_log in Allen-Dynes Tc =     2.423583 meV
+  
+     Estimated BCS superconducting gap =     0.470385 meV
+  
+     Estimated Tc from machine learning model =     4.130068 K
+  
+  
+     WARNING WARNING WARNING 
+  
+     The code may crash since tempsmax =    4.600 K is larger than Allen-Dynes Tc =     3.101 K
+    
+     temp(  1) =      0.30000 K
+    
+     Solve isotropic Eliashberg equations on imaginary-axis
+    
+     Total number of frequency points nsiw(     1) =    616
+     Cutoff frequency wscut =     0.1001
+     broyden mixing factor =      0.70000
+    
+     Actual number of frequency points (     1) =    616 for uniform sampling
+        iter      ethr          znormi      deltai [meV]
+          1   3.119125E+00   2.295261E+00   6.062994E-01
+          2   1.447602E-01   2.275793E+00   6.675704E-01
+          3   6.399369E-02   2.255732E+00   7.269907E-01
+          4   5.390893E-02   2.240289E+00   7.730246E-01
+          5   8.657088E-02   2.219815E+00   8.377788E-01
+          6   2.856005E-03   2.219834E+00   8.383266E-01
+          7   2.890651E-03   2.219193E+00   8.403915E-01
+          8   5.082351E-04   2.219321E+00   8.399970E-01
+     Convergence was reached in nsiter =      8
+ 
+     Temp (itemp =   1) =    0.300 K  Free energy =    -0.000343 meV
+ 
+     iaxis_imag   :      0.00s CPU      0.01s WALL (       1 calls)
+ 
+     itemp =   1   total cpu time :     0.0 secs
+ 
+    
+     temp(  2) =      0.90000 K
+    
+     Solve isotropic Eliashberg equations on imaginary-axis
+    
+     Total number of frequency points nsiw(     2) =    205
+     Cutoff frequency wscut =     0.1001
+     broyden mixing factor =      0.70000
+    
+     Actual number of frequency points (     2) =    205 for uniform sampling
+        iter      ethr          znormi      deltai [meV]
+          1   3.479395E+00   2.215919E+00   8.687142E-01
+          2   2.291239E-01   2.218277E+00   8.727867E-01
+          3   1.325567E-01   2.218921E+00   8.680556E-01
+          4   4.271388E-02   2.220731E+00   8.572471E-01
+          5   1.569823E-02   2.223739E+00   8.473777E-01
+          6   1.021608E-02   2.226203E+00   8.398253E-01
+          7   1.531416E-03   2.226625E+00   8.385854E-01
+          8   2.255428E-04   2.226692E+00   8.383930E-01
+     Convergence was reached in nsiter =      8
+ 
+     Temp (itemp =   2) =    0.900 K  Free energy =    -0.000321 meV
+ 
+     iaxis_imag   :      0.00s CPU      0.02s WALL (       2 calls)
+ 
+     itemp =   2   total cpu time :     0.0 secs
+ 
+    
+     temp(  3) =      1.50000 K
+    
+     Solve isotropic Eliashberg equations on imaginary-axis
+    
+     Total number of frequency points nsiw(     3) =    123
+     Cutoff frequency wscut =     0.1003
+     broyden mixing factor =      0.70000
+    
+     Actual number of frequency points (     3) =    123 for uniform sampling
+        iter      ethr          znormi      deltai [meV]
+          1   3.479793E+00   2.228787E+00   8.632525E-01
+          2   2.286238E-01   2.230927E+00   8.673942E-01
+          3   1.324585E-01   2.231396E+00   8.628145E-01
+          4   4.278141E-02   2.233220E+00   8.520773E-01
+          5   1.572818E-02   2.236409E+00   8.421267E-01
+          6   1.049392E-02   2.239113E+00   8.342899E-01
+          7   1.646042E-03   2.239597E+00   8.329447E-01
+          8   2.477142E-04   2.239677E+00   8.327312E-01
+     Convergence was reached in nsiter =      8
+ 
+     Temp (itemp =   3) =    1.500 K  Free energy =    -0.000279 meV
+ 
+     iaxis_imag   :      0.01s CPU      0.02s WALL (       3 calls)
+ 
+     itemp =   3   total cpu time :     0.0 secs
+ 
+    
+     temp(  4) =      2.10000 K
+    
+     Solve isotropic Eliashberg equations on imaginary-axis
+    
+     Total number of frequency points nsiw(     4) =     88
+     Cutoff frequency wscut =     0.1006
+     broyden mixing factor =      0.70000
+    
+     Actual number of frequency points (     4) =     88 for uniform sampling
+        iter      ethr          znormi      deltai [meV]
+          1   3.482886E+00   2.248007E+00   8.488091E-01
+          2   2.294132E-01   2.250523E+00   8.521893E-01
+          3   1.335333E-01   2.251168E+00   8.471891E-01
+          4   4.375613E-02   2.253183E+00   8.360185E-01
+          5   1.672225E-02   2.256749E+00   8.252926E-01
+          6   1.229969E-02   2.260089E+00   8.159842E-01
+          7   2.181076E-03   2.260758E+00   8.141915E-01
+          8   3.562209E-04   2.260877E+00   8.138838E-01
+     Convergence was reached in nsiter =      8
+ 
+     Temp (itemp =   4) =    2.100 K  Free energy =    -0.000220 meV
+ 
+     iaxis_imag   :      0.01s CPU      0.03s WALL (       4 calls)
+ 
+     itemp =   4   total cpu time :     0.0 secs
+ 
+    
+     temp(  5) =      2.70000 K
+    
+     Solve isotropic Eliashberg equations on imaginary-axis
+    
+     Total number of frequency points nsiw(     5) =     68
+     Cutoff frequency wscut =     0.1001
+     broyden mixing factor =      0.70000
+    
+     Actual number of frequency points (     5) =     68 for uniform sampling
+        iter      ethr          znormi      deltai [meV]
+          1   3.491129E+00   2.273334E+00   8.179112E-01
+          2   2.281445E-01   2.276902E+00   8.189530E-01
+          3   1.351299E-01   2.278368E+00   8.122572E-01
+          4   4.638416E-02   2.280960E+00   7.995689E-01
+          5   1.991329E-02   2.285191E+00   7.867151E-01
+          6   1.782669E-02   2.289866E+00   7.733999E-01
+          7   3.874736E-03   2.290980E+00   7.703159E-01
+          8   7.429061E-04   2.291207E+00   7.697024E-01
+     Convergence was reached in nsiter =      8
+ 
+     Temp (itemp =   5) =    2.700 K  Free energy =    -0.000151 meV
+ 
+     iaxis_imag   :      0.01s CPU      0.04s WALL (       5 calls)
+ 
+     itemp =   5   total cpu time :     0.0 secs
+ 
+    
+     temp(  6) =      3.30000 K
+    
+     Solve isotropic Eliashberg equations on imaginary-axis
+    
+     Total number of frequency points nsiw(     6) =     56
+     Cutoff frequency wscut =     0.1010
+     broyden mixing factor =      0.70000
+    
+     Actual number of frequency points (     6) =     56 for uniform sampling
+        iter      ethr          znormi      deltai [meV]
+          1   3.491724E+00   2.304948E+00   7.611769E-01
+          2   2.321615E-01   2.309697E+00   7.590866E-01
+          3   1.393454E-01   2.312251E+00   7.498968E-01
+          4   5.103436E-02   2.315590E+00   7.348199E-01
+          5   2.655616E-02   2.320655E+00   7.182453E-01
+          6   3.209451E-02   2.327718E+00   6.960159E-01
+          7   9.550452E-03   2.329902E+00   6.891811E-01
+          8   2.349597E-03   2.330454E+00   6.874719E-01
+          9   1.062550E-04   2.330434E+00   6.875399E-01
+     Convergence was reached in nsiter =      9
+ 
+     Temp (itemp =   6) =    3.300 K  Free energy =    -0.000083 meV
+ 
+     iaxis_imag   :      0.01s CPU      0.04s WALL (       6 calls)
+ 
+     itemp =   6   total cpu time :     0.0 secs
+ 
+    
+     temp(  7) =      4.00000 K
+    
+     Solve isotropic Eliashberg equations on imaginary-axis
+    
+     Total number of frequency points nsiw(     7) =     46
+     Cutoff frequency wscut =     0.1007
+     broyden mixing factor =      0.70000
+    
+     Actual number of frequency points (     7) =     46 for uniform sampling
+        iter      ethr          znormi      deltai [meV]
+          1   3.502613E+00   2.345045E+00   6.649717E-01
+          2   2.361257E-01   2.350808E+00   6.571766E-01
+          3   1.485360E-01   2.354825E+00   6.424842E-01
+          4   6.415537E-02   2.359462E+00   6.213801E-01
+          5   4.939303E-02   2.366389E+00   5.941788E-01
+          6   9.395173E-02   2.379220E+00   5.426764E-01
+          7   4.417471E-02   2.384796E+00   5.191378E-01
+          8   1.976512E-02   2.387177E+00   5.088104E-01
+          9   7.283453E-04   2.387095E+00   5.091766E-01
+     Convergence was reached in nsiter =      9
+ 
+     Temp (itemp =   7) =    4.000 K  Free energy =    -0.000021 meV
+ 
+     iaxis_imag   :      0.01s CPU      0.05s WALL (       7 calls)
+ 
+     itemp =   7   total cpu time :     0.0 secs
+ 
+    
+     temp(  8) =      4.20000 K
+    
+     Solve isotropic Eliashberg equations on imaginary-axis
+    
+     Total number of frequency points nsiw(     8) =     44
+     Cutoff frequency wscut =     0.1012
+     broyden mixing factor =      0.70000
+    
+     Actual number of frequency points (     8) =     44 for uniform sampling
+        iter      ethr          znormi      deltai [meV]
+          1   3.431477E+00   2.388452E+00   5.038402E-01
+          2   2.186137E-01   2.390333E+00   5.047965E-01
+          3   1.271975E-01   2.390960E+00   5.019870E-01
+          4   4.246124E-02   2.391790E+00   4.953447E-01
+          5   1.988280E-02   2.393464E+00   4.870163E-01
+          6   3.668308E-02   2.397049E+00   4.698048E-01
+          7   5.842141E-02   2.402333E+00   4.435413E-01
+          8   3.549403E-02   2.405330E+00   4.280526E-01
+          9   1.334440E-03   2.405441E+00   4.274670E-01
+         10   9.060329E-06   2.405442E+00   4.274629E-01
+     Convergence was reached in nsiter =     10
+ 
+     Temp (itemp =   8) =    4.200 K  Free energy =    -0.000010 meV
+ 
+     iaxis_imag   :      0.01s CPU      0.06s WALL (       8 calls)
+ 
+     itemp =   8   total cpu time :     0.1 secs
+ 
+    
+     temp(  9) =      4.40000 K
+    
+     Solve isotropic Eliashberg equations on imaginary-axis
+    
+     Total number of frequency points nsiw(     9) =     42
+     Cutoff frequency wscut =     0.1012
+     broyden mixing factor =      0.70000
+    
+     Actual number of frequency points (     9) =     42 for uniform sampling
+        iter      ethr          znormi      deltai [meV]
+          1   3.424365E+00   2.406465E+00   4.216707E-01
+          2   2.174394E-01   2.407916E+00   4.220334E-01
+          3   1.274428E-01   2.408469E+00   4.192452E-01
+          4   4.352861E-02   2.409154E+00   4.131486E-01
+          5   2.213894E-02   2.410465E+00   4.053215E-01
+          6   4.477461E-02   2.413435E+00   3.879832E-01
+          7   1.033000E-01   2.419337E+00   3.513696E-01
+          8   9.694923E-02   2.423965E+00   3.199738E-01
+          9   1.859035E-02   2.424785E+00   3.140893E-01
+         10   1.394231E-03   2.424724E+00   3.145308E-01
+         11   9.893587E-05   2.424719E+00   3.145622E-01
+     Convergence was reached in nsiter =     11
+ 
+     Temp (itemp =   9) =    4.400 K  Free energy =    -0.000003 meV
+ 
+     iaxis_imag   :      0.01s CPU      0.06s WALL (       9 calls)
+ 
+     itemp =   9   total cpu time :     0.1 secs
+ 
+    
+     temp( 10) =      4.50000 K
+    
+     Solve isotropic Eliashberg equations on imaginary-axis
+    
+     Total number of frequency points nsiw(    10) =     41
+     Cutoff frequency wscut =     0.1011
+     broyden mixing factor =      0.70000
+    
+     Actual number of frequency points (    10) =     41 for uniform sampling
+        iter      ethr          znormi      deltai [meV]
+          1   3.404222E+00   2.424690E+00   3.122176E-01
+          2   2.112419E-01   2.425311E+00   3.138201E-01
+          3   1.198136E-01   2.425381E+00   3.135632E-01
+          4   3.589340E-02   2.425465E+00   3.113043E-01
+          5   1.281096E-02   2.425850E+00   3.081560E-01
+          6   1.575803E-02   2.426472E+00   3.034325E-01
+          7   6.279463E-02   2.428769E+00   2.854693E-01
+          8   1.531344E-01   2.433209E+00   2.473151E-01
+          9   6.778292E-02   2.434861E+00   2.315494E-01
+         10   5.437840E-03   2.434731E+00   2.328206E-01
+         11   2.925983E-04   2.434725E+00   2.328890E-01
+     Convergence was reached in nsiter =     11
+ 
+     Temp (itemp =  10) =    4.500 K  Free energy =    -0.000001 meV
+ 
+     iaxis_imag   :      0.01s CPU      0.07s WALL (      10 calls)
+ 
+     itemp =  10   total cpu time :     0.1 secs
+ 
+    
+     temp( 11) =      4.60000 K
+    
+     Solve isotropic Eliashberg equations on imaginary-axis
+    
+     Total number of frequency points nsiw(    11) =     40
+     Cutoff frequency wscut =     0.1009
+     broyden mixing factor =      0.70000
+    
+     Actual number of frequency points (    11) =     40 for uniform sampling
+        iter      ethr          znormi      deltai [meV]
+          1   3.399829E+00   2.434709E+00   2.308845E-01
+          2   2.097665E-01   2.435063E+00   2.319748E-01
+          3   1.192772E-01   2.435114E+00   2.317081E-01
+          4   3.605804E-02   2.435170E+00   2.299606E-01
+          5   1.335090E-02   2.435391E+00   2.275178E-01
+          6   1.617231E-02   2.435738E+00   2.239449E-01
+          7   7.182926E-02   2.437141E+00   2.089467E-01
+          8   3.586272E-01   2.441496E+00   1.536373E-01
+          9   3.815972E-01   2.443945E+00   1.111495E-01
+         10   1.322208E-01   2.444537E+00   9.816355E-02
+         11   5.003837E-02   2.444732E+00   9.348355E-02
+         12   3.865018E-02   2.444872E+00   9.000338E-02
+         13   2.363390E-02   2.444952E+00   8.792442E-02
+         14   6.226329E-03   2.444973E+00   8.738012E-02
+         15   9.523520E-04   2.444970E+00   8.746346E-02
+     Convergence was reached in nsiter =     15
+ 
+     Temp (itemp =  11) =    4.600 K  Free energy =    -0.000000 meV
+ 
+     iaxis_imag   :      0.01s CPU      0.07s WALL (      11 calls)
+ 
+     itemp =  11   total cpu time :     0.1 secs
+ 
+
+     Unfolding on the coarse grid
+     elphon_wrap  :      1.63s CPU      2.08s WALL (       1 calls)
+
+     INITIALIZATION: 
+
+     init_vloc    :      0.01s CPU      0.01s WALL (       1 calls)
+     init_us_1    :      0.01s CPU      0.01s WALL (       1 calls)
+
+
+
+     Electron-Phonon interpolation
+     ephwann      :     22.71s CPU     55.69s WALL (       1 calls)
+     ep-interp    :     22.07s CPU     54.94s WALL (    5579 calls)
+
+     Ham: step 1  :      0.00s CPU      0.00s WALL (       1 calls)
+     Ham: step 2  :      0.00s CPU      0.01s WALL (       1 calls)
+     ep: step 1   :      0.00s CPU      0.00s WALL (      27 calls)
+     ep: step 2   :      0.00s CPU      0.00s WALL (      27 calls)
+     DynW2B       :      0.03s CPU      0.04s WALL (   11411 calls)
+     HamW2B       :      6.26s CPU      7.24s WALL ( 2176395 calls)
+     ephW2Bp      :      0.24s CPU      0.28s WALL (    5579 calls)
+     ephW2B       :      0.05s CPU      0.06s WALL (   28680 calls)
+     vmewan2bloch :     10.26s CPU     11.87s WALL ( 2175810 calls)
+     vmewan2bloch :     10.26s CPU     11.87s WALL ( 2175810 calls)
+
+     ELIASHBERG   :      2.71s CPU      2.80s WALL (       1 calls)
+
+     Total program execution
+     EPW          :     27.71s CPU   1m 1.42s WALL
+
+     % Copyright (C) 2016-2023 EPW-Collaboration                                    
+                                                                                    
+     ===============================================================================
+     Please consider citing the following papers.                                   
+                                                                                                 
+     % Paper describing the method on which EPW relies                                           
+       F. Giustino and M. L. Cohen and S. G. Louie, Phys. Rev. B 76, 165108 (2007)               
+                                                                                                 
+     % Papers describing the EPW software                                                        
+       H. Lee et al., npj Comput. Mater. 9, 156 (2023)                                           
+       S. Ponc\'e, E.R. Margine, C. Verdi and F. Giustino, Comput. Phys. Commun. 209, 116 (2016) 
+       J. Noffsinger et al., Comput. Phys. Commun. 181, 2140 (2010)                              
+                                                                                                 
+                                                                                             
+     % Since you used the [eliashberg] input, please consider also citing                    
+       E. R. Margine and F. Giustino, Phys. Rev. B 87, 024505 (2013)                         
+                                                                                    
+     For your convenience, this information is also reported in the                 
+     functionality-dependent EPW.bib file.                                          
+     ===============================================================================
+                                                                                    
