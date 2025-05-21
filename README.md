@@ -3,7 +3,7 @@
 * **[Lattice Matching Solver for Heterojunctions](./Lattice%20Matching%20Solver%20for%20Heterojunctions)** - constructing commensurate supercells for heterojunction interface matching
 * **[Python Dependency](./Python%20Dependency)** - resolving dependency conflicts in packages
 * **[Fewest Switch Surface Hopping](./Fewest%20Switch%20Surface%20Hopping)** - A simple Tully Model 1 surface hopping demo using either Mathematica + Python or just Python.
-* **[Calculating Superconducting Tc with EPW](./Fewest%20Switch%20Surface%20Hopping)** - EPW-based evaluation of superconducting transition temperature.
+* **[Calculating Superconducting Tc with EPW](./Calculating%20Superconducting%20Tc%20with%20EPW)** - EPW-based evaluation of superconducting transition temperature.
 
 ## Runtime Environment
 * Anaconda3 2023.03-1 | Python 3.10.16 | tensorflow-gpu 2.10.1 (open source)
