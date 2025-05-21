@@ -78,15 +78,15 @@ python plot.py
 ```
 
 > [!NOTE]
-> 修改：`/opt/ohpc/pub/apps/q-e-qe-7.3/EPW/bin/pp.py`，
-> 把
+> Modify: `/opt/ohpc/pub/apps/q-e-qe-7.3/EPW/bin/pp.py`，
+> Replace the lines:
 > ```python
 > Enter the number of irr. q-points
 > user_input = input(
 >         'Enter the prefix used for PH calculations (e.g. diam)\n')
 > prefix = str(user_input)
 > ```
-> 替换为
+> with:
 > ```python
 > import sys
 > prefix = sys.argv[1]
