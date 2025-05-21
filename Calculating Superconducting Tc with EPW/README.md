@@ -64,23 +64,6 @@ Plot of temperature vs. maximum eigenvalue; Tc where eigenvalue = 1.
   <img src="https://github.com/misaraty/scripts/blob/master/Calculating%20Superconducting%20Tc%20with%20EPW/EPW%20Full%20Calculation/epw/tc.jpg" width="60%"/>
 </div>
 
-### Bonus: job.sh Batch Script
-
-```bash
-#!/bin/bash
-cd ./phonon
-pw.x < scf.in > scf.out
-ph.x < ph.in > ph.out
-python /opt/ohpc/pub/apps/q-e-qe-7.3/EPW/bin/pp.py pb
-
-cd ../epw
-cp ../phonon/pb.save/* ./pb.save/
-pw.x < nscf.in > nscf.out
-epw.x < epw1.in > epw1.out
-epw.x < epw2.in > epw2.out
-python plot.py
-```
-
 > [!NOTE]
 > Modify: `/opt/ohpc/pub/apps/q-e-qe-7.3/EPW/bin/pp.py`，
 > Replace the lines:
