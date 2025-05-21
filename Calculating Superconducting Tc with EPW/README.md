@@ -60,6 +60,10 @@ python plot.py
 ```
 Plot of temperature vs. maximum eigenvalue; Tc where eigenvalue = 1.
 
+<div align="center">
+  <img src="./Calculating%20Superconducting%20Tc%20with%20EPW/EPW%20Full%20Calculation/epw/tc.jpg" width="75%"/>
+</div>
+
 ### Bonus: job.sh Batch Script
 
 ```bash
