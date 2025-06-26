@@ -61,7 +61,7 @@ python plot.py
 Plot of temperature vs. maximum eigenvalue; Tc where eigenvalue = 1.
 
 <div align="center">
-  <img src="https://github.com/misaraty/scripts/blob/master/Calculating%20Superconducting%20Tc%20with%20EPW/EPW%20Full%20Calculation/epw/tc.jpg" width="60%"/>
+  <img src="./EPW%20Full%20Calculation/epw/tc.jpg" width="60%"/>
 </div>
 
 > [!NOTE]
