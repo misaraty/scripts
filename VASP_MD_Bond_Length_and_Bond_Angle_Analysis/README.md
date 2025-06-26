@@ -37,193 +37,112 @@ IVDW = 12   #DFT-D3 method with Becke-Jonson damping, van der Waals
 
 ### **Method 1: Based on OUTCAR + CONTCAR**
 
-Required: `OUTCAR` and `CONTCAR` from an `MD` run.
 
-> [!NOTE]
-> You may also use `OUTCAR + POSCAR` with slight modifications to the script.
 
-Use the script `md_outcar_pfiles_v2.2.py` to generate pfiles.
 
-```python
-import os
-import re
-import math
-import shutil
 
-def print_intro():
-    print(
-        "Convert OUTCAR from MD simulation to multiple pfiles. Supports generating 0-9999 pfiles.\n\n"
-        
-        "Usage:\n"
-        "Place OUTCAR and CONTCAR from MD simulation in the same directory.\n"
-        "The script will generate multiple pfiles in this directory, matching the number of MD steps (NSW in INCAR).\n\n"
-        
-        'copyright by misaraty (misaraty@163.com) last update: 2025-06-26\n'
-    )
 
-def extract_nsw(outcar_path):
-    # Extract NSW value from OUTCAR
-    with open(outcar_path, 'r') as f:
-        for line in f:
-            if '   NSW' in line:
-                parts = line.split()
-                return int(parts[2])
-    raise ValueError("NSW keyword not found in OUTCAR.")
 
-def get_atom_count(contcar_path):
-    # Calculate total number of atoms from CONTCAR
-    with open(contcar_path, 'r') as f:
-        lines = f.readlines()
-    atom_counts = list(map(int, lines[6].split()))
-    return sum(atom_counts)
 
-def extract_forces(outcar_path, atom_count):
-    # Extract atomic positions from all MD steps in OUTCAR
-    forces = []
-    with open(outcar_path, 'r') as f:
-        lines = f.readlines()
 
-    for idx, line in enumerate(lines):
-        if 'POSITION                                       TOTAL-FORCE' in line:
-            block_start = idx + 2
-            block = lines[block_start:block_start + atom_count]
-            for atom_line in block:
-                coords = atom_line.split()[:3]
-                forces.append("  " + "  ".join(coords))
-    return forces
 
-def write_pfiles(nsw, atom_count, contcar_path, forces, output_dir="pfiles"):
-    # Write pfiles based on extracted coordinates
-    if os.path.exists(output_dir):
-        shutil.rmtree(output_dir)
-    os.makedirs(output_dir)
 
-    # Read first 7 lines of CONTCAR (lattice & atom info)
-    with open(contcar_path, 'r') as f:
-        contcar_lines = f.readlines()[:7]
 
-    for step in range(nsw):
-        filename = os.path.join(output_dir, f"p{step+1:04d}")
-        with open(filename, 'w') as f:
-            f.writelines(contcar_lines)
-            f.write("C\n")  # atom label (can be adjusted if necessary)
-            start = step * atom_count
-            end = start + atom_count
-            f.writelines(line + '\n' for line in forces[start:end])
 
-def main():
-    # Set working directory to script location and execute conversion
-    os.chdir(os.path.dirname(os.path.abspath(__file__)))
-    outcar = 'OUTCAR'
-    contcar = 'CONTCAR'
 
-    print_intro()
-    nsw = extract_nsw(outcar)
-    atom_count = get_atom_count(contcar)
-    forces = extract_forces(outcar, atom_count)
-    write_pfiles(nsw, atom_count, contcar, forces)
-    print(f"{nsw} pfiles have been created.\n")
 
-if __name__ == "__main__":
-    main()
-```
 
-A `./pfiles` folder will be created with `p0001`, `p0002`, ..., etc.
+---
+title: "MD Bond Length and Bond Angle Analysis"
+date: 2025-06-26T00:00:00+08:00
+draft: false
+categories: ["Academic"]
+tags: ["vasp"]
+---
 
-> [!NOTE]
-> This method generates `pXXXX` files in fractional coordinates.
+{{< version 2025-06-26 deleted >}}
 
-## **Bond Length Analysis**
+{{< admonition abstract "Introduction" >}}
+* How to perform molecular dynamics (MD) simulations using `VASP`?  
+* How to convert `MD` outputs into `pfiles`?  
+* How to extract and plot time-dependent bond lengths and bond angles from `pfiles`?
 
-> [!NOTE]
-> The script automatically detects and supports both Cartesian and fractional coordinates.
+* Download example scripts [:(fas fa-file-archive fa-fw):Sample Calculation](https://github.com/misaraty/scripts/tree/master/VASP_MD_Bond_Length_and_Bond_Angle_Analysis).
+{{< /admonition >}}
 
-* Use the script `bond_length_time_v7.2.py` to calculate time-dependent bond lengths.
+## MD Simulation Setup
 
-```python
-import os
-import re
-import shutil
+* **POSCAR**:  
+  Use [CaTiO₃ mp-5827](https://legacy.materialsproject.org/materials/mp-5827/) as an example. First perform a high-precision SCF calculation to generate the input structure for MD.
 
-def print_intro():
-    print(
-        "Convert XDATCAR to multiple pfiles\n\n"
-        
-        "Usage:\n"
-        "Place the XDATCAR file in the current directory.\n"
-        "This script will automatically create a 'pfiles' directory and output one file per step.\n\n"
-        
-        'copyright by misaraty (misaraty@163.com) last update: 2025-06-26\n'
-    )
+* **INCAR**:  
+  The typical INCAR settings for NVE ensemble, sampling temperature at 300 K, and van der Waals corrections are recommended.
 
-def read_header_lines(xdatcar_path):
-    # Read the first 7 lines from XDATCAR: system name, scaling factor, 3x3 lattice, element symbols, and atom counts
-    with open(xdatcar_path, 'r') as f:
-        header = [next(f) for _ in range(7)]
-    return header
+{{< admonition success "Tip" >}}
+You may use `SMASS = -1` for preheating before switching to `SMASS = -3` for equilibrium sampling.
+{{< /admonition >}}
 
-def count_atoms(header_lines):
-    # Count the total number of atoms from the 7th line of the header
-    atom_counts = list(map(int, header_lines[6].split()))
-    return sum(atom_counts)
+## Generating `pfiles`
 
-def parse_xdatcar_blocks(xdatcar_path, atom_count):
-    """
-    Parse XDATCAR and return a list of snapshots.
-    Each snapshot is a list of atomic coordinates for one MD step.
-    """
-    snapshots = []
-    with open(xdatcar_path, 'r') as f:
-        lines = f.readlines()
+### Method 1: From OUTCAR + CONTCAR
 
-    config_indices = [i for i, line in enumerate(lines) if line.startswith('Direct configuration=')]
+* Requires MD output files `OUTCAR` and `CONTCAR`.
 
-    for idx in range(len(config_indices)):
-        start = config_indices[idx] + 1
-        end = start + atom_count
-        coords = lines[start:end]
-        coords = ['  '.join(line.strip().split()) + '\n' for line in coords]
-        snapshots.append(coords)
+{{< admonition success "Note" >}}
+`POSCAR` can be used instead of `CONTCAR` with slight script modification.
+{{< /admonition >}}
 
-    return snapshots
+* Use the script `md_outcar_pfiles_v2.2.py`.
 
-def write_pfiles(header_lines, snapshots, output_dir='pfiles'):
-    # Write each snapshot to a separate file in the specified output directory
-    if os.path.exists(output_dir):
-        shutil.rmtree(output_dir)
-    os.makedirs(output_dir)
+> This script automatically generates a folder `./pfiles` containing structure files `p0001`, `p0002`, ..., based on the number of MD steps (`NSW`).
 
-    for i, coords in enumerate(snapshots, 1):
-        fname = os.path.join(output_dir, f"p{i:04d}")
-        with open(fname, 'w') as f:
-            f.writelines(header_lines)
-            f.write("Direct\n")
-            f.writelines(coords)
+{{< admonition success "Note" >}}
+The generated `pXXXX` files contain **Cartesian** coordinates.
+{{< /admonition >}}
 
-def main():
-    print_intro()
-    xdatcar = 'XDATCAR'
-    if not os.path.exists(xdatcar):
-        raise FileNotFoundError("XDATCAR file not found in the current directory.")
+### Method 2: From XDATCAR
 
-    header = read_header_lines(xdatcar)
-    atom_count = count_atoms(header)
-    snapshots = parse_xdatcar_blocks(xdatcar, atom_count)
-    write_pfiles(header, snapshots)
-    print(f"Generated {len(snapshots)} pfiles in the './pfiles' directory.")
+* Requires the `XDATCAR` file generated by MD.
 
-if __name__ == '__main__':
-    main()
-```
+* Use the script `md_xdatcar_pfiles_v1.1.py`.
 
-> [!NOTE]
-> `num = 1000` should match the `NSW` value in `INCAR`.
-> 
-> `name = [[2, 4], [2, 5]]` defines atom pairs (index starts from 1).
-> 
-> Supports all lattice types, including non-orthogonal cells.
+> This script will generate `./pfiles` containing `p0001`, `p0002`, ..., using **Direct (fractional)** coordinates.
 
-* Output file: `bond_length_time.dat`.
+{{< admonition success "Note" >}}
+The output `pXXXX` files contain **fractional** coordinates.
+{{< /admonition >}}
+
+## Bond Length Analysis
+
+{{< admonition success "Note" >}}
+The script can automatically detect and support both Cartesian and Direct coordinates.
+{{< /admonition >}}
+
+* Use the script `bond_length_time_v7.2.py`.
+
+> Parameters such as `num = 1000` (number of MD steps) and `name = [[2, 4], [2, 5]]` (atom index pairs) can be customized.
+
+> Outputs a file `bond_length_time.dat` for plotting time-dependent bond lengths.
+
+> Example figure:
+
+<div align="center">
+  <img src="./bond_length.png" width="75%"/>
+</div>
+
+## Bond Angle Analysis
+
+* Use the script `angle_time_v7.2.py`.
+
+> Define triplets like `[[3, 2, 5], [4, 2, 5]]` where the middle atom is the vertex of the angle.
+
+> Outputs a file `angle_time.dat` for plotting angle variations over time.
+
+> Example figure:
+
+<div align="center">
+  <img src="./bond_angle.png" width="75%"/>
+</div>
 
 
 
