@@ -110,7 +110,7 @@ Output file: `bond_length_time.dat`
 Example plot:
 
 <div align="center">
-  <img src="./bond_length.png" width="75%"/>
+  <img src="./bond_length.png" width="50%"/>
 </div>
 
 ## Bond Angle Analysis
@@ -118,17 +118,18 @@ Example plot:
 * Use the script: `angle_time_v7.2.py`  
 This script computes time-dependent angles between triplets of atoms.
 
-- Set `num = 1000` for the number of MD steps.
-- Set `name = [[3, 2, 5], [4, 2, 5]]` for analyzing angles ∠A–B–C (B is the vertex).
-- Atom indices are 1-based. Multiple angle triplets are supported.
-- Supports arbitrary crystal systems.
+> [!NOTE]
+> - Set `num = 1000` for the number of MD steps.
+> - Set `name = [[3, 2, 5], [4, 2, 5]]` for analyzing angles ∠A–B–C (B is the vertex).
+> - Atom indices are 1-based. Multiple angle triplets are supported.
+> - Supports arbitrary crystal systems.
 
 Output file: `angle_time.dat`
 
 Example plot:
 
 <div align="center">
-  <img src="./bond_angle.png" width="75%"/>
+  <img src="./bond_angle.png" width="50%"/>
 </div>
 
 
