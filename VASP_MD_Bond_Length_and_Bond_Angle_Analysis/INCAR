@@ -1,0 +1,20 @@
+PREC = Accurate
+SMASS = -3   #micro canonical ensemble
+LREAL = A   #real space
+IBRION = 0   #molecular dynamics
+NBLOCK = 1   #update XDATCAR every x steps
+TEBEG = 300   #start temperature
+TEEND = 300   #final temperature
+ISIF = 2   #2, ions change; 3, shape and ions change
+ISYM = 0   #symmetry
+NSW = 1000   #max ionic steps
+POTIM = 1   #step width scaling
+EDIFFG = -0.01   #ionic relaxation
+EDIFF = 1e-5   #electronic SC-loop
+LCHARG = .F.   #not save CHGCAR CHG
+LWAVE = .F.   #not save WAVECAR
+ISMEAR = 0   #gaussian smearing
+SIGMA = 0.05   #the width of the smearing in eV
+ALGO = Normal   #electronic minimisation algorithm
+IVDW = 12   #DFT-D3 method with Becke-Jonson damping, van der Waals
+
