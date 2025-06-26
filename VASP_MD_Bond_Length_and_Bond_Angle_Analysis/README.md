@@ -33,7 +33,7 @@ IVDW = 12   #DFT-D3 method with Becke-Jonson damping, van der Waals
 > [!NOTE]
 > If needed, use `SMASS = -1` for initial thermalization, then switch to `SMASS = -3` for temperature control.
 
-### **Generating pfiles**
+## **Generating pfiles**
 
 ### **Method 1: Based on OUTCAR + CONTCAR**
 
