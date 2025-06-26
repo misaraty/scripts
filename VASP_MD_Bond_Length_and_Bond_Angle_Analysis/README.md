@@ -105,9 +105,9 @@ This script calculates bond lengths between specified atom pairs over time.
 > - Set `name = [[2, 4], [2, 5]]` to specify atom pairs (1-based indexing).
 > - Works for any lattice system, including triclinic.
 
-Output file: `bond_length_time.dat`
+* Output file: `bond_length_time.dat`
 
-Example plot:
+* Example plot:
 
 <div align="center">
   <img src="./bond_length.png" width="50%"/>
@@ -124,28 +124,10 @@ This script computes time-dependent angles between triplets of atoms.
 > - Atom indices are 1-based. Multiple angle triplets are supported.
 > - Supports arbitrary crystal systems.
 
-Output file: `angle_time.dat`
+* Output file: `angle_time.dat`
 
-Example plot:
+* Example plot:
 
 <div align="center">
   <img src="./bond_angle.png" width="50%"/>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
