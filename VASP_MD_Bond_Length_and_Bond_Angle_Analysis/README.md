@@ -10,7 +10,7 @@ Use [CaTiO₃ mp-5827](https://legacy.materialsproject.org/materials/mp-5827/) a
 
 See the file: `INCAR` for recommended settings for NVE simulations at 300 K with van der Waals correction.
 
-> [!Tip]
+> [!NOTE]
 > You can use `SMASS = -1` for pre-heating and then switch to `SMASS = -3` for equilibrium sampling.
 
 ## Generating pfiles
