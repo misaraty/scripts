@@ -10,7 +10,7 @@ Use [CaTiO₃ mp-5827](https://legacy.materialsproject.org/materials/mp-5827/) a
 
 See the file: `INCAR` for recommended settings for NVE simulations at 300 K with van der Waals correction.
 
-> [!NOTE]
+> [!Tip]
 > You can use `SMASS = -1` for pre-heating and then switch to `SMASS = -3` for equilibrium sampling.
 
 ## Generating pfiles
@@ -49,9 +49,9 @@ This script reads each MD frame and writes it to separate files in `./pfiles`.
 This script calculates bond lengths between specified atom pairs over time.
 
 > [!NOTE]
-> - Set `num = 1000` for the number of MD steps.
-> - Set `name = [[2, 4], [2, 5]]` to specify atom pairs (1-based indexing).
-> - Works for any lattice system, including triclinic.
+> Set `num = 1000` for the number of MD steps.
+> Set `name = [[2, 4], [2, 5]]` to specify atom pairs (1-based indexing).
+> Works for any lattice system, including triclinic.
 
 * Output file: `bond_length_time.dat`
 
@@ -67,10 +67,10 @@ This script calculates bond lengths between specified atom pairs over time.
 This script computes time-dependent angles between triplets of atoms.
 
 > [!NOTE]
-> - Set `num = 1000` for the number of MD steps.
-> - Set `name = [[3, 2, 5], [4, 2, 5]]` for analyzing angles ∠A–B–C (B is the vertex).
-> - Atom indices are 1-based. Multiple angle triplets are supported.
-> - Supports arbitrary crystal systems.
+> Set `num = 1000` for the number of MD steps.
+> Set `name = [[3, 2, 5], [4, 2, 5]]` for analyzing angles ∠A–B–C (B is the vertex).
+> Atom indices are 1-based. Multiple angle triplets are supported.
+> Supports arbitrary crystal systems.
 
 * Output file: `angle_time.dat`
 
