@@ -2,9 +2,7 @@
 
 ---
 
-## Structure Example
-
-* **POSCAR**
+### POSCAR
 
 We use CsPbCl<sub>3</sub> as an example. You can visualize the structure in VESTA and select atoms with fractional z between `0.0` and `0.16` to be fixed.
 
@@ -32,7 +30,7 @@ Direct
      ...
 ```
 
-Running the Script
+###  Running the Script
 
 Script: add_selective_dynamics_v1.1.py
 
@@ -49,7 +47,7 @@ output_path = "POSCAR_sd"
 > [!NOTE]
 > Before running, modify zmin and zmax according to your structure.
 
-Output POSCAR
+### Output POSCAR
 
 After running the script, atoms within the z-range will be tagged as fixed:
 
