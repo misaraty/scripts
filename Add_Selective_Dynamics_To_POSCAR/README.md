@@ -30,7 +30,7 @@ Direct
 
 ###  Running the Script
 
-Script: add_selective_dynamics_v1.1.py
+Script: `add_selective_dynamics_v1.1.py`
 
 This script adds Selective Dynamics to the POSCAR file and marks atoms with F F F if their fractional z lies within a given range.
 
