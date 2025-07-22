@@ -1,4 +1,4 @@
-## **[中文版本](https://www.misaraty.com/2025-07-22_add-selective-dynamics/)**
+## **[中文版本](https://www.misaraty.com/2025-07-22_poscar%E5%9B%BA%E5%AE%9A%E5%8E%9F%E5%AD%90/)**
 
 ### POSCAR
 
