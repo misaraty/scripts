@@ -38,14 +38,15 @@ This script adds Selective Dynamics to the POSCAR file and marks atoms with F F 
 
 ```python
 # ======== Parameter Settings ========
-zmin = 0.0  # Minimum fractional z to fix
-zmax = 0.16  # Maximum fractional z to fix
+zmin = 0.0  # Minimum fractional z-coordinate to fix
+zmax = 0.16  # Maximum fractional z-coordinate to fix
 input_path = "POSCAR"
 output_path = "POSCAR_sd"
+# ====================================
 ```
 
 > [!NOTE]
-> Before running, modify zmin and zmax according to your structure.
+> Before running, modify `zmin` and `zmax` according to your structure.
 
 ### Output POSCAR
 
