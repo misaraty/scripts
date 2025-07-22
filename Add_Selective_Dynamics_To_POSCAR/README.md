@@ -6,7 +6,7 @@
 
 * **POSCAR**
 
-We use CsPbCl₃ as an example. You can visualize the structure in VESTA and select atoms with fractional z between `0.0` and `0.16` to be fixed.
+We use CsPbCl<sub>3</sub> as an example. You can visualize the structure in VESTA and select atoms with fractional z between `0.0` and `0.16` to be fixed.
 
 <div align="center">
   <img src="./CsPbCl3.jpg" width="37.5%"/>
