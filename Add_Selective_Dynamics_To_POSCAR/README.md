@@ -31,7 +31,9 @@ Direct
      0.083329998         0.000000000         0.094520003
      ...
 ```
+
 Running the Script
+
 Script: add_selective_dynamics_v1.1.py
 
 This script adds Selective Dynamics to the POSCAR file and marks atoms with F F F if their fractional z lies within a given range.
@@ -48,6 +50,7 @@ output_path = "POSCAR_sd"
 > Before running, modify zmin and zmax according to your structure.
 
 Output POSCAR
+
 After running the script, atoms within the z-range will be tagged as fixed:
 
 ```shell
