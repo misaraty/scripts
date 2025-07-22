@@ -1,7 +1,5 @@
 ## **[中文版本](https://www.misaraty.com/2025-07-22_add-selective-dynamics/)**
 
----
-
 ### POSCAR
 
 We use CsPbCl<sub>3</sub> as an example. You can visualize the structure in VESTA and select atoms with fractional z between `0.0` and `0.16` to be fixed.
