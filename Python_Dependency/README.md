@@ -39,3 +39,7 @@ pip install jax==0.4.23 jaxlib==0.4.23 numpy==1.23.5
 # Time series deep learning (tsai)
 pip install tsai fastcore==1.5.29 numpy==1.23.5
 from tsai.all import *
+
+# CGCNN
+pip uninstall scikit-learn -y
+pip install scikit-learn==1.3.2
