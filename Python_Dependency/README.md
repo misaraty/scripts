@@ -42,4 +42,4 @@ from tsai.all import *
 
 # CGCNN
 pip uninstall scikit-learn -y
-pip install scikit-learn==1.4.0
+pip install scikit-learn==1.3.2
