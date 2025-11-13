@@ -8,10 +8,10 @@
 1. **[Add Selective Dynamics To POSCAR](./Add_Selective_Dynamics_To_POSCAR)** - To add Selective Dynamics flags to atoms in a VASP POSCAR file based on their fractional z-coordinate.
 
 ## Runtime Environment
-* Anaconda3 2023.03-1 | Python 3.10.16 | tensorflow-gpu 2.10.1 (open source)
-* Julia 1.10.7 (open source)
+* Anaconda3-2025.06-1 | Python 3.13.5 | torch 2.10.0.dev20250927+cu128 | tensorflow 2.20.0 (open source)
+* Julia 1.10.10 (open source)
 * Matlab R2024b Update 6 (licensed)
-* Mathematica 14.2.1 (licensed)
+* Mathematica 14.3 (licensed)
 * VASP 5.4.4 (licensed)
 * Quantum ESPRESSO 7.3 (open source)
 
