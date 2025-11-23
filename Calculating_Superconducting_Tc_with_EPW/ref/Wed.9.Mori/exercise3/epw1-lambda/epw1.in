@@ -1,0 +1,49 @@
+--
+&inputepw
+  prefix      = 'nb',
+  outdir      = './'
+  dvscf_dir   = '../phonon/save'
+
+  ep_coupling = .true.
+  elph        = .true.
+  epwwrite    = .true.
+  epwread     = .false.
+  etf_mem     =  0
+  vme         = 'dipole'
+
+  nbndsub     =  9
+  bands_skipped = 'exclude_bands = 1:4'
+
+  wannierize  = .true.
+  num_iter    = 0
+  dis_win_min = 10
+  dis_froz_min = 11
+  dis_froz_max= 28
+  proj(1) = 'Nb:s'
+  proj(2) = 'Nb:p'
+  proj(3) = 'Nb:d'
+
+  iverbosity  = 2
+
+  fsthick     = 0.5 ! eV
+  degaussw    = 0.1 ! eV
+  degaussq    = 0.5 ! meV
+
+  ephwrite    = .true. ! Writes .ephmat files used when Eliasberg = .true.
+  eliashberg  = .true.
+
+  nk1         = 4
+  nk2         = 4
+  nk3         = 4
+  nq1         = 4
+  nq2         = 4
+  nq3         = 4
+
+  mp_mesh_k   = .true.
+  nkf1 = 20
+  nkf2 = 20
+  nkf3 = 20
+  nqf1 = 20
+  nqf2 = 20
+  nqf3 = 20
+ /

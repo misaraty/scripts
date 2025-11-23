@@ -1,0 +1,60 @@
+--
+&inputepw
+  prefix      = 'pb',
+  outdir      = './'
+  dvscf_dir   = '../phonon/save'
+
+  ep_coupling = .false.
+  elph        = .false.
+  epwwrite    = .false.
+  epwread     = .true.
+  etf_mem     =  0
+
+  wannierize  = .false.
+  nbndsub     =  4
+  bands_skipped = 'exclude_bands = 1:5'
+
+  fsthick     = 0.4 ! eV
+  degaussw    = 0.1 ! eV
+  degaussq    = 0.5 ! meV
+
+  ephwrite    = .false.
+  eliashberg  = .true.
+
+  liso  = .true.
+  limag = .true.
+  lpade = .false.
+  lacon = .false. 
+
+  nsiter   = 500
+  conv_thr_iaxis = 1.0d-3
+
+  fila2f    = 'pb.a2f'
+
+  tc_linear = .true.
+  tc_linear_solver = 'power'  ! OR 'lapack'
+
+
+  wscut  = 0.1 ! eV
+  muc    = 0.1
+
+  nstemp = 21
+  temps  = 0.25 5.25 
+
+  nk1       = 3
+  nk2       = 3
+  nk3       = 3
+
+  nq1       = 3
+  nq2       = 3
+  nq3       = 3
+
+  mp_mesh_k = .true. 
+  nkf1      = 18
+  nkf2      = 18
+  nkf3      = 18
+
+  nqf1      = 18
+  nqf2      = 18
+  nqf3      = 18
+ /

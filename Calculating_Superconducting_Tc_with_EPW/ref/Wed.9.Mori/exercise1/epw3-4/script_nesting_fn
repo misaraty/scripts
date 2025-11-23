@@ -1,0 +1,3 @@
+#!/bin/tcsh
+echo "#   iq   Nesting function (q)" > pb.nesting_fn
+grep "Nesting function (q)= " epw4.out | awk '{print $4}' | nl >> pb.nesting_fn

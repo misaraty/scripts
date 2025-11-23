@@ -1,0 +1,11 @@
+--
+&inputph
+  prefix   = 'pb',
+  fildyn   = 'pb.dyn',
+  fildvscf = 'dvscf'
+  tr2_ph   =  1.0d-17
+  ldisp    = .true.,
+  nq1 = 3,
+  nq2 = 3,
+  nq3 = 3,
+ /

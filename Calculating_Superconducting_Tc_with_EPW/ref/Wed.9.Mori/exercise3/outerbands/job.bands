@@ -1,0 +1,21 @@
+#!/bin/bash
+#SBATCH -J job.bands          # Job name
+#SBATCH -N 1                  # Total # of nodes
+#SBATCH --ntasks-per-node 24
+#SBATCH -t 00:30:00           # Run time (hh:mm:ss)
+#SBATCH -A DMR23030
+#SBATCH -p skx
+#SBATCH --reservation=NSF_Summer_School_Wed
+ 	
+# Launch MPI code...
+export PATHQE=/work2/05193/sabyadk/stampede3/EPWSchool2024/q-e
+	
+ibrun $PATHQE/bin/pw.x -nk 6 -in scf.in > scf.out
+#alternatively to re-run a scf calculation copy files from ../phonon/nb.save
+#mkdir nb.save
+#cp ../phonon/nb.save/charge-density.dat nb.save/
+#cp ../phonon/nb.save/data-file-schema.xml nb.save/
+
+ibrun $PATHQE/bin/pw.x -nk 6 -in nscf_outerbands.in > nscf_outerbands.out
+
+exit

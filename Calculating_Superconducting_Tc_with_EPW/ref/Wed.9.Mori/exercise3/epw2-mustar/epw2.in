@@ -1,0 +1,58 @@
+--
+&inputepw
+  prefix      = 'nb',
+  outdir      = './'
+  dvscf_dir   = '../phonon/save'
+
+  ep_coupling = .false.
+  elph        = .false.
+  epwwrite    = .false.
+  epwread     = .true.
+  etf_mem     =  0
+  vme         = 'dipole'
+
+  nbndsub     =  9
+
+  wannierize  = .false.
+
+  iverbosity  = 0
+
+  fsthick     = 0.5 ! eV
+  degaussw    = 0.1 ! eV
+  degaussq    = 0.5 ! meV
+
+  eliashberg  = .true.
+  ephwrite    = .false. 
+
+  laniso  = .true.
+  limag = .true.
+  fbw    = .true.
+  muchem = .true.
+  gridsamp = 2
+
+  nsiter = 500
+  filirobj = '../../irobjs/ir_nlambda6_ndigit8.dat'
+  broyden_beta = -0.7
+
+  conv_thr_iaxis = 1.0d-3
+  wscut          = 1.0  ! eV
+
+  temps  = 0.2 6.0 10.0 12.0 13.0 13.4
+
+  muc    = 0.24
+
+  nk1         = 4
+  nk2         = 4
+  nk3         = 4
+  nq1         = 4
+  nq2         = 4
+  nq3         = 4
+
+  mp_mesh_k   = .true.
+  nkf1 = 20
+  nkf2 = 20
+  nkf3 = 20
+  nqf1 = 20
+  nqf2 = 20
+  nqf3 = 20
+ /

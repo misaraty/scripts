@@ -1,0 +1,2 @@
+#!/bin/tcsh
+grep -A 25 "Max. eigenvalue" epw2.out | tail -21 | awk '{print $1 "     " $2}' > data_max_eigenvalue.dat

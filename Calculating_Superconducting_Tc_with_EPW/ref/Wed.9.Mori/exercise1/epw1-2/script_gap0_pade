@@ -1,0 +1,6 @@
+#!/bin/tcsh
+
+awk 'FNR==2 {print FILENAME,$0}' pb.pade_iso_* | awk '{print $1 "   " $5*1000}' > pb.pade_iso_gap0
+sed -i 's/pb.pade_iso_//' pb.pade_iso_gap0
+
+exit

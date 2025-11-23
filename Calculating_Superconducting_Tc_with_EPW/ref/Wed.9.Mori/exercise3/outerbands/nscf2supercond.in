@@ -1,0 +1,5 @@
+&bands
+   outdir = './',
+   prefix='nb',
+   filband='nb.bands.20x20x20.dat',
+/

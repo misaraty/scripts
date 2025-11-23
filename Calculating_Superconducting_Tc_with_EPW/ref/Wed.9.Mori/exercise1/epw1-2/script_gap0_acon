@@ -1,0 +1,6 @@
+#!/bin/tcsh
+
+awk 'FNR==2 {print FILENAME,$0}' pb.acon_iso_* | awk '{print $1 "   " $5*1000}' > pb.acon_iso_gap0
+sed -i 's/pb.acon_iso_//' pb.acon_iso_gap0
+
+exit

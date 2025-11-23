@@ -1,0 +1,6 @@
+#!/bin/tcsh
+
+awk 'FNR==2 {print FILENAME,$0}' pb.imag_iso_* | awk '{print $1 "   " $4*1000}' > pb.imag_iso_gap0
+sed -i 's/pb.imag_iso_//' pb.imag_iso_gap0
+
+exit

@@ -1,0 +1,35 @@
+--
+&inputepw
+  prefix      = 'pb',
+  outdir      = './'
+  dvscf_dir   = '../phonon/save'
+
+  ep_coupling = .true.
+  elph        = .true.
+  epwwrite    = .false.
+  epwread     = .true.
+  etf_mem     =  0
+
+  wannierize  = .false.
+  nbndsub     =  4
+
+  fsthick     = 0.4 ! eV
+  degaussw    = 0.1 ! eV
+  degaussq    = 0.5 ! meV
+
+  nest_fn = .true.
+
+  nk1       = 3
+  nk2       = 3
+  nk3       = 3
+
+  nq1       = 3
+  nq2       = 3
+  nq3       = 3
+
+  !mp_mesh_k = .true. 
+  filqf     = 'pb_band.kpt'
+  nkf1      = 18
+  nkf2      = 18
+  nkf3      = 18
+ /

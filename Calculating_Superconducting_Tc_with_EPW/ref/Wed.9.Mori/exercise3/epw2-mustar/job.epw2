@@ -1,0 +1,15 @@
+#!/bin/bash
+#SBATCH -J job.epw2           # Job name
+#SBATCH -N 2                  # Total # of nodes
+#SBATCH --ntasks-per-node 48
+#SBATCH -t 00:30:00           # Run time (hh:mm:ss)
+#SBATCH -A DMR23030
+#SBATCH -p skx
+#SBATCH --reservation=NSF_Summer_School_Wed
+	
+# Launch MPI code...
+export PATHQE=/work2/05193/sabyadk/stampede3/EPWSchool2024/q-e
+
+ibrun $PATHQE/bin/epw.x -nk 96 -in epw2.in > epw2.out
+
+exit

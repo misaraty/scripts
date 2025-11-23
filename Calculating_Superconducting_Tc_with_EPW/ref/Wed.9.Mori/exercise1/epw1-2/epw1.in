@@ -1,0 +1,69 @@
+--
+&inputepw
+  prefix      = 'pb',
+  outdir      = './'
+  dvscf_dir   = '../phonon/save'
+
+  ep_coupling = .true.
+  elph        = .true.
+  epwwrite    = .true.
+  epwread     = .false.
+  etf_mem     =  0
+
+  wannierize  = .true.
+  nbndsub     =  4
+  bands_skipped = 'exclude_bands = 1:5'
+
+  num_iter    = 300
+  dis_froz_min= -3
+  dis_froz_max= 13.5
+  proj(1)   = 'Pb:sp3'
+  wdata(1)  = 'bands_plot = .true.'
+  wdata(2)  = 'begin kpoint_path'
+  wdata(3)  = 'G 0.00 0.00 0.00 X 0.00 0.50 0.50'
+  wdata(4)  = 'X 0.00 0.50 0.50 W 0.25 0.50 0.75'
+  wdata(5)  = 'W 0.25 0.50 0.75 L 0.50 0.50 0.50'
+  wdata(6)  = 'L 0.50 0.50 0.50 K 0.375 0.375 0.75'
+  wdata(7)  = 'K 0.375 0.375 0.75 G 0.00 0.00 0.00'
+  wdata(8)  = 'G 0.00 0.00 0.00 L 0.50 0.50 0.50'
+  wdata(9)  = 'end kpoint_path'
+  wdata(10) = 'bands_plot_format = gnuplot'
+
+  fsthick     = 0.4 ! eV
+  degaussw    = 0.1 ! eV
+  degaussq    = 0.5 ! meV
+
+  ephwrite    = .true.
+  eliashberg  = .true.
+
+  liso  = .true.
+  limag = .true.
+  lpade = .true.
+  lacon = .true. 
+
+  nsiter   = 500
+  npade    = 22
+  conv_thr_iaxis = 1.0d-3
+  conv_thr_racon = 1.0d-3
+
+  wscut  = 0.1 ! eV
+  muc    = 0.1
+  temps  = 0.3 0.9 1.5 2.1 2.7 3.3 4.0 4.2 4.4 4.5 4.6
+
+  nk1       = 3
+  nk2       = 3
+  nk3       = 3
+
+  nq1       = 3
+  nq2       = 3
+  nq3       = 3
+
+  mp_mesh_k = .true. 
+  nkf1      = 18
+  nkf2      = 18
+  nkf3      = 18
+
+  nqf1      = 18
+  nqf2      = 18
+  nqf3      = 18
+ /
