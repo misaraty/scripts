@@ -14,7 +14,7 @@ cd ../epw &&
 mkdir pb.save &&
 cp ../phonon/pb.save/charge-density.dat pb.save/ &&
 cp ../phonon/pb.save/data-file-schema.xml pb.save/ &&
-mpirun -np 1 pw.x -in nscf.in > nscf.out &&
+mpirun pw.x -in nscf.in > nscf.out &&
 mpirun -np 1 epw.x -in epw1.in > epw1.out &&
 mpirun -np 1 epw.x -in epw2.in > epw2.out &&
 python plot.py &&
