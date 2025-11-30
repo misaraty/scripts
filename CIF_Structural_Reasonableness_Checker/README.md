@@ -46,5 +46,5 @@ This design ensures transparency, reproducibility, and suitability for high-thro
 This script functions as a comprehensive CIF reasonableness validator, checking structural, physical, and chemical consistency using a clear set of thresholds. The modular design makes it well-suited for high-throughput screening, structure filtering, and automated quality control of generated or experimental CIF files.
 
 <div align="center">
-  <img src="./2025-11-30_230730.png" width="50%"/>
+  <img src="./2025-11-30_230730.png" width="100%"/>
 </div>
