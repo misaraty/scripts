@@ -2,7 +2,7 @@
 
 ## CIF Structural Reasonableness Checker
 
-A lightweight and robust script that evaluates the physical, geometrical, and chemical reasonableness of a CIF structure using multiple pymatgen-based validation criteria.
+[CIF Structural Reasonableness Checker.py](./CIF%20Structural%20Reasonableness%20Checker.py) evaluates the physical, geometrical, and chemical reasonableness of a CIF structure using multiple pymatgen-based validation criteria.
 
 ## Design Philosophy
 The script provides a fast multi-criterion sanity check for crystallographic structures (CIF files) before downstream simulations such as DFT, machine-learning-based prediction, or dataset construction. It uses a modular validation strategy:
