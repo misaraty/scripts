@@ -1,0 +1,439 @@
+#------------------------------------------------------------------------------
+#$Date: 2018-10-27 00:58:42 +0300 (Sat, 27 Oct 2018) $
+#$Revision: 211665 $
+#$URL: file:///home/coder/svn-repositories/cod/cif/1/55/01/1550125.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1550125
+loop_
+_publ_author_name
+'Munoz, M'
+'Vera, E'
+'Pineda, T'
+'Guaspud, J'
+_publ_section_title
+;
+ Synthesis and characterization by solid-state impedance spectroscopy of
+ semiconductor Cu2ZnSnS4 material for photovoltaic technologies
+;
+_journal_name_full               'Journal of Physics: Conference Series'
+_journal_page_first              1
+_journal_page_last               7
+_journal_paper_doi               10.1088/1742-6596/786/1/012028
+_journal_volume                  786
+_journal_year                    2017
+_chemical_formula_moiety         'Cu2 S4 Sn1 Zn1'
+_chemical_formula_sum            'Cu2 S4 Sn Zn'
+_chemical_formula_weight         439.32
+_space_group_IT_number           121
+_symmetry_cell_setting           tetragonal
+_symmetry_space_group_name_Hall  'I -4 2'
+_symmetry_space_group_name_H-M   'I -4 2 m'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            2
+_cell_length_a                   5.4340(10)
+_cell_length_b                   5.4340(10)
+_cell_length_c                   10.8450(3)
+_cell_measurement_temperature    300
+_cell_volume                     320.24(8)
+_diffrn_ambient_temperature      300
+_diffrn_measured_fraction_theta_full 0.97
+_diffrn_measured_fraction_theta_max 0.95
+_diffrn_radiation_wavelength     1.78901
+_diffrn_reflns_limit_h_max       8
+_diffrn_reflns_limit_h_min       -6
+_diffrn_reflns_limit_k_max       9
+_diffrn_reflns_limit_k_min       -9
+_diffrn_reflns_limit_l_max       18
+_diffrn_reflns_limit_l_min       -18
+_diffrn_reflns_number            6121
+_diffrn_reflns_theta_full        34.59
+_diffrn_reflns_theta_max         89.95
+_refine_ls_extinction_coef       192E1(15)
+_refine_ls_goodness_of_fit_all   1.60
+_refine_ls_number_constraints    2
+_refine_ls_number_parameters     15
+_refine_ls_number_reflns         449
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.0294
+_refine_ls_R_factor_gt           0.0294
+_refine_ls_shift/su_max          0.0035
+_refine_ls_shift/su_mean         0.0011
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details     w=1/(\s^2^(I)+0.0016I^2^)
+_refine_ls_weighting_scheme      sigma
+_refine_ls_wR_factor_all         0.0741
+_refine_ls_wR_factor_gt          0.0741
+_reflns_number_gt                449
+_reflns_number_total             449
+_reflns_threshold_expression     I>2\s(I)
+_cod_data_source_file            cztsCystallographycdata.cif
+_cod_data_source_block           Kesterite_
+_cod_database_code               1550125
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,-y,z
+3 y,-x,-z
+4 -y,x,-z
+5 -x,y,-z
+6 x,-y,-z
+7 -y,-x,z
+8 y,x,z
+9 x+1/2,y+1/2,z+1/2
+10 -x+1/2,-y+1/2,z+1/2
+11 y+1/2,-x+1/2,-z+1/2
+12 -y+1/2,x+1/2,-z+1/2
+13 -x+1/2,y+1/2,-z+1/2
+14 x+1/2,-y+1/2,-z+1/2
+15 -y+1/2,-x+1/2,z+1/2
+16 y+1/2,x+1/2,z+1/2
+loop_
+_atom_site_type_symbol
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+Cu Cu_2a 0 0 0 0.01903(16) Uani d 1 2
+Cu Cu_4d 0 0.5 0.25 0.01688(13) Uani d 0.5 4
+Zn Zn_4d 0 0.5 0.25 0.01688(13) Uani d 0.5 4
+Sn Sn_2b 0 0 0.5 0.01077(9) Uani d 1 2
+S S 0.75608(10) 0.24393(10) 0.12788(5) 0.0112(2) Uani d 1 8
+loop_
+_atom_site_aniso_type_symbol
+Cu_2a
+0.0190(2)
+0.0190(2)
+0.0188(3)
+0
+0
+0
+Cu
+Cu_4d
+0.0172(2)
+0.0172(2)
+0.0170(3)
+0
+0
+0
+Cu
+Zn_4d
+0.0172(2)
+0.0172(2)
+0.0170(3)
+0
+0
+0
+Zn
+Sn_2b
+0.01112(15)
+0.01112(15)
+0.01002(17)
+0
+0
+0
+Sn
+S
+0.0113(3)
+0.0113(3)
+0.0102(4)
+0.00058(18)
+-0.00025(13)
+0.00025(13)
+S
+S
+Cu_2a
+S
+1_454
+2_654
+107.00(2)
+S
+Cu_2a
+S
+1_454
+3_564
+110.712(19)
+S
+Cu_2a
+S
+1_454
+4_544
+110.712(19)
+S
+Cu_2a
+S
+2_654
+3_564
+110.712(19)
+S
+Cu_2a
+S
+2_654
+4_544
+110.712(19)
+S
+Cu_2a
+S
+3_564
+4_544
+107.00(2)
+Zn_4d
+Cu_4d
+S
+.
+1_454
+0
+Zn_4d
+Cu_4d
+S
+.
+2_664
+0
+Zn_4d
+Cu_4d
+S
+.
+11_464
+0
+Zn_4d
+Cu_4d
+S
+.
+12_544
+0
+S
+Cu_4d
+S
+1_454
+2_664
+110.85(2)
+S
+Cu_4d
+S
+1_454
+11_464
+108.780(19)
+S
+Cu_4d
+S
+1_454
+12_544
+108.780(19)
+S
+Cu_4d
+S
+2_664
+11_464
+108.780(19)
+S
+Cu_4d
+S
+2_664
+12_544
+108.780(19)
+S
+Cu_4d
+S
+11_464
+12_544
+110.84(2)
+Cu_4d
+Zn_4d
+S
+.
+1_454
+0
+Cu_4d
+Zn_4d
+S
+.
+2_664
+0
+Cu_4d
+Zn_4d
+S
+.
+11_464
+0
+Cu_4d
+Zn_4d
+S
+.
+12_544
+0
+S
+Zn_4d
+S
+1_454
+2_664
+110.85(2)
+S
+Zn_4d
+S
+1_454
+11_464
+108.780(19)
+S
+Zn_4d
+S
+1_454
+12_544
+108.780(19)
+S
+Zn_4d
+S
+2_664
+11_464
+108.780(19)
+S
+Zn_4d
+S
+2_664
+12_544
+108.780(19)
+S
+Zn_4d
+S
+11_464
+12_544
+110.85(2)
+S
+Sn_2b
+S
+9_444
+10_554
+109.657(19)
+S
+Sn_2b
+S
+9_444
+11_454
+109.377(18)
+S
+Sn_2b
+S
+9_444
+12_544
+109.377(18)
+S
+Sn_2b
+S
+10_554
+11_454
+109.377(18)
+S
+Sn_2b
+S
+10_554
+12_544
+109.377(18)
+S
+Sn_2b
+S
+11_454
+12_544
+109.657(19)
+Cu_2a
+S
+Cu_4d
+1_654
+1_654
+110.69(2)
+Cu_2a
+S
+Cu_4d
+1_654
+13_544
+110.69(2)
+Cu_2a
+S
+Zn_4d
+1_654
+1_654
+110.69(2)
+Cu_2a
+S
+Zn_4d
+1_654
+13_544
+110.69(2)
+Cu_2a
+S
+Sn_2b
+1_654
+9_553
+108.33(2)
+Cu_4d
+S
+Cu_4d
+1_654
+13_544
+110.80(2)
+Cu_4d
+S
+Zn_4d
+1_654
+1_654
+0.0(5)
+Cu_4d
+S
+Zn_4d
+1_654
+13_544
+110.80(2)
+Cu_4d
+S
+Sn_2b
+1_654
+9_553
+108.08(2)
+Cu_4d
+S
+Zn_4d
+13_545
+1_654
+110.80(2)
+Cu_4d
+S
+Zn_4d
+13_544
+13_544
+0.0(5)
+Cu_4d
+S
+Sn_2b
+13_544
+9_553
+108.08(2)
+Zn_4d
+S
+Zn_4d
+1_654
+13_544
+110.82(2)
+Zn_4d
+S
+Sn_2b
+1_654
+9_553
+108.08(2)
+Zn_4d
+S
+Sn_2b
+13_544
+9_553
+108.08(2)
