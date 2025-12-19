@@ -1,6 +1,6 @@
 ## **[中文版本](https://www.misaraty.com/2025-12-19_matlab%E7%89%88%E6%9C%ACsisso/)**
 
-## MATLAB Implementation of SISSO
+## Modified MATLAB Implementation of SISSO (mSISSO_MATLAB)
 
 A MATLAB implementation of the `Sure Independence Screening and Sparsifying Operator (SISSO)` method for symbolic regression based on compressed sensing.
 
