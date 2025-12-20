@@ -25,19 +25,19 @@ with additional modifications for descriptor construction, data splitting, and m
 - Output:
 
 ```shell
-Loaded data_v4.csv: 3624 samples, 8 base features.
-Generated descriptor library: 3624 samples, 28747 features.
-Split: train=2537, val=544, test=543
-Searching for models up to 3 dimensions, considering 26 new features per iteration.
+Fitting 'small' data: 82 data points, 115 features.
+Searching for models up to 3 dimemsions, considering 10 new features per iteration.
           RMSE            Model
-1D:  0.320931  0.599 - 0.227 ((χ_X^2)/((χ_B'^(1/4))+eps))
-2D:  0.197306  0.256 - 0.232 ((χ_X^2)/((χ_B'^(1/4))+eps)) + 0.448 (χ_A+χ_B''+(-r_A))
-3D:  0.178237  0.065 - 0.232 ((χ_X^2)/((χ_B'^(1/4))+eps)) + 0.443 (χ_A+χ_B''+(-r_A)) + 0.133 ((1/(r_B'+eps))-log(r_B''+eps))
-
-=== Metrics (Model Dim = 3) ===
-Train: MAE=0.1212, RMSE=0.1782, R2=0.9455
-Val  : MAE=0.1228, RMSE=0.1688, R2=0.9536
-Test : MAE=0.1225, RMSE=0.1613, R2=0.9540
+1D:	0.296696	1.922 - 0.478 (r_p(A)+r_d(B)) 
+2D:	0.218070	7.495 - 3.483 (r_p(A)+r_d(B)) + 0.392 (r_p(A)+r_d(B))^2 
+3D:	0.193928	7.280 - 3.528 (r_p(A)+r_d(B)) + 0.405 (r_p(A)+r_d(B))^2 + 0.293 |r_s(A)-r_d(B)| 
+ 
+Fitting 'big' data: 82 data points, 3391 features.
+Searching for models up to 3 dimemsions, considering 26 new features per iteration.
+          RMSE            Model
+1D:	0.137310	-0.327 - 0.055 (IP(A)+IP(B))/r_p(A)^2 
+2D:	0.100216	-0.145 + 0.114 |IP(B)-EA(B)|/r_p(A)^2 - 1.482 |r_s(A)-r_p(B)|/exp(r_s(A)) 
+3D:	0.076428	-0.005 + 0.109 |IP(B)-EA(B)|/r_p(A)^2 - 1.766 |r_s(A)-r_p(B)|/exp(r_s(A)) - 6.032 |r_s(B)-r_p(B)|/(r_p(B)+r_d(A))^2 
 ```
 
 ### mSISSO_MATLAB_v2
