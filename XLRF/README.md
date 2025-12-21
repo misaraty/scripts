@@ -17,7 +17,7 @@ Within a unified tree-ensemble framework, MATLAB-based XGBoost-/LightGBM-style g
 
 ## XLRF_v1.1
 
-* Compared with `v1.0`, model interpretability is computed using MATLAB’s built-in importance measures:  
+* Compared with `v1.0`, model interpretability is computed using MATLAB's built-in importance measures:  
   `predictorImportance` for GBDT models, and `OOBPermutedPredictorDeltaError` for random forests by enabling  
   `OOBPrediction` and `OOBPredictorImportance`.
 
