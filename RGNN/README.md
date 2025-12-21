@@ -1,4 +1,4 @@
-## **[中文版本](https://www.misaraty.com/2025-12-21_mgptips/)**
+## **[中文版本](https://www.misaraty.com/2025-12-21_rgnn/)**
 
 ## RGNN
 
