@@ -7,7 +7,7 @@
 1. **[VASP MD Bond Length and Bond Angle Analysis](./VASP_MD_Bond_Length_and_Bond_Angle_Analysis)** - A Python-based toolkit for extracting and analyzing bond lengths and bond angles from VASP MD trajectories using OUTCAR, CONTCAR, or XDATCAR.
 1. **[Add Selective Dynamics To POSCAR](./Add_Selective_Dynamics_To_POSCAR)** - To add Selective Dynamics flags to atoms in a VASP POSCAR file based on their fractional z-coordinate.
 1. **[CIF Structural Reasonableness Checker](./CIF_Structural_Reasonableness_Checker)** - To evaluates the physical, geometrical, and chemical reasonableness of a CIF structure using multiple pymatgen-based validation criteria.
-1. **[mSISSO_MATLAB](./mSISSO_MATLAB)** - A MATLAB implementation of the `Sure Independence Screening and Sparsifying Operator (SISSO)` method for symbolic regression based on compressed sensing.
+1. **[mSISSO_MATLAB](./mSISSO_MATLAB)** - A MATLAB implementation of the Sure Independence Screening and Sparsifying Operator (SISSO) method for symbolic regression based on compressed sensing.
 1. **[mGPTIPS](./mGPTIPS)** - A lightly modified implementation based on the symbolic regression software GPTIPS.
 1. **[RGNN](./RGNN)** - implements a regression modeling approach based on a Residual Gated Neural Network (RGNN).
 1. **[XLRF](./XLRF)** - MATLAB-based XGBoost-/LightGBM-style gradient boosting and random forest models (XLRF).
