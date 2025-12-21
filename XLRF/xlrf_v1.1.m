@@ -1,5 +1,3 @@
-% Random Forest（TreeBagger）用 OOB Permuted Predictor Delta Error（内置）
-% GBDT（fitrensemble / LSBoost）用 predictorImportance（内置）
 rng(42)
 
 scriptFull = mfilename("fullpath");

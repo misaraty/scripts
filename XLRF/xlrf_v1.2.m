@@ -1,4 +1,3 @@
-% 置换重要性 Permutation Importance
 rng(42)
 
 scriptFull = mfilename("fullpath");
