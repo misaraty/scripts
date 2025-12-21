@@ -9,6 +9,7 @@
 1. **[CIF Structural Reasonableness Checker](./CIF_Structural_Reasonableness_Checker)** - To evaluates the physical, geometrical, and chemical reasonableness of a CIF structure using multiple pymatgen-based validation criteria.
 1. **[mSISSO_MATLAB](./mSISSO_MATLAB)** - A MATLAB implementation of the `Sure Independence Screening and Sparsifying Operator (SISSO)` method for symbolic regression based on compressed sensing.
 1. **[mGPTIPS](./mGPTIPS)** - A lightly modified implementation based on the symbolic regression software GPTIPS.
+1. **[RGNN](./RGNN)** - implements a regression modeling approach based on a Residual Gated Neural Network (RGNN).
 
 ## Runtime Environment
 * Anaconda3-2025.06-1 | Python 3.13.5 | torch 2.10.0.dev20250927+cu128 | tensorflow 2.20.0 (open source)
