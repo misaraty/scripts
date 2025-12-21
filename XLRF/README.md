@@ -6,8 +6,8 @@ Within a unified tree-ensemble framework, MATLAB-based XGBoost-/LightGBM-style g
 
 ## XLRF_v1.0
 
-* In the `xgboost-style` and `lightgbm-style` implementations, native XGBoost/LightGBM libraries are not used. Instead, MATLAB’s  
-  `fitrensemble (LSBoost)` combined with decision-tree templates is employed to emulate their behavior, mapping only high-level concepts such as learning rate, number of boosting iterations, tree depth/leaf count, and row/column subsampling.
+* In the `xgboost-style` and `lightgbm-style` implementations, native XGBoost/LightGBM libraries are not used. Instead, MATLAB's  
+  `fitrensemble (LSBoost)` combined with `decision-tree` templates is employed to emulate their behavior, mapping only high-level concepts such as learning rate, number of boosting iterations, tree depth/leaf count, and row/column subsampling.
 
 * The random forest model is implemented using `TreeBagger`, which is MATLAB’s standard realization and is relatively close to the original random forest algorithm.
 
