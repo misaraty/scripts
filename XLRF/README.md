@@ -12,8 +12,7 @@ Within a unified tree-ensemble framework, MATLAB-based XGBoost-/LightGBM-style g
 * The random forest model is implemented using `TreeBagger`, which is MATLAB’s standard realization and is relatively close to the original random forest algorithm.
 
 > [!NOTE]
-> * When running MATLAB code, avoid using decimal points in `.m` script filenames (e.g., `XLRF_v1.0.m`).  
->   Use integer or underscore formats instead (e.g., `XLRF_v1.m` or `XLRF_v1_0.m`).
+> * When running MATLAB code, avoid using decimal points in `.m` script filenames (e.g., `XLRF_v1.0.m`). Use integer or underscore formats instead (e.g., `XLRF_v1.m` or `XLRF_v1_0.m`).
 > * MATLAB allows only a single dot for the file extension; additional dots can cause script name parsing errors and lead to execution failure.
 
 ## XLRF_v1.1
