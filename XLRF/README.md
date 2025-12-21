@@ -36,4 +36,4 @@ Within a unified tree-ensemble framework, MATLAB-based XGBoost-/LightGBM-style g
 
 ## Summary
 
-* Recommended versions: XLRF_v1.2 > XLRF_v2.1 > others.
+* Recommended versions: `XLRF_v1.2` > `XLRF_v2.1` > others.
