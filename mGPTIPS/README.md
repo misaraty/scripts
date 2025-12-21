@@ -22,4 +22,4 @@ A lightly modified implementation based on the symbolic regression software `GPT
 
 - mGPTIPS introduces random Train / Validation / Test data splitting, applies z-score standardization driven by training-set statistics, incorporates joint constraints from validation performance and model complexity during model selection, and automatically saves predictions, evaluation metrics (R2, MAE, RMSE), model complexity, and parity plots, providing a more robust and reproducible workflow for practical data-driven studies.
 
-- Based on the original `GPTIPS` distribution, one existing `gppretty.m` file was modified and one additional `xsym.m` file was added.
+- Based on the original `./gptips2` distribution, one existing `gppretty.m` file was modified and one additional `xsym.m` file was added.
