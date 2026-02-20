@@ -9,6 +9,10 @@
   </figure>
 </div>
 
+<div align="center">
+  <img src="./workflow.jpg" width="50%"/>
+</div>
+
 ## Usage
 
 * The `./example` directory contains three complete example datasets used in the paper: `energetics`, `BACE`, and `permeability`.
