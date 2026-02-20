@@ -3,17 +3,6 @@
 ## Inverse Molecular Design (IMoD)
 
 <div align="center">
-  <figure>
-    <img src="./workflow.jpg" width="65%"/>
-    <figcaption>Workflow of the molecular generation and evaluation framework</figcaption>
-  </figure>
-</div>
-
-<div align="center">
-  <img src="./workflow.jpg" width="50%"/>
-</div>
-
-<div align="center">
   <img src="./workflow.jpg" width="50%"/><br>
   Workflow of the molecular generation and evaluation framework
 </div>
