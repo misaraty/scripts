@@ -5,7 +5,7 @@
 <div align="center">
   <figure>
     <img src="./workflow.jpg" width="65%"/>
-    <figcaption style="margin-top:8px;">Workflow of the molecular generation and evaluation framework</figcaption>
+    <figcaption>Workflow of the molecular generation and evaluation framework</figcaption>
   </figure>
 </div>
 
