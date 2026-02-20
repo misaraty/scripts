@@ -11,7 +11,7 @@
 
 * The `./example` directory contains three complete example datasets used in the paper: `energetics`, `BACE`, and `permeability`.
 
-* To migrate to a custom dataset, place `Sequence_v1.2.py`, `Diffusion_v1.2.py`, and `D.csv` in the same directory. The filename can be changed by modifying `DATA_CSV = "D.csv"`. D.csv` must contain two columns: `SMILES`: molecular representation; `D`: target property. The label column matching rule can be modified via `r"(^|[^A-Za-z])D([^A-Za-z]|$)|label|target"`.
+* To migrate to a custom dataset, place `Sequence_v1.2.py`, `Diffusion_v1.2.py`, and `D.csv` in the same directory. The filename can be changed by modifying `DATA_CSV = "D.csv"`. D.csv` must contain two columns: `SMILES`: molecular representation; `D`: target property. The label column matching rule can be modified via ``r"(^|[^A-Za-z])D([^A-Za-z]|$)|label|target"``.
 
 * The execution commands are `python Sequence_v1.2.py` and `python Diffusion_v1.2.py`, respectively.
 
