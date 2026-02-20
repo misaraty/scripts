@@ -11,6 +11,7 @@
 1. **[mGPTIPS](./mGPTIPS)** - A lightly modified implementation based on the symbolic regression software GPTIPS.
 1. **[RGNN](./RGNN)** - implements a regression modeling approach based on a Residual Gated Neural Network (RGNN).
 1. **[XLRF](./XLRF)** - MATLAB-based XGBoost-/LightGBM-style gradient boosting and random forest models (XLRF).
+1. **[IMoD](./IMoD)** - Inverse Molecular Design Framework (IMoD).
 
 ## Runtime Environment
 * Anaconda3-2025.06-1 | Python 3.13.5 | torch 2.10.0.dev20250927+cu128 | tensorflow 2.20.0 (open source)
