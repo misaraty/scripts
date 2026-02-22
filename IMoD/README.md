@@ -17,6 +17,8 @@
 
 * `TARGET_D` in `equence_v1.2.py` and `Diffusion_v1.2.pyS` represents the target property value expected for the generated molecules. In `Diffusion_v1.2.py`, `GRAPH_N_MAX` and `GEODIFF_N_MAX` should be set to the maximum number of atoms (including the hydrogenated structure), while `GRAPH_ATOMS` specifies the types of elements considered.
 
+* The file `smiles_check_v4.py` in the `./smiles_check` directory is an automated post processing script used to screen and visualize generated molecular results. It reads SMILES and predicted performance metric `D` from `generated_with_pred_MERGED_R5.csv`, filters and ranks molecules with `D>9.4 (df = df[df[D_COL] > 9.4])`, and performs comprehensive chemical validity screening using `RDKit`. The checks include successful `SMILES` parsing and `SanitizeMol`, single neutral component without salts and optional radical restriction, optional atom whitelist, molecular size limits for atom and heavy-atom counts, physicochemical ranges including `MW`, `LogP`, `TPSA`, `HBD/HBA` and rotatable bonds, ring and aromatic ring limits, `PAINS` structural alerts, and synthetic accessibility `SA score` thresholding.
+
 > [!NOTE]
 > `chemprop` uses `v1.6.1`; the calling method differs between `Windows` and `Ubuntu`, and both `Sequence_v1.2.py` and `Diffusion_v1.2.py` support the two platforms.
 >
