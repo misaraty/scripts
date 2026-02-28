@@ -1,4 +1,4 @@
-## **[中文版本](https://www.misaraty.com/2026-02-20_imod/)**
+## [中文版本](https://www.misaraty.com/2026-02-20_imod/)
 
 ## modified MEGNet (mMEGNet)
 
@@ -8,23 +8,23 @@ This script implements a MEGNet graph neural network training and evaluation pip
 
 * The execution commands are `python mMEGNet_v14.py`.
 
-* **`TARGET_COL`**: Name of the prediction target column (e.g., `'tc'` for superconducting critical temperature).
+* `TARGET_COL`: Name of the prediction target column (e.g., `'tc'` for superconducting critical temperature).
 
-* **`method`**: Training mode selection (`'megnet_default'` for fixed architecture, `'megnet_tuned'` for Optuna hyperparameter optimization).
+* `method`: Training mode selection (`'megnet_default'` for fixed architecture, `'megnet_tuned'` for Optuna hyperparameter optimization).
 
-* **`batch_size`**: Number of samples per gradient update affecting convergence stability and memory usage.
+* `batch_size`: Number of samples per gradient update affecting convergence stability and memory usage.
 
-* **`lr`**: Initial learning rate determining optimization step size.
+* `lr`: Initial learning rate determining optimization step size.
 
-* **`train_ratio` / `test_ratio`**: Proportions for dataset splitting between training and testing.
+* `train_ratio` / `test_ratio`: Proportions for dataset splitting between training and testing.
 
-* **`USE_EN_GLOBAL`**: Whether to include electronegativity-based global state features.
+* `USE_EN_GLOBAL`: Whether to include electronegativity-based global state features.
 
-* **`n1, n2, n3`**: Control the width (capacity) of the MEGNet network; larger values increase model complexity but may risk overfitting.
+* `n1, n2, n3`: Control the width (capacity) of the MEGNet network; larger values increase model complexity but may risk overfitting.
 
-* **`epochs`**: Maximum number of training epochs; sets the upper limit of training iterations.
+* `epochs`: Maximum number of training epochs; sets the upper limit of training iterations.
 
-* **`n_folds`**: Number of cross-validation folds; controls robustness of model evaluation (`5` recommended, or `'none'` for single split).
+* `n_folds`: Number of cross-validation folds; controls robustness of model evaluation (`5` recommended, or `'none'` for single split).
 
 
 > [!NOTE]
