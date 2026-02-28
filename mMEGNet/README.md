@@ -6,7 +6,7 @@ This script implements a MEGNet graph neural network pipeline to predict the sup
 
 ## Usage
 
-* The execution commands are `python mMEGNet_v14.py`.
+The execution commands are `python mMEGNet_v14.py`.
 
 * `TARGET_COL`: Name of the prediction target column (e.g., `'tc'` for superconducting critical temperature).
 
