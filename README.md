@@ -13,6 +13,7 @@
 1. **[XLRF](./XLRF)** - MATLAB-based XGBoost-/LightGBM-style gradient boosting and random forest models (XLRF).
 1. **[IMoD](./IMoD)** - Inverse Molecular Design Framework (IMoD).
 1. **[mMEGNet](./mMEGNet)** - modified MEGNet (mMEGNet).
+1. **[mCGCNN](./mCGCNN)** - modified mCGCNN (mCGCNN).
 
 ## Runtime Environment
 * Anaconda3-2025.06-1 | Python 3.13.5 | torch 2.10.0.dev20250927+cu128 | tensorflow 2.20.0 (open source)
