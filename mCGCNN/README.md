@@ -1,4 +1,4 @@
-## [中文版本](https://www.misaraty.com/2026-02-20_imod/)
+## [中文版本](https://www.misaraty.com/2026-02-28_mcgcnn/)
 
 ## Modified CGCNN (mCGCNN)
 
