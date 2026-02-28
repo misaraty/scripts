@@ -2,13 +2,13 @@
 
 ## Modified CGCNN (mCGCNN)
 
-This script implements a Crystal Graph Convolutional Neural Network (`CGCNN`) training framework in `PyTorch` for predicting target properties of crystalline materials, such as the superconducting critical temperature `Tc`. It reads structure IDs and labels from `data.xlsx`, loads the corresponding structure files from the `cif` directory, and constructs different types of atom- or edge-level features according to `CIFDATA_VARIANT`, including multiple encoding schemes for the electronegativity difference `Δχ`. The workflow supports either a `train/test` split or `KFold` cross validation, integrates `EarlyStopping` and learning rate scheduling, and reports `MAE`, `RMSE`, and `R2` metrics while saving the result files. When `USE_OPTUNA` is enabled, the script automatically performs hyperparameter optimization and saves the model checkpoints and logs for each trial.
+This script implements a Crystal Graph Convolutional Neural Network (`CGCNN`) training framework in `PyTorch` for predicting target properties of crystalline materials, such as the superconducting critical temperature `Tc`. It reads structure IDs and labels from `data.xlsx`, loads the corresponding structure files from the `cif` directory, and constructs different types of atom or edge level features according to `CIFDATA_VARIANT`, including multiple encoding schemes for the electronegativity difference `Δχ`. The workflow supports either a `train/test` split or `KFold` cross validation, integrates `EarlyStopping` and learning rate scheduling, and reports `MAE`, `RMSE`, and `R2` metrics while saving the result files. When `USE_OPTUNA` is enabled, the script automatically performs hyperparameter optimization and saves the model checkpoints and logs for each trial.
 
 ## Usage
 
 Run: `python mCGCNN_v22.py`
 
-* `CIFDATA_VARIANT`: Feature construction mode (`origin` for baseline features, `atom` for adding atomic electronegativity features, `edge` for adding edge electronegativity-difference features).
+* `CIFDATA_VARIANT`: Feature construction mode (`origin` for baseline features, `atom` for adding atomic electronegativity features, `edge` for adding edge electronegativity difference features).
 
 * `DELTA_EN_FEAT_MODE`: Encoding scheme for `Δχ` features (`raw`, `poly`, `rbf`, `fourier`, or `all`).
 
