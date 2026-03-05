@@ -1,4 +1,4 @@
-## **[中文版本](http://localhost:1313/2025-11-30_cif%E7%BB%93%E6%9E%84%E5%90%88%E7%90%86%E6%80%A7%E6%A3%80%E6%9F%A5/)**
+## **[中文版本](https://www.misaraty.com/2025-11-30_cif%E7%BB%93%E6%9E%84%E5%90%88%E7%90%86%E6%80%A7%E6%A3%80%E6%9F%A5/)**
 
 ## CIF Structural Reasonableness Checker
 
