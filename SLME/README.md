@@ -2,7 +2,7 @@
 
 ## I. Program Overview
 
-`SLME_v2.py` is a `Python` script for calculating the `Spectroscopic Limited Maximum Efficiency` (`SLME`). `SLME` is an improved metric over the traditional `Shockley–Queisser` limit efficiency. By introducing the actual absorption coefficient spectrum of a material, it enables a more realistic evaluation of the theoretical efficiency of semiconductor materials in solar cells.
+`SLME_v2.py` is a `Python` script for calculating the `Spectroscopic Limited Maximum Efficiency` (`SLME`), modified on the basis of [SL3ME](https://github.com/ldwillia/SL3ME). `SLME` is an improved metric over the traditional `Shockley–Queisser` limit efficiency. By introducing the actual absorption coefficient spectrum of a material, it enables a more realistic evaluation of the theoretical efficiency of semiconductor materials in solar cells.
 
 The script takes the material’s `absorption coefficient data (ABSORPTION.dat)` as input and combines it with the [AM1.5G solar spectrum (am1.5G.dat)](https://www.nlr.gov/grid/solar-resource/spectra-am1.5) to calculate the `SLME` at different material thicknesses. The program first reads the material absorption spectrum and interpolates it to the wavelength range of the solar spectrum. Then, based on the `Beer–Lambert` law, it calculates the optical absorptance at different wavelengths. By integrating the spectra, the short-circuit current J<sub>sc</sub> and the radiative recombination current J<sub>0</sub> are obtained. Numerical optimization is then used to determine the maximum power point, from which the `SLME` is calculated.
 
