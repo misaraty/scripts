@@ -37,7 +37,7 @@ Example file format:
 ...
 ```
 
-Where, First column: energy (eV), Columns 2–4: absorption coefficients in the x, y, and z directions.
+First column: energy (eV), Columns 2–4: absorption coefficients in the x, y, and z directions.
 
 #### (2) am1.5G.dat
 
@@ -81,11 +81,7 @@ This indicates that the program assumes the absorption coefficients in `ABSORPTI
 
 ### 2. Directional Averaging of Absorption Spectrum
 
-`ABSORPTION.dat` usually contains absorption coefficients in three directions: `alpha_x`, `alpha_y`, and `alpha_z`. The script automatically averages the three directions:
-
-`alpha = (alpha_x + alpha_y + alpha_z) / 3`
-
-to obtain an isotropic average absorption coefficient for the `SLME` calculation.
+`ABSORPTION.dat` usually contains absorption coefficients in three directions: `alpha_x`, `alpha_y`, and `alpha_z`. The script automatically averages the three directions: `alpha = (alpha_x + alpha_y + alpha_z) / 3` to obtain an isotropic average absorption coefficient for the `SLME` calculation.
 
 ### 3. Band Gap Parameter Settings
 
@@ -98,12 +94,11 @@ material_indirect_gap
 
 represent the material's:
 
-- Direct band gap (eV)
-- Indirect band gap (eV)
+* Direct band gap (eV)
 
-If the material is a direct band-gap semiconductor, it can be set as:
+* Indirect band gap (eV)
 
-`material_direct_allowed_gap = material_indirect_gap`.
+If the material is a direct band-gap semiconductor, it can be set as `material_direct_allowed_gap = material_indirect_gap`.
 
 ### 4. Thickness Range
 
