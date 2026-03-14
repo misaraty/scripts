@@ -37,9 +37,7 @@ Example file format:
 ...
 ```
 
-Where:  
-First column: energy (eV)  
-Columns 2–4: absorption coefficients in the x, y, and z directions.
+Where First column: energy (eV), Columns 2–4: absorption coefficients in the x, y, and z directions.
 
 #### (2) am1.5G.dat
 
@@ -100,7 +98,7 @@ material_indirect_gap
 
 represent the material's:
 
-- Direct band gap (eV)  
+- Direct band gap (eV)
 - Indirect band gap (eV)
 
 If the material is a direct band-gap semiconductor, it can be set as:
