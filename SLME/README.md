@@ -1,4 +1,4 @@
-## **[中文版本]()**
+## **[中文版本](https://www.misaraty.com/2026-03-13_%E5%85%89%E8%B0%B1%E6%9E%81%E9%99%90%E6%9C%80%E5%A4%A7%E6%95%88%E7%8E%87slme/)**
 
 ## I. Program Overview
 
