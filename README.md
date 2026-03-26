@@ -11,7 +11,7 @@
 1. **[mGPTIPS](./mGPTIPS)** - A lightly modified implementation based on the symbolic regression software GPTIPS.
 1. **[RGNN](./RGNN)** - implements a regression modeling approach based on a Residual Gated Neural Network (RGNN).
 1. **[XLRF](./XLRF)** - MATLAB-based XGBoost-/LightGBM-style gradient boosting and random forest models (XLRF).
-1. **[IMoD](./IMoD)** - Inverse Molecular Design Framework (IMoD).
+1. **[SGMD](./SGMD)** - Surrogate-Guided Molecular Discovery (SGMD).
 1. **[mMEGNet](./mMEGNet)** - modified MEGNet (mMEGNet).
 1. **[mCGCNN](./mCGCNN)** - modified mCGCNN (mCGCNN).
 1. **[SLME](./SLME)** - Spectroscopic Limited Maximum Efficiency (SLME).
