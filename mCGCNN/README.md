@@ -38,4 +38,4 @@ Run: `python mCGCNN_v22.py`
 
 ## Citation
 
-To be added after the paper is officially published.
+* [Zhang, Z.*; Liu, Y.; Liu, J.; Zhang, W.; Xiong, Q. Electronegativity Informed Graph Neural Networks for Superconducting Temperature Prediction with Generative Crystal Validation. Inorg. Chem. 2026.](https://pubs.acs.org/doi/full/10.1021/acs.inorgchem.6c01169)
