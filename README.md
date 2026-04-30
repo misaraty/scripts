@@ -15,6 +15,10 @@
 1. **[mMEGNet](./mMEGNet)** - modified MEGNet (mMEGNet).
 1. **[mCGCNN](./mCGCNN)** - modified mCGCNN (mCGCNN).
 1. **[SLME](./SLME)** - Spectroscopic Limited Maximum Efficiency (SLME).
+1. **[MOO](./MOO)** - Multi-objective optimization (MOO) for machine learning-driven materials screening.
+1. **[PYXAID-SDM](./PYXAID-SDM)** - A PYXAID variant incorporating SDM-based decoherence correction.
+1. **[MAXAID](./MAXAID)** - A MATLAB-based reimplementation of PYXAID for nonadiabatic molecular dynamics simulations.
+1. **[JUXAID](./JUXAID)** - A Julia-based reimplementation of PYXAID for nonadiabatic molecular dynamics simulations.
 
 ## Runtime Environment
 * Anaconda3-2025.06-1 | Python 3.13.5 | torch 2.10.0.dev20250927+cu128 | tensorflow 2.20.0 (open source)
