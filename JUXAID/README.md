@@ -41,7 +41,7 @@ Performance benchmarking was conducted for `PYXAID`, `MAXAID`, and `JUXAID` (dif
 
 #### 2. Parameter Struct (Remove Globals)
 
-- v9 relies heavily on global variables (hbar, kb, dt, etc.)
+- v9 relies heavily on global variables (`hbar`, `kb`, `dt`, etc.)
 
 - v11 introduces `NAMDParams` struct
 
@@ -91,7 +91,7 @@ Performance benchmarking was conducted for `PYXAID`, `MAXAID`, and `JUXAID` (dif
 
 - v11 uses explicit loops
 
-- Reduces GC overhead and improves performance
+- Reduces `GC` overhead and improves performance
 
 #### 7. Optimized Hop Algorithm
 
@@ -103,7 +103,7 @@ Performance benchmarking was conducted for `PYXAID`, `MAXAID`, and `JUXAID` (dif
 
 #### 8. Parallelization-Friendly Design
 
-- v11 uses flattened data structures (Hme_batch + single object)
+- v11 uses flattened data structures (`Hme_batch` + single object)
 
 - Easier to extend for:
 
