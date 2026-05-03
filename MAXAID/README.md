@@ -4,7 +4,7 @@
 
 `PYXAID`, developed by `Oleg V. Prezhdo` and `Alexey V. Akimov`, is a well-established nonadiabatic molecular dynamics software widely used in excited-state simulations of condensed matter systems. `Libra` further extends this framework. In addition, `Hefei-NAMD`, `NEXMD`, `SHARC`, and `Newton-X` are also widely used in this field.
 
-Based on this framework, this project develops `MAXAID`, a lightweight `MATLAB-based` reimplementation. The code follows the original program logic and adopts a concise single-file structure, emphasizing readability and ease of use. It enables rapid implementation, testing, and comparison of different nonadiabatic models and algorithmic improvements. Functionally, `MAXAID` retains the electron–nuclear coupling formalism and incorporates improved surface hopping methods, including the `SDM` approach. Benefiting from `MATLAB`’s visualization and interactive capabilities, it is particularly suitable for method development, teaching, and prototyping, while supporting deployment across multiple platforms.
+Based on `PYXAID`, this project develops `MAXAID`, a lightweight `MATLAB-based` reimplementation. The code follows the original program logic and adopts a concise single-file structure, emphasizing readability and ease of use. It enables rapid implementation, testing, and comparison of different nonadiabatic models and algorithmic improvements. Functionally, `MAXAID` retains the electron–nuclear coupling formalism and incorporates improved surface hopping methods, including the `SDM` approach. Benefiting from `MATLAB`’s visualization and interactive capabilities, it is particularly suitable for method development, teaching, and prototyping, while supporting deployment across multiple platforms.
 
 ## Usage
 
