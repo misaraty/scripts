@@ -23,35 +23,35 @@ Performance benchmarking was conducted for `PYXAID`, `MAXAID`, and `JUXAID` (dif
 | Software        | Relative Runtime (`PYXAID`=1) | Remarks |
 |----------------|-----------------------------|--------|
 | `PYXAID`         | 1.0                         | Baseline |
-| `JUXAID (v9)`    | ~1.0                        | Comparable to `PYXAID` |
+| `JUXAID (v10)`    | ~1.0                        | Comparable to `PYXAID` |
 | `MAXAID`         | 10 ~ 20                     | Significant slowdown with increasing states |
-| `JUXAID (v11)`   | ~0.17                       | ~6× speedup over `PYXAID` |
+| `JUXAID (v12)`   | ~0.17                       | ~6× speedup over `PYXAID` |
 
 ## Changelog
 
-### Major Improvements from v9 to v11
+### Major Improvements from v10 to v12
 
 #### 1. FFT-based Autocorrelation
 
-- v9 computes autocorrelation using nested loops (O(N²))
+- v10 computes autocorrelation using nested loops (O(N²))
 
-- v11 uses FFT-based implementation (O(N log N))
+- v12 uses FFT-based implementation (O(N log N))
 
 - Significantly accelerates decoherence calculations for long trajectories
 
 #### 2. Parameter Struct (Remove Globals)
 
-- v9 relies heavily on global variables (`hbar`, `kb`, `dt`, etc.)
+- v10 relies heavily on global variables (`hbar`, `kb`, `dt`, etc.)
 
-- v11 introduces `NAMDParams` struct
+- v12 introduces `NAMDParams` struct
 
 - Improves type stability and compiler optimization
 
 #### 3. Precomputed Many-Electron Mapping
 
-- v9 repeatedly computes `delta_states` and `ext2int`
+- v10 repeatedly computes `delta_states` and `ext2int`
 
-- v11 precomputes:
+- v12 precomputes:
 
   - `transition_map`
   
@@ -61,9 +61,9 @@ Performance benchmarking was conducted for `PYXAID`, `MAXAID`, and `JUXAID` (dif
 
 #### 4. Avoid Full Time-Series Object Storage
 
-- v9 stores full `oe_es` and `me_es` arrays (memory intensive)
+- v10 stores full `oe_es` and `me_es` arrays (memory intensive)
 
-- v11 uses:
+- v12 uses:
 
   - `Hme_batch` (lightweight)
   
@@ -73,9 +73,9 @@ Performance benchmarking was conducted for `PYXAID`, `MAXAID`, and `JUXAID` (dif
 
 #### 5. Modular Hamiltonian Construction
 
-- v9 builds Hamiltonian inside `main`
+- v10 builds Hamiltonian inside `main`
 
-- v11 refactors into:
+- v12 refactors into:
 
   - `build_spin_orbital_H!`
   
@@ -87,23 +87,23 @@ Performance benchmarking was conducted for `PYXAID`, `MAXAID`, and `JUXAID` (dif
 
 #### 6. Reduced Memory Allocation
 
-- v9 uses broadcasting and matrix multiplication (temporary arrays)
+- v10 uses broadcasting and matrix multiplication (temporary arrays)
 
-- v11 uses explicit loops
+- v12 uses explicit loops
 
 - Reduces `GC` overhead and improves performance
 
 #### 7. Optimized Hop Algorithm
 
-- v9 uses `vec` + `cumsum`
+- v10 uses `vec` + `cumsum`
 
-- v11 uses `view` + incremental accumulation
+- v12 uses `view` + incremental accumulation
 
 - Avoids unnecessary allocations
 
 #### 8. Parallelization-Friendly Design
 
-- v11 uses flattened data structures (`Hme_batch` + single object)
+- v12 uses flattened data structures (`Hme_batch` + single object)
 
 - Easier to extend for:
 
