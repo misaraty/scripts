@@ -1,4 +1,4 @@
-## [中文版本](https://www.misaraty.com/2026-04-30_maxaid/)
+## [中文版本](https://www.misaraty.com/2026-05-02_maxaid/)
 
 ## MAXAID
 
