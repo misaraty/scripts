@@ -29,6 +29,8 @@ This script reads coordinates from `OUTCAR` and creates individual structure fil
 > [!NOTE]
 > The generated `pXXXX` files are in **Cartesian coordinates**.
 
+> The generated `pXXXX` files are in **Cartesian coordinates**.
+
 ### Method 2: Using XDATCAR
 
 * Required file: `XDATCAR` after MD simulation.
