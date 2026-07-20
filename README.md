@@ -23,7 +23,7 @@
 
 ## Runtime Environment
 
-### Open-source Software
+#### Open-source Software
 * Anaconda3-2025.06-1
 * Python 3.13.5
 * PyTorch 2.10.0.dev20250927+cu128
@@ -31,7 +31,7 @@
 * Julia 1.10.10
 * Quantum ESPRESSO 7.3
 
-### Licensed Software
+#### Licensed Software
 * VASP 5.4.4
 * CASTEP
 * WIEN2k
