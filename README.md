@@ -22,12 +22,28 @@
 1. **[PXAID](./PXAID)** - A Python-based reimplementation of PYXAID for nonadiabatic molecular dynamics simulations.
 
 ## Runtime Environment
-* Anaconda3-2025.06-1 | Python 3.13.5 | torch 2.10.0.dev20250927+cu128 | tensorflow 2.20.0 (open source)
-* Julia 1.10.10 (open source)
-* Matlab R2024b Update 7 (licensed)
-* Mathematica 14.3 (licensed)
-* VASP 5.4.4 (licensed)
-* Quantum ESPRESSO 7.3 (open source)
+
+### Open-source Software
+* Anaconda3-2025.06-1
+* Python 3.13.5
+* PyTorch 2.10.0.dev20250927+cu128
+* TensorFlow 2.20.0
+* Julia 1.10.10
+* Quantum ESPRESSO 7.3
+
+### Commercial / Licensed Software
+* VASP 5.4.4
+* CASTEP
+* WIEN2k
+* FHI-aims
+* Gaussian 16 / GaussView 6
+* MATLAB R2024b Update 7 (including 30 toolboxes)
+* Mathematica 14.3
+* Maple
+* SPSS Professional
+* Stata SE
+* OriginPro
+* GraphPad Prism
 
 ## Contact
 * Blog: https://www.misaraty.com
