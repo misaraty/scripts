@@ -31,7 +31,7 @@
 * Julia 1.10.10
 * Quantum ESPRESSO 7.3
 
-### Commercial / Licensed Software
+### Licensed Software
 * VASP 5.4.4
 * CASTEP
 * WIEN2k
