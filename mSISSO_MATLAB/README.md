@@ -75,3 +75,7 @@ Searching for models up to 3 dimemsions, considering 26 new features per iterati
 ## C++ Implementation of SISSO
 
 - [sissopp](https://gitlab.com/sissopp_developers/sissopp)
+
+## Citation
+
+- [刘研博; 刘佳冬; 熊青; 张梧桐; 张照胜*. 基于机器学习和符号回归筛选具有优异光电性能的卤化物双钙钛矿材料, 物理学报, 1-20.](https://kns.cnki.net/kcms2/article/abstract?v=lHKEv291v2jomqTkNac9q0PXDnYvr52fYkoKKLFzPhInb4typWud6vUgHzcjCejjTdpKg946gJdoqJgvzq6e9SSNPSxFeQM4ajEoUsGkd-1JrODiIa4A7tyPNhSRiEmmF_Tvhz-wxlfJ0lSXMoWvxoljAQnJvhR4Wi2SiIIKKG253HhaWX_Jqg==&uniplatform=NZKPT&language=CHS)

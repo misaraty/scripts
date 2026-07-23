@@ -26,4 +26,6 @@
 
 ## Citation
 
-To be added after the paper is officially published.
+## Citation
+
+- [Zhang, Z.*; Liu, Y.; Liu, J.; Zhang, W.; Xiong, Q. A Unified Deep Generative Framework for Surrogate-Guided Molecular Discovery across Diverse Molecular Spaces. Phys. Chem. Chem. Phys. 2026.](https://pubs.rsc.org/CP/article-lookup/doi/10.1039/D6CP01102K)
