@@ -24,21 +24,22 @@
 ## Runtime Environment
 
 #### Open-source Software
-* Anaconda3-2025.06-1
-* Python 3.13.5
-* PyTorch 2.10.0.dev20250927+cu128
-* TensorFlow 2.20.0
-* Julia 1.10.10
-* Quantum ESPRESSO 7.3
+* Anaconda3
+* Python
+* PyTorch
+* TensorFlow
+* JAX
+* Julia
+* Quantum ESPRESSO
 
 #### Licensed Software
-* VASP 5.4.4
+* VASP
 * CASTEP
 * WIEN2k
 * FHI-aims
-* Gaussian 16 / GaussView 6
-* MATLAB R2024b Update 7 (including 30 toolboxes)
-* Mathematica 14.3
+* Gaussian16/GaussView6
+* MATLAB(including 30 toolboxes)
+* Mathematica
 * Maple
 * SPSS Professional
 * Stata SE
