@@ -24,8 +24,7 @@
 ## Runtime Environment
 
 #### Open-source Software
-* Anaconda3
-* Python
+* Anaconda3/Python
 * PyTorch
 * TensorFlow
 * JAX
