@@ -31,6 +31,7 @@
 * JAX
 * Julia
 * Quantum ESPRESSO
+* LAMMPS
 
 #### Licensed Software
 * VASP
