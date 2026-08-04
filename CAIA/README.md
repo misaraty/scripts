@@ -1,4 +1,4 @@
-## **[中文版本]()**
+## **[中文版本](https://www.misaraty.com/2026-08-04_caia/)**
 
 ## Chemistry Artificial Intelligence Assistant (CAIA)
 
