@@ -1,0 +1,62 @@
+{
+  "score": 6,
+  "total": 6,
+  "percentage": 100.0,
+  "category_scores": {
+    "公式配对": 1.0,
+    "反应级数判断": 1.0,
+    "实验观测": 1.0,
+    "模型评价": 1.0,
+    "活化能": 1.0
+  },
+  "details": [
+    {
+      "category": "反应级数判断",
+      "question": "一级反应半衰期与初始浓度的关系是？",
+      "selected": "无关",
+      "correct_answer": "无关",
+      "correct": true,
+      "explanation": "一级反应t1/2=ln2/k，与初始浓度无关。"
+    },
+    {
+      "category": "公式配对",
+      "question": "等初始浓度二级反应的积分关系是？",
+      "selected": "x/[a(a-x)]=kt",
+      "correct_answer": "x/[a(a-x)]=kt",
+      "correct": true,
+      "explanation": "等初始浓度二级反应积分后得到x/[a(a-x)]=kt。"
+    },
+    {
+      "category": "实验观测",
+      "question": "蔗糖水解实验中用于跟踪反应进程的主要观测量是？",
+      "selected": "旋光度",
+      "correct_answer": "旋光度",
+      "correct": true,
+      "explanation": "蔗糖及其水解产物旋光性不同，因此可用旋光度跟踪反应。"
+    },
+    {
+      "category": "实验观测",
+      "question": "乙酸乙酯皂化过程中电导率降低的主要原因是？",
+      "selected": "OH-被CH3COO-取代",
+      "correct_answer": "OH-被CH3COO-取代",
+      "correct": true,
+      "explanation": "高电导率OH-逐渐被较低电导率CH3COO-取代。"
+    },
+    {
+      "category": "模型评价",
+      "question": "拟合曲线看起来重合，能否说明模型参数完全相同？",
+      "selected": "不能，还需比较参数和残差",
+      "correct_answer": "不能，还需比较参数和残差",
+      "correct": true,
+      "explanation": "图像接近不等于参数等价，应比较残差、参数和物理意义。"
+    },
+    {
+      "category": "活化能",
+      "question": "两温度法计算活化能时，结果对什么量较敏感？",
+      "selected": "两个速率常数之比",
+      "correct_answer": "两个速率常数之比",
+      "correct": true,
+      "explanation": "阿伦尼乌斯两点式包含ln(k2/k1)，因此对速率常数比值敏感。"
+    }
+  ]
+}

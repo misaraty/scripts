@@ -1,0 +1,64 @@
+{
+  "question": "一级反应半衰期与初始浓度有什么关系？",
+  "retrieved_evidence": [
+    {
+      "rank": 1,
+      "source": "动力学理论讲义",
+      "section": "一级反应",
+      "text": "一级反应满足-dc/dt=kc，积分后得到ln(c/c0)=-kt。一级反应半衰期t1/2=ln2/k，与初始浓度无关。判断反应级数时必须同时考察积分式、速率常数单位和实验条件。",
+      "vector_score": 0.18922405217964533,
+      "bm25_score": 21.09067727742381,
+      "base_score": 0.9325244346279993,
+      "topic_adjustment": 0.55,
+      "combined_score": 1.0
+    },
+    {
+      "rank": 2,
+      "source": "物理化学实验讲义",
+      "section": "蔗糖水解",
+      "text": "蔗糖水解在水和氢离子浓度近似恒定时可视为准一级反应。旋光度与体系组成相关，可写成alpha_t=alpha_inf+(alpha_0-alpha_inf)exp(-kt)，由此求得速率常数和半衰期。",
+      "vector_score": 0.032290630099633774,
+      "bm25_score": 13.117271317648479,
+      "base_score": 0.33133918938230567,
+      "topic_adjustment": 0.35,
+      "combined_score": 0.6813391893823056
+    },
+    {
+      "rank": 3,
+      "source": "动力学理论讲义",
+      "section": "二级反应",
+      "text": "等初始浓度二级反应满足dx/dt=k(a-x)^2，积分后得到x/[a(a-x)]=kt。二级反应速率常数单位通常为L·mol^-1·time^-1，半衰期与初始浓度有关。",
+      "vector_score": 0.18275653017491586,
+      "bm25_score": 24.8000318776334,
+      "base_score": 0.9812014537178174,
+      "topic_adjustment": -0.35,
+      "combined_score": 0.6312014537178174
+    },
+    {
+      "rank": 4,
+      "source": "数据处理规范",
+      "section": "模型评价",
+      "text": "模型评价不能只看R2。应在原始实验信号尺度上综合比较RMSE、MAE、最大绝对残差、参数稳定性和物理意义。曲线在图像上接近，并不表示参数完全一致。",
+      "vector_score": 0.0,
+      "bm25_score": 1.8442780364948381,
+      "base_score": 0.032419952817726846,
+      "topic_adjustment": 0.0,
+      "combined_score": 0.032419952817726846
+    }
+  ],
+  "answer_evidence": [
+    {
+      "rank": 1,
+      "source": "动力学理论讲义",
+      "section": "一级反应",
+      "text": "一级反应满足-dc/dt=kc，积分后得到ln(c/c0)=-kt。一级反应半衰期t1/2=ln2/k，与初始浓度无关。判断反应级数时必须同时考察积分式、速率常数单位和实验条件。",
+      "vector_score": 0.18922405217964533,
+      "bm25_score": 21.09067727742381,
+      "base_score": 0.9325244346279993,
+      "topic_adjustment": 0.55,
+      "combined_score": 1.0
+    }
+  ],
+  "answer_mode": "deepseek",
+  "answer": "根据提供的动力学理论讲义，一级反应的半衰期与初始浓度无关。一级反应的积分式表明，反应物的浓度随时间呈指数衰减，半衰期的表达式为t₁/₂ = ln2/k，其中k为速率常数。从该式可以看出，半衰期仅由速率常数决定，不会随反应物初始浓度的变化而改变。\n\n[来源1]"
+}

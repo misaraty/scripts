@@ -1,0 +1,10 @@
+{
+  "record_count": 30,
+  "student_count": 6,
+  "knowledge_point_count": 5,
+  "pre_mean_score": 5.2,
+  "post_mean_score": 8.066666666666666,
+  "mean_gain": 2.8666666666666667,
+  "mean_normalized_gain": 0.6166666666666668,
+  "weakest_knowledge_point": "误差分析"
+}
