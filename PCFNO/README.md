@@ -11,7 +11,7 @@ PCFNO is a physically constrained Fourier neural operator for nonautoregressive 
 
 ## Usage
 
-Create a `cylinder` folder in the project directory:
+Create a `cylinder` folder in the project directory.
 
 Download `bc.zip`, `geo.zip`, and `prop.zip` from the [CFDBench cylinder dataset](https://huggingface.co/datasets/chen-yingfa/CFDBench/tree/main/cylinder):
 
