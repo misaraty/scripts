@@ -1,6 +1,6 @@
 ## [中文版本](https://www.misaraty.com/2026-08-09_pcfno/)
 
-# PCFNO
+## PCFNO
 
 PCFNO is a physically constrained Fourier neural operator for nonautoregressive prediction of normalized speed magnitude in cylinder wakes across Reynolds numbers. The model combines a frozen FNO backbone with a lightweight residual correction using geometry and boundary information.
 
