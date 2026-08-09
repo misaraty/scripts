@@ -21,6 +21,7 @@
 1. **[JUXAID](./JUXAID)** - A Julia-based reimplementation of PYXAID for nonadiabatic molecular dynamics simulations.
 1. **[PXAID](./PXAID)** - A Python-based reimplementation of PYXAID for nonadiabatic molecular dynamics simulations.
 1. **[CAIA](./CAIA)** - A demonstration platform for teaching physical chemistry theory and laboratory courses.
+1. **[PCFNO](./PCFNO)** - A physically constrained Fourier neural operator for nonautoregressive prediction.
 
 ## Runtime Environment
 
