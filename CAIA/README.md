@@ -91,7 +91,7 @@ For local-area-network access, set the following environment variable.
 
 Windows PowerShell:
 
-```powershell
+```bash
 $env:CAIA_SHARE="1"
 python 8_integrated_web_platform/caia_integrated_web_platform.py
 ```
