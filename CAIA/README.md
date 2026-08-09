@@ -8,7 +8,7 @@ CAIA is a demonstration platform for teaching physical chemistry theory and labo
 
 ### 1. Sucrose Hydrolysis Kinetics Analysis
 
-```bash
+```shell
 python 1_sucrose_hydrolysis/caia_sucrose_hydrolysis.py
 ```
 
