@@ -1,4 +1,4 @@
-## **[中文版本](https://www.misaraty.com/2026-08-10_python%E9%A1%B9%E7%9B%AE%E4%BE%9D%E8%B5%96%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E5%99%A8/)**
+## **[中文版本](https://www.misaraty.com/2026-08-10_python%E4%BE%9D%E8%B5%96%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90/)**
 
 ## AGPD
 
