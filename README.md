@@ -36,7 +36,7 @@
 * Quantum ESPRESSO
 * LAMMPS
 
-#### Licensed Software
+#### Personally Purchased Academic Licensed Software
 * VASP
 * CASTEP
 * WIEN2k
