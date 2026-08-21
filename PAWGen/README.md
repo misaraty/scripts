@@ -1,4 +1,4 @@
-## [中文版本]()
+## [中文版本](https://www.misaraty.com/2026-08-21_paw%E8%B5%9D%E5%8A%BF%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E5%B7%A5%E5%85%B7/)
 
 ## PAWGen
 
