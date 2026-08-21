@@ -107,5 +107,6 @@ NELECT: 864
 VBM: 432
 ```
 
+> [!NOTE]
 > VASP software and PAW potentials must be obtained through official VASP
 channels.
