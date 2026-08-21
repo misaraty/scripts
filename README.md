@@ -25,7 +25,7 @@
 1. **[AGPD](./AGPD)** - Automatically Generating Python Dependencies (AGPD).
 1. **[PAWGen](./PAWGen)** - A lightweight Python tool for automatically generating VASP POTCAR files from POSCAR.
 
-## Runtime Environment
+## Computational Software Environment
 
 #### Open-source Software
 * Anaconda3/Python
