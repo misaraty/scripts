@@ -34,7 +34,17 @@
 * JAX
 * Julia
 * Quantum ESPRESSO
+* DFTK.jl
+* SIESTA
+* OpenMX
+* PySCF
+* DFTB
+* xtb
+* CP2K
 * LAMMPS
+* PYXAID
+* Hefei-namd
+* SHARC
 
 #### Personally Purchased Academic Licensed Software
 * VASP
