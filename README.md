@@ -1,4 +1,4 @@
-## Contents
+## Research Projects
 1. **[QEtool](./QEtool)** - An automated tool for generating Quantum Espresso input files, data processing, and plotting.
 1. **[Lattice Matching Solver for Heterojunctions](./Lattice_Matching_Solver_for_Heterojunctions)** - constructing commensurate supercells for heterojunction interface matching
 1. **[Python Dependency](./Python_Dependency)** - resolving dependency conflicts in packages
@@ -61,8 +61,8 @@
 * GraphPad Prism
 
 ## Contact
-* Blog: https://www.misaraty.com
+* Personal Website: https://www.misaraty.com
 * ORCID: https://orcid.org/0000-0002-4080-0884
 * Google Scholar: https://scholar.google.com/citations?hl=en&user=dI1p91YAAAAJ&view_op=list_works&sortby=pubdate
-* Faculty Page: https://chem.hbu.cn/zzs/index.jhtml
+* Faculty Profile: https://chem.hbu.cn/zzs/index.jhtml
 * Email: misaraty@163.com
