@@ -23,6 +23,7 @@
 1. **[CAIA](./CAIA)** - A demonstration platform for teaching physical chemistry theory and laboratory courses.
 1. **[PCFNO](./PCFNO)** - A physically constrained Fourier neural operator for nonautoregressive prediction.
 1. **[AGPD](./AGPD)** - Automatically Generating Python Dependencies (AGPD).
+1. **[PAWGen](./PAWGen)** - A lightweight Python tool for automatically generating VASP POTCAR files from POSCAR.
 
 ## Runtime Environment
 
