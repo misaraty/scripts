@@ -1,112 +1,169 @@
 ## [中文版本](https://www.misaraty.com/2026-08-21_paw%E8%B5%9D%E5%8A%BF%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E5%B7%A5%E5%85%B7/)
 
-## PAWGen
+# PAWGen
 
-PAWGen is a lightweight Python tool for automatically generating VASP
-POTCAR files from POSCAR structures using the VASP 6.5.1 PAW potential
-library.
+PAWGen is a lightweight Python tool for automatically generating VASP POTCAR files from POSCAR structures using the VASP 6.5.1 PAW potential library.
 
 ## Features
 
--   Automatic POTCAR generation from POSCAR
--   Supports VASP 6.5.1 PAW PBE potentials
--   Supports three modes:
-    -   default: recommended PBE PAW potentials
-    -   basic: basic elemental potentials
-    -   gw: GW potentials when available
--   Reports:
-    -   selected potentials
-    -   ENMAX
-    -   valence electrons
-    -   NELECT
-    -   VBM
-    -   recommended ENCUT
+* Automatic POTCAR generation from POSCAR
+
+* Supports VASP 6.5.1 PAW PBE and GW potentials
+
+* Supports four potential selection modes:
+
+  * `default`
+
+    * Recommended PBE PAW potentials
+
+  * `basic`
+
+    * Basic PBE elemental potentials
+
+  * `default_gw`
+
+    * Recommended GW PAW potentials
+
+  * `basic_gw`
+
+    * Basic GW PAW potentials
+
+* Automatically reports:
+
+  * Selected potentials
+  
+  * ENMAX
+  
+  * Valence electrons
+  
+  * Total NELECT
+  
+  * Estimated VBM
+  
+  * Recommended ENCUT
 
 ## Installation
 
 Download:
 
-    potpaw_PBE.64.tgz
+```
+potpaw_PBE.64.tgz
+```
 
 from:
 
-    https://vasp.at/vasp-portal/
+```
+https://vasp.at/vasp-portal/
+```
 
 Extract:
 
-``` bash
+```bash
 tar -xzf potpaw_PBE.64.tgz
 ```
 
-Place PAWGen.py in the extracted directory:
+Place `PAWGen.py` into the extracted PAW potential directory:
 
-    potpaw6.5.1/
-    ├── PAWGen.py
-    ├── Cu/
-    ├── In_d/
-    └── S/
+```
+potpaw6.5.1/
+├── PAWGen.py
+├── C/
+├── Pb_d/
+├── I/
+└── ...
+```
+
+The directory should contain the corresponding PAW potential folders with `POTCAR` files.
 
 ## Configuration
 
-Linux:
+Edit the following variables in `PAWGen.py`.
 
-``` python
+### Linux
+
+```python
 poscar_path = "./"
 pot_path_root = "/home/user/potpaw6.5.1/"
 ```
 
-Windows:
+### Windows
 
-``` python
+```python
 poscar_path = "C:/Users/user/Desktop/"
 pot_path_root = "C:/vasp/potpaw6.5.1/"
 ```
 
+The folder specified by `poscar_path` should contain:
+
+```
+POSCAR
+```
+
+The generated file will be:
+
+```
+POTCAR
+```
+
 ## Usage
 
-Default:
-
-``` bash
-python PAWGen.py
-```
+### Default mode
 
 Recommended PBE potentials:
 
-``` bash
+```bash
 python PAWGen.py default
 ```
 
-Basic potentials:
+or simply:
 
-``` bash
+```bash
+python PAWGen.py
+```
+
+### Basic mode
+
+Basic PBE elemental potentials:
+
+```bash
 python PAWGen.py basic
 ```
 
-GW potentials:
+### Default GW mode
 
-``` bash
-python PAWGen.py gw
+Recommended GW potentials:
+
+```bash
+python PAWGen.py default_gw
+```
+
+### Basic GW mode
+
+Basic GW potentials:
+
+```bash
+python PAWGen.py basic_gw
 ```
 
 ## Example Output
 
-``` bash
+```text
 Mode: default
 
-Element  Potential        ENMAX(eV)   Valence
-C       C              400         4
-N       N              400         5
-H       H              250         1
-Sn      Sn_d           241         14
-I       I              176         7
+Element  Potential     ENMAX (eV)   Valence
+-------------------------------------------------
+C        C                400.000         4
+N        N                400.000         5
+H        H                250.000         1
+Pb       Pb_d             237.835        14
+I        I                175.647         7
 
 Maximum ENMAX: 400 eV
 Recommended ENCUT: 520 eV
 
-NELECT: 864
-VBM: 432
+NELECT: 432
+VBM: 216
 ```
 
 > [!NOTE]
-> VASP software and PAW potentials must be obtained through official VASP
-channels.
+> VASP software and PAW potentials must be obtained through official VASP channels.
