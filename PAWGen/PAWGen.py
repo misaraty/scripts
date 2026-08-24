@@ -4,6 +4,8 @@ import sys
 
 os.chdir(os.path.split(os.path.realpath(__file__))[0])
 
+# https://vasp.at/wiki/Available_pseudopotentials
+
 # POSCAR location
 # windows
 poscar_path = "C:/Users/misar/Desktop/"
