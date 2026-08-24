@@ -147,7 +147,7 @@ python PAWGen.py basic_gw
 
 ## Example Output
 
-```text
+```bash
 Mode: default
 
 Element  Potential     ENMAX (eV)   Valence
