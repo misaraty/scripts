@@ -24,6 +24,7 @@
 1. **[PCFNO](./PCFNO)** - A physically constrained Fourier neural operator for nonautoregressive prediction.
 1. **[AGPD](./AGPD)** - Automatically Generating Python Dependencies (AGPD).
 1. **[PAWGen](./PAWGen)** - A lightweight Python tool for automatically generating VASP POTCAR files from POSCAR.
+1. **[PRISM](./PRISM)** - Pymatgen Random-alloy and point-defect Integrated Structure Maker.
 
 ## Computational Software Environment
 
