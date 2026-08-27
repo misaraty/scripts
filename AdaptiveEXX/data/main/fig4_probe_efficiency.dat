@@ -1,0 +1,7 @@
+system	strategy	mean_probes_when_monitored	total_monitoring_probes	scf_evaluations	total_wall_time_s	energy_deviation_from_vanilla_meV_per_atom	rebuilds	reuses
+Si8	Fixed 1	1.0	24.0	30	33.793433501	4.6161961124579664e-9	8	22
+Si8	Fixed 3	3.0	72.0	30	39.134304902	4.6161961124579664e-9	8	22
+Si8	Fixed 5	5.0	120.0	30	44.592615663	4.6161961124579664e-9	8	22
+MgO2	Fixed 1	1.0	22.0	28	3.760179367	9.667426413524538e-10	7	21
+MgO2	Fixed 3	3.0	66.0	28	4.063750667	9.667426413524538e-10	7	21
+MgO2	Fixed 5	5.0	110.0	28	4.428032798	9.667426413524538e-10	7	21

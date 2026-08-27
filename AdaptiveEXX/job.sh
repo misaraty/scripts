@@ -1,0 +1,8 @@
+#!/bin/bash
+#SBATCH --job-name=AdaptiveEXX.jl_v7
+#SBATCH --output=%j.out
+#SBATCH --partition=debug
+#SBATCH --ntasks=8
+#SBATCH --exclusive
+
+julia AdaptiveEXX.jl && python redraw_paper.py

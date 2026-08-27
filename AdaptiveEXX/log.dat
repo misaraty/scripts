@@ -1,0 +1,66 @@
+project	AdaptiveEXX.jl
+timestamp	2026-08-14T16:24:57
+julia_version	1.11.7
+dftk_version	0.7.26
+pseudopotentialdata_version	0.3.2
+pseudopotential_family	dojo.nc.sr.pbe.v0_4_1.standard.upf
+backend	CPU
+cpu	goldmont
+os	Linux
+architecture	x86_64
+cpu_threads	24
+julia_threads	1
+blas_threads	12
+hybrid_kpoint_scope	Gamma only
+total_memory_GiB	125.253
+free_memory_GiB	118.882
+rng_seed	20260811
+dftk_seed_type	UInt64
+controller_policy	single-probe stochastic defect monitoring with defect-triggered rebuild and five-call safety cap
+event	start	2026-08-14T16:24:57
+system_start	Si2	PBE0	2026-08-14T16:24:57
+method_done	Si2	Vanilla_EXX	converged	true	evaluations	25	inner_s	11.602808517	wall_s	11.814697863	energy_Ha	-7.734152742833537
+method_done	Si2	ACE_occupied	converged	true	evaluations	25	inner_s	4.298171143	wall_s	4.502508492	energy_Ha	-7.734152742833537
+method_done	Si2	ACE_full	converged	true	evaluations	25	inner_s	4.94679074	wall_s	4.979649314	energy_Ha	-7.734152742833534
+method_done	Si2	AdaptiveEXX	converged	true	evaluations	29	inner_s	5.350304776	wall_s	5.553329808	energy_Ha	-7.7341527428325705
+system_start	C2	PBE0	2026-08-14T16:25:29
+method_done	C2	Vanilla_EXX	converged	true	evaluations	26	inner_s	2.369864219	wall_s	2.378559617	energy_Ha	-10.785351262074306
+method_done	C2	ACE_occupied	converged	true	evaluations	26	inner_s	0.766896986	wall_s	0.775189135	energy_Ha	-10.78535126207432
+method_done	C2	ACE_full	converged	true	evaluations	26	inner_s	1.071051395	wall_s	1.080041241	energy_Ha	-10.7853512620743
+method_done	C2	AdaptiveEXX	converged	true	evaluations	27	inner_s	0.71580248	wall_s	0.72425681	energy_Ha	-10.785351262074279
+system_start	MgO2	PBE0	2026-08-14T16:25:35
+method_done	MgO2	Vanilla_EXX	converged	true	evaluations	26	inner_s	13.215393944	wall_s	13.254942466	energy_Ha	-75.54121258229954
+method_done	MgO2	ACE_occupied	converged	true	evaluations	26	inner_s	3.630071575	wall_s	3.663152865	energy_Ha	-75.54121258229956
+method_done	MgO2	ACE_full	converged	true	evaluations	26	inner_s	4.41311626	wall_s	4.44393182	energy_Ha	-75.54121258229954
+method_done	MgO2	AdaptiveEXX	converged	true	evaluations	28	inner_s	2.730038036	wall_s	2.758643086	energy_Ha	-75.54121258229947
+system_start	LiF2	PBE0	2026-08-14T16:26:01
+method_done	LiF2	Vanilla_EXX	converged	true	evaluations	25	inner_s	7.220784453	wall_s	7.240493646	energy_Ha	-31.564584667815257
+method_done	LiF2	ACE_occupied	converged	true	evaluations	26	inner_s	2.057713059	wall_s	2.077790619	energy_Ha	-31.56458466781523
+method_done	LiF2	ACE_full	converged	true	evaluations	26	inner_s	2.631825557	wall_s	2.652866723	energy_Ha	-31.564584667815247
+method_done	LiF2	AdaptiveEXX	converged	true	evaluations	26	inner_s	1.783872837	wall_s	1.804796194	energy_Ha	-31.564584667815176
+system_start	Si8	PBE0	2026-08-14T16:26:17
+method_done	Si8	Vanilla_EXX	converged	true	evaluations	27	inner_s	239.721490548	wall_s	240.423545956	energy_Ha	-32.590224223437225
+method_done	Si8	ACE_occupied	converged	true	evaluations	27	inner_s	52.64872556	wall_s	53.356888058	energy_Ha	-32.590224223437225
+method_done	Si8	ACE_full	converged	true	evaluations	27	inner_s	58.992811335	wall_s	59.69654787	energy_Ha	-32.590224223437204
+method_done	Si8	AdaptiveEXX	converged	true	evaluations	30	inner_s	34.632216638	wall_s	35.077179068	energy_Ha	-32.59022422343587
+system_start	Si2_HSE06	HSE06	2026-08-14T16:32:54
+method_done	Si2_HSE06	Vanilla_EXX	converged	true	evaluations	26	inner_s	14.773760394	wall_s	14.84562395	energy_Ha	-8.39857486378113
+method_done	Si2_HSE06	ACE_occupied	converged	true	evaluations	26	inner_s	5.364869785	wall_s	5.438812451	energy_Ha	-8.398574879344718
+method_done	Si2_HSE06	ACE_full	converged	true	evaluations	26	inner_s	6.281838595	wall_s	6.35201926	energy_Ha	-8.3985748789286
+method_done	Si2_HSE06	AdaptiveEXX	converged	true	evaluations	39	inner_s	7.650516148	wall_s	7.723801782	energy_Ha	-8.398574883612037
+system_start	MgO2_HSE06	HSE06	2026-08-14T16:33:32
+method_done	MgO2_HSE06	Vanilla_EXX	converged	true	evaluations	26	inner_s	16.798253314	wall_s	16.853817553	energy_Ha	-78.79916091947231
+method_done	MgO2_HSE06	ACE_occupied	converged	true	evaluations	26	inner_s	4.54121065	wall_s	4.596787365	energy_Ha	-78.79916088681819
+method_done	MgO2_HSE06	ACE_full	converged	true	evaluations	26	inner_s	5.274798891	wall_s	5.330259547	energy_Ha	-78.79916102210514
+method_done	MgO2_HSE06	AdaptiveEXX	converged	true	evaluations	40	inner_s	5.511273461	wall_s	5.566336321	energy_Ha	-78.79916096781157
+probe_sensitivity_done	Si8	probes	3	tol	0.01	converged	true	evaluations	31	wall_s	38.362272725	monitoring_probes	75.0
+probe_sensitivity_done	Si8	probes	3	tol	0.003	converged	true	evaluations	30	wall_s	39.134304902	monitoring_probes	72.0
+probe_sensitivity_done	Si8	probes	3	tol	0.001	converged	true	evaluations	28	wall_s	38.42978704	monitoring_probes	69.0
+probe_sensitivity_done	Si8	probes	1	tol	0.003	converged	true	evaluations	30	wall_s	33.793433501	monitoring_probes	24.0
+probe_sensitivity_done	Si8	probes	5	tol	0.003	converged	true	evaluations	30	wall_s	44.592615663	monitoring_probes	120.0
+probe_sensitivity_done	MgO2	probes	1	tol	0.003	converged	true	evaluations	28	wall_s	3.760179367	monitoring_probes	22.0
+probe_sensitivity_done	MgO2	probes	3	tol	0.003	converged	true	evaluations	28	wall_s	4.063750667	monitoring_probes	66.0
+probe_sensitivity_done	MgO2	probes	5	tol	0.003	converged	true	evaluations	28	wall_s	4.428032798	monitoring_probes	110.0
+scaling_done	Si16	ACE_occupied	converged	true	wall_s	342.619692118
+scaling_done	Si16	AdaptiveEXX	converged	true	wall_s	205.740735586
+event	finish	2026-08-14T16:56:02	production_wall_s	1864.709533742
