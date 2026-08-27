@@ -5,4 +5,4 @@
 #SBATCH --ntasks=8
 #SBATCH --exclusive
 
-julia AdaptiveEXX.jl && python redraw_paper.py
+julia AdaptiveEXX.jl && python plot_v4.py
