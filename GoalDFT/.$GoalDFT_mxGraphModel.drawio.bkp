@@ -1,0 +1,75 @@
+<mxGraphModel dx="946" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+    <mxCell id="gd_title" value="&lt;div&gt;&lt;b&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;GoalDFT: goal-oriented joint numerical-error control&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=20;" parent="1" vertex="1">
+      <mxGeometry x="380" y="35" width="900" height="45" as="geometry" />
+    </mxCell>
+    <mxCell id="gd_target" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Requested observable&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;i&gt;Q&lt;/i&gt; ∈ {&lt;i&gt;E&lt;/i&gt;, &lt;i&gt;F&lt;/i&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Target tolerance &lt;i&gt;τ&lt;/i&gt;&lt;sub&gt;Q&lt;/sub&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;align=center;verticalAlign=middle;strokeWidth=1.5;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+      <mxGeometry x="70" y="155" width="220" height="90" as="geometry" />
+    </mxCell>
+    <mxCell id="gd_state" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Current numerical state&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;i&gt;θ&lt;/i&gt; = (&lt;i&gt;E&lt;/i&gt;&lt;sub&gt;cut&lt;/sub&gt;, &lt;i&gt;n&lt;/i&gt;&lt;sub&gt;k&lt;/sub&gt;, &lt;i&gt;ε&lt;/i&gt;&lt;sub&gt;SCF&lt;/sub&gt;)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;align=center;verticalAlign=middle;strokeWidth=1.5;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+      <mxGeometry x="350" y="155" width="270" height="90" as="geometry" />
+    </mxCell>
+    <mxCell id="gd_est" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Estimated controllable error&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;ê&lt;sub&gt;Q&lt;/sub&gt; = &lt;i&gt;η&lt;/i&gt;&lt;sub&gt;PW&lt;/sub&gt; + &lt;i&gt;η&lt;/i&gt;&lt;sub&gt;k&lt;/sub&gt; + &lt;i&gt;η&lt;/i&gt;&lt;sub&gt;SCF&lt;/sub&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;align=center;verticalAlign=middle;strokeWidth=1.5;fillColor=#dae8fc;strokeColor=#1f78b4;" parent="1" vertex="1">
+      <mxGeometry x="680" y="155" width="300" height="90" as="geometry" />
+    </mxCell>
+    <mxCell id="gd_stop" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Stopping test&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;ê&lt;sub&gt;Q&lt;/sub&gt; ≤ &lt;i&gt;sτ&lt;/i&gt;&lt;sub&gt;Q&lt;/sub&gt; ?&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;align=center;verticalAlign=middle;strokeWidth=1.5;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+      <mxGeometry x="1050" y="150" width="230" height="100" as="geometry" />
+    </mxCell>
+    <mxCell id="gd_verify" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Local &lt;i&gt;k&lt;/i&gt;-point verification&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Boundary / near-threshold sensitive&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;align=center;verticalAlign=middle;strokeWidth=1.5;fillColor=#e1d5e7;strokeColor=#6a3d9a;" parent="1" vertex="1">
+      <mxGeometry x="1080" y="340" width="270" height="80" as="geometry" />
+    </mxCell>
+    <mxCell id="gd_verdict" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Stop after verification?&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;align=center;verticalAlign=middle;strokeWidth=1.5;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+      <mxGeometry x="1080" y="510" width="250" height="90" as="geometry" />
+    </mxCell>
+    <mxCell id="gd_accept" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Accept final state&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;align=center;verticalAlign=middle;strokeWidth=1.5;fillColor=#d5e8d4;strokeColor=#33a02c;" parent="1" vertex="1">
+      <mxGeometry x="1120" y="700" width="230" height="75" as="geometry" />
+    </mxCell>
+    <mxCell id="gd_action" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Cost-aware action selection&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;i&gt;j&lt;/i&gt;&lt;sup&gt;*&lt;/sup&gt; = arg max&lt;sub&gt;j&lt;/sub&gt; &lt;i&gt;η&lt;/i&gt;&lt;sub&gt;j&lt;/sub&gt;/Δ&lt;i&gt;t&lt;/i&gt;&lt;sub&gt;j&lt;/sub&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;align=center;verticalAlign=middle;strokeWidth=1.5;fillColor=#ffe6cc;strokeColor=#ff7f00;" parent="1" vertex="1">
+      <mxGeometry x="660" y="430" width="300" height="90" as="geometry" />
+    </mxCell>
+    <mxCell id="gd_refine" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Refine selected control&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;i&gt;E&lt;/i&gt;&lt;sub&gt;cut&lt;/sub&gt;, &lt;i&gt;n&lt;/i&gt;&lt;sub&gt;k&lt;/sub&gt;, or &lt;i&gt;ε&lt;/i&gt;&lt;sub&gt;SCF&lt;/sub&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Reuse available state&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;align=center;verticalAlign=middle;strokeWidth=1.5;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+      <mxGeometry x="300" y="430" width="280" height="90" as="geometry" />
+    </mxCell>
+    <mxCell id="gd_params" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Stopping factor&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;i&gt;s&lt;/i&gt; = 0.65&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;align=center;verticalAlign=middle;strokeWidth=1.2;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+      <mxGeometry x="70" y="690" width="220" height="70" as="geometry" />
+    </mxCell>
+    <mxCell id="gd_note" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Verification protects stopping near the target or nominal &lt;i&gt;k&lt;/i&gt;-grid boundary&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;align=center;verticalAlign=middle;strokeWidth=1.2;dashed=1;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+      <mxGeometry x="720" y="650" width="310" height="65" as="geometry" />
+    </mxCell>
+    <mxCell id="gd_e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="gd_target" target="gd_state" edge="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="gd_e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="gd_state" target="gd_est" edge="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="gd_e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="gd_est" target="gd_stop" edge="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="gd_e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="gd_stop" target="gd_action" edge="1" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;No&lt;/span&gt;">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="gd_e5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="gd_stop" target="gd_verify" edge="1" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;Yes&lt;/span&gt;">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="gd_e6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="gd_verify" target="gd_verdict" edge="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="gd_e7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="gd_verdict" target="gd_accept" edge="1" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;Yes&lt;/span&gt;">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="gd_e8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="gd_verdict" target="gd_action" edge="1" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;No&lt;/span&gt;">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="gd_e9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="gd_action" target="gd_refine" edge="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="gd_e10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" parent="1" source="gd_refine" target="gd_state" edge="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="gd_e11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;dashed=1;" parent="1" source="gd_note" target="gd_verify" edge="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+  </root>
+</mxGraphModel>

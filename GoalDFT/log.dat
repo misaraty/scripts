@@ -1,0 +1,178 @@
+project	GoalDFT.jl
+timestamp	2026-08-14T07:34:47
+julia_version	1.11.7
+dftk_version	0.7.26
+pseudopotentialdata_version	0.3.2
+pseudopotential_family	dojo.nc.sr.pbe.v0_4_1.standard.upf
+backend	CPU
+cpu	goldmont
+os	Linux
+architecture	x86_64
+cpu_threads	24
+julia_threads	1
+blas_threads	12
+total_memory_GiB	125.253
+free_memory_GiB	118.748
+rng_seed	20260811
+dftk_seed_type	UInt64
+safety_factor	0.65
+near_threshold_factor	1.1
+near_threshold_verify_inflation	1.1
+controller_policy	lazy k-point probing with decay prediction, near-threshold direct verification, boundary stop verification, one anchored SCF probe, shared batch cache
+production_temperature_Ha	0.0
+occupation_warmstart_temperature_Ha	0.001
+occupation_warmstart_policy	finite-temperature density preconditioner only after zero-temperature occupation failure; final reported SCF remains zero-temperature
+event	start	2026-08-14T07:34:47
+reference_start	Si	energy	2026-08-14T07:34:47
+scf_run	Si	energy	Ecut	55.0	kgrid	8	tol	1.0e-9	converged	true	wall_s	14.305591904	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	Si	energy	Ecut	70.0	kgrid	10	tol	1.0e-10	converged	true	wall_s	29.958492224	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+reference_validation	Si	energy	difference	1.724760455932692
+scf_run	Si	energy	Ecut	28.0	kgrid	2	tol	0.0001	converged	true	wall_s	0.555833132	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	Si	energy	Ecut	28.0	kgrid	2	tol	1.0e-5	converged	true	wall_s	0.729598727	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	Si	energy	Ecut	28.0	kgrid	3	tol	0.0001	converged	true	wall_s	0.614185626	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	Si	energy	Ecut	28.0	kgrid	4	tol	0.0001	converged	true	wall_s	0.763408235	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	Si	energy	Ecut	28.0	kgrid	5	tol	0.0001	converged	true	wall_s	1.009032933	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	Si	energy	Ecut	28.0	kgrid	6	tol	0.0001	converged	true	wall_s	1.436298229	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	Si	energy	Ecut	28.0	kgrid	7	tol	0.0001	converged	true	wall_s	1.675524567	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	Si	energy	Ecut	28.0	kgrid	8	tol	0.0001	converged	true	wall_s	2.261194659	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	Si	energy	Ecut	33.04	kgrid	3	tol	1.0e-5	converged	true	wall_s	0.669598651	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	Si	energy	Ecut	38.987199999999994	kgrid	4	tol	1.0000000000000002e-6	converged	true	wall_s	2.153550507	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	Si	energy	Ecut	46.00489599999999	kgrid	5	tol	1.0000000000000002e-7	converged	true	wall_s	3.089672069	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	Si	energy	Ecut	54.285777279999984	kgrid	6	tol	1.0000000000000002e-8	converged	true	wall_s	7.467384655	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	Si	energy	Ecut	55.0	kgrid	7	tol	1.0000000000000003e-9	converged	true	wall_s	8.975754554	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	Si	energy	Ecut	55.0	kgrid	8	tol	1.0e-9	converged	true	wall_s	13.318138547	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+target_done	Si	energy	10.0	success	true	actual_error	4.738168812841632	adaptive_cost_s	21.243374034
+scf_run	Si	energy	Ecut	28.0	kgrid	9	tol	0.0001	converged	true	wall_s	2.314593616	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+target_done	Si	energy	5.0	success	true	actual_error	1.9502374421315727	adaptive_cost_s	27.304606208
+target_done	Si	energy	2.0	success	true	actual_error	0.8282470814649204	adaptive_cost_s	31.615974170999998
+reference_start	C	energy	2026-08-14T07:36:49
+scf_run	C	energy	Ecut	65.0	kgrid	8	tol	1.0e-9	converged	true	wall_s	4.178314666	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	C	energy	Ecut	80.0	kgrid	10	tol	1.0e-10	converged	true	wall_s	13.064228257	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+reference_validation	C	energy	difference	0.4170709011547484
+scf_run	C	energy	Ecut	32.0	kgrid	2	tol	0.0001	converged	true	wall_s	0.170636148	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	C	energy	Ecut	32.0	kgrid	2	tol	1.0e-5	converged	true	wall_s	0.191864943	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	C	energy	Ecut	32.0	kgrid	3	tol	0.0001	converged	true	wall_s	0.192240494	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	C	energy	Ecut	32.0	kgrid	4	tol	0.0001	converged	true	wall_s	0.293944122	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	C	energy	Ecut	32.0	kgrid	5	tol	0.0001	converged	true	wall_s	0.351815119	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	C	energy	Ecut	32.0	kgrid	6	tol	0.0001	converged	true	wall_s	0.50730712	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	C	energy	Ecut	37.76	kgrid	6	tol	0.0001	converged	true	wall_s	0.531120308	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	C	energy	Ecut	37.76	kgrid	7	tol	0.0001	converged	true	wall_s	0.642623341	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	C	energy	Ecut	37.76	kgrid	8	tol	0.0001	converged	true	wall_s	0.861500587	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	C	energy	Ecut	37.76	kgrid	3	tol	1.0e-5	converged	true	wall_s	0.233606419	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	C	energy	Ecut	44.556799999999996	kgrid	4	tol	1.0000000000000002e-6	converged	true	wall_s	0.471061057	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	C	energy	Ecut	52.577023999999994	kgrid	5	tol	1.0000000000000002e-7	converged	true	wall_s	0.940844997	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	C	energy	Ecut	62.04088831999999	kgrid	6	tol	1.0000000000000002e-8	converged	true	wall_s	1.760265837	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	C	energy	Ecut	65.0	kgrid	7	tol	1.0000000000000003e-9	converged	true	wall_s	3.197627679	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+target_done	C	energy	10.0	success	true	actual_error	3.90174251322565	adaptive_cost_s	11.778300546999999
+scf_run	C	energy	Ecut	44.556799999999996	kgrid	7	tol	0.0001	converged	true	wall_s	0.620579482	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	C	energy	Ecut	44.556799999999996	kgrid	8	tol	0.0001	converged	true	wall_s	0.832972122	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	C	energy	Ecut	65.0	kgrid	8	tol	1.0e-9	converged	true	wall_s	4.427010605	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+target_done	C	energy	5.0	success	true	actual_error	1.491764265538808	adaptive_cost_s	13.820712935999998
+scf_run	C	energy	Ecut	44.556799999999996	kgrid	9	tol	0.0001	converged	true	wall_s	0.999309312	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+target_done	C	energy	2.0	success	true	actual_error	0.5578985727923734	adaptive_cost_s	17.007053314
+reference_start	MgO	energy	2026-08-14T07:37:42
+scf_run	MgO	energy	Ecut	65.0	kgrid	8	tol	1.0e-9	converged	true	wall_s	16.448547391	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	MgO	energy	Ecut	80.0	kgrid	10	tol	1.0e-10	converged	true	wall_s	30.025043871	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+reference_validation	MgO	energy	difference	0.11880780461980558
+scf_run	MgO	energy	Ecut	32.0	kgrid	2	tol	0.0001	converged	true	wall_s	0.317121086	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	MgO	energy	Ecut	32.0	kgrid	2	tol	1.0e-5	converged	true	wall_s	0.382806228	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	MgO	energy	Ecut	32.0	kgrid	3	tol	0.0001	converged	true	wall_s	0.369907484	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	MgO	energy	Ecut	37.76	kgrid	3	tol	0.0001	converged	true	wall_s	0.637102952	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	MgO	energy	Ecut	37.76	kgrid	4	tol	0.0001	converged	true	wall_s	1.04937593	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	MgO	energy	Ecut	37.76	kgrid	5	tol	0.0001	converged	true	wall_s	1.256144545	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	MgO	energy	Ecut	44.556799999999996	kgrid	5	tol	0.0001	converged	true	wall_s	1.301526599	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	MgO	energy	Ecut	44.556799999999996	kgrid	6	tol	0.0001	converged	true	wall_s	1.970865547	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	MgO	energy	Ecut	37.76	kgrid	3	tol	1.0e-5	converged	true	wall_s	0.772863892	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	MgO	energy	Ecut	44.556799999999996	kgrid	4	tol	1.0000000000000002e-6	converged	true	wall_s	1.54982804	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	MgO	energy	Ecut	52.577023999999994	kgrid	5	tol	1.0000000000000002e-7	converged	true	wall_s	2.846682837	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+target_done	MgO	energy	10.0	success	true	actual_error	1.5354313491193048	adaptive_cost_s	18.477007925
+scf_run	MgO	energy	Ecut	62.04088831999999	kgrid	6	tol	1.0000000000000002e-8	converged	true	wall_s	8.253923851	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+target_done	MgO	energy	5.0	success	true	actual_error	1.5354313491193048	adaptive_cost_s	18.477007925
+scf_run	MgO	energy	Ecut	44.556799999999996	kgrid	7	tol	0.0001	converged	true	wall_s	2.366309924	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+target_done	MgO	energy	2.0	success	true	actual_error	0.7027822380995842	adaptive_cost_s	24.15558162
+reference_start	LiF	energy	2026-08-14T07:39:12
+scf_run	LiF	energy	Ecut	70.0	kgrid	8	tol	1.0e-9	converged	true	wall_s	11.513003594	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	LiF	energy	Ecut	85.0	kgrid	10	tol	1.0e-10	converged	true	wall_s	20.141038913	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+reference_validation	LiF	energy	difference	0.063049032072882
+scf_run	LiF	energy	Ecut	36.0	kgrid	2	tol	0.0001	converged	true	wall_s	0.273791229	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	LiF	energy	Ecut	36.0	kgrid	2	tol	1.0e-5	converged	true	wall_s	0.301984615	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	LiF	energy	Ecut	36.0	kgrid	3	tol	0.0001	converged	true	wall_s	0.243793019	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	LiF	energy	Ecut	36.0	kgrid	4	tol	0.0001	converged	true	wall_s	0.377136892	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	LiF	energy	Ecut	42.48	kgrid	4	tol	0.0001	converged	true	wall_s	0.666316762	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	LiF	energy	Ecut	42.48	kgrid	5	tol	0.0001	converged	true	wall_s	0.77390208	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	LiF	energy	Ecut	42.48	kgrid	3	tol	1.0e-5	converged	true	wall_s	0.603806222	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	LiF	energy	Ecut	50.1264	kgrid	4	tol	1.0000000000000002e-6	converged	true	wall_s	1.567594488	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	LiF	energy	Ecut	59.149151999999994	kgrid	5	tol	1.0000000000000002e-7	converged	true	wall_s	1.870945527	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+target_done	LiF	energy	10.0	success	true	actual_error	1.2582903224116364	adaptive_cost_s	5.336006866
+scf_run	LiF	energy	Ecut	42.48	kgrid	6	tol	0.0001	converged	true	wall_s	1.313235822	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+target_done	LiF	energy	5.0	success	true	actual_error	0.5214966330056984	adaptive_cost_s	8.02990723
+target_done	LiF	energy	2.0	success	true	actual_error	0.5214966330056984	adaptive_cost_s	8.02990723
+reference_start	Si_displaced	force	2026-08-14T07:40:00
+scf_run	Si_displaced	force	Ecut	60.0	kgrid	8	tol	1.0e-9	converged	true	wall_s	238.856484152	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	Si_displaced	force	Ecut	75.0	kgrid	10	tol	1.0e-10	converged	true	wall_s	729.190332998	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+reference_validation	Si_displaced	force	difference	0.000743646347396726
+scf_run	Si_displaced	force	Ecut	30.0	kgrid	2	tol	1.0e-5	converged	true	wall_s	1.072374913	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	Si_displaced	force	Ecut	30.0	kgrid	2	tol	1.0000000000000002e-6	converged	true	wall_s	1.188522946	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	Si_displaced	force	Ecut	30.0	kgrid	3	tol	1.0e-5	converged	true	wall_s	2.712997835	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	Si_displaced	force	Ecut	30.0	kgrid	4	tol	1.0e-5	converged	true	wall_s	5.099322898	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	Si_displaced	force	Ecut	30.0	kgrid	5	tol	1.0e-5	converged	true	wall_s	11.392172927	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	Si_displaced	force	Ecut	35.4	kgrid	3	tol	1.0000000000000002e-6	converged	true	wall_s	5.079061472	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	Si_displaced	force	Ecut	41.772	kgrid	4	tol	1.0000000000000002e-7	converged	true	wall_s	12.985694677	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	Si_displaced	force	Ecut	49.29096	kgrid	5	tol	1.0000000000000002e-8	converged	true	wall_s	31.593921751	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+target_done	Si_displaced	force	0.05	success	true	actual_error	0.02581332290750326	adaptive_cost_s	33.206050540999996
+scf_run	Si_displaced	force	Ecut	30.0	kgrid	6	tol	1.0e-5	converged	true	wall_s	16.237784915	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	Si_displaced	force	Ecut	58.16333279999999	kgrid	6	tol	1.0000000000000003e-9	converged	true	wall_s	86.552616979	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+target_done	Si_displaced	force	0.02	success	true	actual_error	0.010377456341357942	adaptive_cost_s	62.165220493999996
+reference_start	MgO_displaced	force	2026-08-14T08:00:09
+scf_run	MgO_displaced	force	Ecut	68.0	kgrid	8	tol	1.0e-9	converged	true	wall_s	244.230188035	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	MgO_displaced	force	Ecut	82.0	kgrid	10	tol	1.0e-10	converged	true	wall_s	575.495291896	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+reference_validation	MgO_displaced	force	difference	1.0400258476361254e-5
+scf_run	MgO_displaced	force	Ecut	34.0	kgrid	2	tol	1.0e-5	converged	true	wall_s	1.009629275	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	MgO_displaced	force	Ecut	34.0	kgrid	2	tol	1.0000000000000002e-6	converged	true	wall_s	1.091772829	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	MgO_displaced	force	Ecut	34.0	kgrid	3	tol	1.0e-5	converged	true	wall_s	2.725056942	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	MgO_displaced	force	Ecut	40.12	kgrid	3	tol	1.0000000000000002e-6	converged	true	wall_s	5.471427872	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	MgO_displaced	force	Ecut	47.34159999999999	kgrid	4	tol	1.0000000000000002e-7	converged	true	wall_s	16.993907457	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+target_done	MgO_displaced	force	0.05	success	true	actual_error	0.043058219984356626	adaptive_cost_s	6.790831548
+scf_run	MgO_displaced	force	Ecut	34.0	kgrid	4	tol	1.0e-5	converged	true	wall_s	6.564940527	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	MgO_displaced	force	Ecut	34.0	kgrid	5	tol	1.0e-5	converged	true	wall_s	12.136082221	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+target_done	MgO_displaced	force	0.02	success	true	actual_error	0.004873040243834393	adaptive_cost_s	39.690820927000004
+reference_start	TiO2_displaced	force	2026-08-14T08:15:11
+occupation_warmstart_start	TiO2_displaced	force	Ecut	65.0	kgrid	6	target_tol	1.0e-9	temperature_Ha	0.001
+occupation_warmstart_done	TiO2_displaced	force	converged	true	wall_s	1077.196913027	warm_tol	1.0e-6
+scf_run	TiO2_displaced	force	Ecut	65.0	kgrid	6	tol	1.0e-9	converged	true	wall_s	3046.670089452	occupation_warmstart	true	warmstart_wall_s	1077.196913027	warmstart_converged	true
+occupation_warmstart_start	TiO2_displaced	force	Ecut	80.0	kgrid	8	target_tol	1.0e-10	temperature_Ha	0.001
+occupation_warmstart_done	TiO2_displaced	force	converged	true	wall_s	3129.253891995	warm_tol	1.0e-6
+scf_run	TiO2_displaced	force	Ecut	80.0	kgrid	8	tol	1.0e-10	converged	true	wall_s	9342.717781827	occupation_warmstart	true	warmstart_wall_s	3129.253891995	warmstart_converged	true
+reference_validation	TiO2_displaced	force	difference	0.0015242422993290976
+scf_run	TiO2_displaced	force	Ecut	32.0	kgrid	2	tol	1.0e-5	converged	true	wall_s	14.262944116	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+scf_run	TiO2_displaced	force	Ecut	32.0	kgrid	2	tol	1.0000000000000002e-6	converged	true	wall_s	15.66278756	occupation_warmstart	false	warmstart_wall_s	0.0	warmstart_converged	true
+occupation_warmstart_start	TiO2_displaced	force	Ecut	32.0	kgrid	3	target_tol	1.0e-5	temperature_Ha	0.001
+occupation_warmstart_done	TiO2_displaced	force	converged	true	wall_s	37.626794249	warm_tol	1.0e-5
+scf_run	TiO2_displaced	force	Ecut	32.0	kgrid	3	tol	1.0e-5	converged	true	wall_s	91.357861479	occupation_warmstart	true	warmstart_wall_s	37.626794249	warmstart_converged	true
+occupation_warmstart_start	TiO2_displaced	force	Ecut	32.0	kgrid	4	target_tol	1.0e-5	temperature_Ha	0.001
+occupation_warmstart_done	TiO2_displaced	force	converged	true	wall_s	86.791039581	warm_tol	1.0e-5
+scf_run	TiO2_displaced	force	Ecut	32.0	kgrid	4	tol	1.0e-5	converged	true	wall_s	193.02674036	occupation_warmstart	true	warmstart_wall_s	86.791039581	warmstart_converged	true
+occupation_warmstart_start	TiO2_displaced	force	Ecut	37.76	kgrid	4	target_tol	1.0e-5	temperature_Ha	0.001
+occupation_warmstart_done	TiO2_displaced	force	converged	true	wall_s	136.378783008	warm_tol	1.0e-5
+scf_run	TiO2_displaced	force	Ecut	37.76	kgrid	4	tol	1.0e-5	converged	true	wall_s	314.353520593	occupation_warmstart	true	warmstart_wall_s	136.378783008	warmstart_converged	true
+occupation_warmstart_start	TiO2_displaced	force	Ecut	37.76	kgrid	5	target_tol	1.0e-5	temperature_Ha	0.001
+occupation_warmstart_done	TiO2_displaced	force	converged	true	wall_s	266.023869738	warm_tol	1.0e-5
+scf_run	TiO2_displaced	force	Ecut	37.76	kgrid	5	tol	1.0e-5	converged	true	wall_s	573.468664744	occupation_warmstart	true	warmstart_wall_s	266.023869738	warmstart_converged	true
+occupation_warmstart_start	TiO2_displaced	force	Ecut	37.76	kgrid	6	target_tol	1.0e-5	temperature_Ha	0.001
+occupation_warmstart_done	TiO2_displaced	force	converged	true	wall_s	490.670454589	warm_tol	1.0e-5
+scf_run	TiO2_displaced	force	Ecut	37.76	kgrid	6	tol	1.0e-5	converged	true	wall_s	1074.92619175	occupation_warmstart	true	warmstart_wall_s	490.670454589	warmstart_converged	true
+occupation_warmstart_start	TiO2_displaced	force	Ecut	37.76	kgrid	3	target_tol	1.0000000000000002e-6	temperature_Ha	0.001
+occupation_warmstart_done	TiO2_displaced	force	converged	true	wall_s	63.012571719	warm_tol	1.0000000000000002e-6
+scf_run	TiO2_displaced	force	Ecut	37.76	kgrid	3	tol	1.0000000000000002e-6	converged	true	wall_s	150.215402477	occupation_warmstart	true	warmstart_wall_s	63.012571719	warmstart_converged	true
+occupation_warmstart_start	TiO2_displaced	force	Ecut	44.556799999999996	kgrid	4	target_tol	1.0000000000000002e-7	temperature_Ha	0.001
+occupation_warmstart_done	TiO2_displaced	force	converged	true	wall_s	180.452059271	warm_tol	1.0e-6
+scf_run	TiO2_displaced	force	Ecut	44.556799999999996	kgrid	4	tol	1.0000000000000002e-7	converged	true	wall_s	458.286200939	occupation_warmstart	true	warmstart_wall_s	180.452059271	warmstart_converged	true
+occupation_warmstart_start	TiO2_displaced	force	Ecut	52.577023999999994	kgrid	5	target_tol	1.0000000000000002e-8	temperature_Ha	0.001
+occupation_warmstart_done	TiO2_displaced	force	converged	true	wall_s	405.834331344	warm_tol	1.0e-6
+scf_run	TiO2_displaced	force	Ecut	52.577023999999994	kgrid	5	tol	1.0000000000000002e-8	converged	true	wall_s	1025.32926008	occupation_warmstart	true	warmstart_wall_s	405.834331344	warmstart_converged	true
+target_done	TiO2_displaced	force	0.05	success	true	actual_error	0.0056050991955331544	adaptive_cost_s	2865.896892257
+occupation_warmstart_start	TiO2_displaced	force	Ecut	62.04088831999999	kgrid	6	target_tol	1.0000000000000003e-9	temperature_Ha	0.001
+occupation_warmstart_done	TiO2_displaced	force	converged	true	wall_s	1030.650753273	warm_tol	1.0e-6
+scf_run	TiO2_displaced	force	Ecut	62.04088831999999	kgrid	6	tol	1.0000000000000003e-9	converged	true	wall_s	2940.843174744	occupation_warmstart	true	warmstart_wall_s	1030.650753273	warmstart_converged	true
+target_done	TiO2_displaced	force	0.02	success	true	actual_error	0.0056050991955331544	adaptive_cost_s	2865.896892257
+event	finish	2026-08-14T13:47:28	production_wall_s	22360.988845173

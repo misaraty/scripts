@@ -26,6 +26,7 @@
 1. **[PAWGen](./PAWGen)** - A lightweight Python tool for automatically generating VASP POTCAR files from POSCAR.
 1. **[PRISM](./PRISM)** - Pymatgen Random-alloy and point-defect Integrated Structure Maker.
 1. **[AdaptiveEXX](./AdaptiveEXX)** - Single-probe defect monitoring for adaptive ACE reuse and reconstruction.
+1. **[GoalDFT](./GoalDFT)** - A implementation for joint numerical error control in plane-wave DFT.
 
 ## Computational Software Environment
 
