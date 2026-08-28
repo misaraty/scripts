@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=AdaptiveEXX.jl_v7
+#SBATCH --job-name=AdaptiveEXX
 #SBATCH --output=%j.out
 #SBATCH --partition=debug
 #SBATCH --ntasks=8
