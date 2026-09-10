@@ -414,9 +414,9 @@ Performance benchmarking was conducted for `PYXAID`, `MAXAID`, and `JUXAID` (dif
 
 Original `PYXAID` references:
 
-* Akimov A V, Prezhdo O V. The PYXAID program for non-adiabatic molecular dynamics in condensed matter systems. Journal of Chemical Theory and Computation, 2013, 9(11): 4959–4972.
+* [Akimov, A. V.; Prezhdo, O. V*. The Pyxaid Program for Non-Adiabatic Molecular Dynamics in Condensed Matter Systems. J. Chem. Theory Comput. 2013, 9, 4959–4972](https://pubs.acs.org/jctcce/article-abstract/9/11/4959/843563/The-PYXAID-Program-for-Non-Adiabatic-Molecular?redirectedFrom=fulltext)
 
-* Akimov A V, Prezhdo O V. Advanced capabilities of the PYXAID program: integration schemes, decoherence effects, multiexcitonic states, and field–matter interaction. Journal of Chemical Theory and Computation, 2014, 10(2): 789–804.
+* [Akimov, A. V.; Prezhdo, O. V*. Advanced Capabilities of the Pyxaid Program: Integration Schemes, Decoherence Effects, Multiexcitonic States, and Field-Matter Interaction. J. Chem. Theory Comput. 2014, 10, 789–804](https://pubs.acs.org/jctcce/article/10/2/789/794232/Advanced-Capabilities-of-the-PYXAID-Program)
 
 This work:
 
