@@ -420,4 +420,6 @@ Original `PYXAID` references:
 
 This work:
 
-To be added after the paper is officially published.
+* [Zhang, Z.*; Liu, Y.; Liu, J. Phosphonic Acid Molecular Regulation of Frenkel Defects for Suppressing Nonradiative Recombination in FAPbI3 Perovskites. J. Phys. Chem. Lett. 2026, 17, 9756–9765](https://pubs.acs.org/jpclcd/article-abstract/17/33/9756/5250682/Phosphonic-Acid-Molecular-Regulation-of-Frenkel?redirectedFrom=fulltext)
+
+* [Zhang, Z.*; Liu, J.; Liu, Y. Molecular Passivation of Iodine Vacancies Suppresses Nonradiative Recombination in FAPbI3 Perovskites. J. Mater. Chem. A 2026](https://pubs.rsc.org/ta/article-abstract/doi/10.1039/d6ta06718b/1300128/Molecular-passivation-of-iodine-vacancies?redirectedFrom=fulltext)
