@@ -27,6 +27,7 @@
 1. **[PRISM](./PRISM)** - Pymatgen Random-alloy and point-defect Integrated Structure Maker.
 1. **[AdaptiveEXX](./AdaptiveEXX)** - Single-probe defect monitoring for adaptive ACE reuse and reconstruction.
 1. **[GoalDFT](./GoalDFT)** - A implementation for joint numerical error control in plane-wave DFT.
+1. **[Periodic SOED](./Periodic_SOED)** - Periodic electron density overlap descriptors (Periodic SOED).
 
 ## Computational Software Environment
 
