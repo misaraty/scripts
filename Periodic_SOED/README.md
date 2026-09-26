@@ -1,4 +1,4 @@
-## [中文版本](https://www.misaraty.com/2026-08-27_adaptiveexx/)
+## [中文版本](https://www.misaraty.com/2026-09-26_periodic_soed/)
 
 ## Periodic SOED
 
