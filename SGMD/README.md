@@ -249,5 +249,4 @@ Before running it, edit its input path, predicted-property column/threshold, opt
 
 ## Citation
 
-- [Zhang, Z.*; Liu, Y.; Liu, J.; Zhang, W.; Xiong, Q. A UniZhang, Z.*; Liu, Y.; Liu, J.; Zhang, W.; Xiong, Q. A Unified Deep Generative Framework for Surrogate-Guided Molecular Discovery across Diverse Molecular Spaces. Phys. Chem. Chem. Phys. 2026, 28, 19038-19045](https://pubs.rsc.org/CP/article-lookup/doi/10.1039/D6CP01102K)
-
+- [Zhang, Z.*; Liu, Y.; Liu, J.; Zhang, W.; Xiong, Q. A Unified Deep Generative Framework for Surrogate-Guided Molecular Discovery across Diverse Molecular Spaces. Phys. Chem. Chem. Phys. 2026, 28, 19038-19045](https://pubs.rsc.org/CP/article-lookup/doi/10.1039/D6CP01102K)
