@@ -342,7 +342,7 @@ Performance benchmarking was conducted for `PYXAID`, `MAXAID`, and `JUXAID` (dif
 
 #### 2. Structured Parameter Management (Removal of Large Numbers of Global Variables)
 
-- v10 used大量 global variables (`hbar`, `kb`, `dt`, etc.)
+- v10 used numerous global variables (`hbar`, `kb`, `dt`, etc.)
 
 - v12 introduced the `NAMDParams` data class for unified parameter management
 
