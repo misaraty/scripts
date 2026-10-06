@@ -1,6 +1,6 @@
 ## [中文版本](https://www.misaraty.com/2026-10-06_mcongn/)
 
-`mcoNGN_v1.py` is a standalone PyTorch/PyTorch Geometric program for crystal-property regression from CIF structures. It contains both **coGN** and **coNGN**; select the model by changing the single `MODEL_NAME` option at the top of the file.
+`mcoNGN_v1.py` is a standalone PyTorch/PyTorch Geometric program for crystal-property regression from CIF structures. It contains both `coGN` and `coNGN`; select the model by changing the single `MODEL_NAME` option at the top of the file.
 
 The default target is the band gap in eV. The target name, unit, data paths, graph construction, network size, training schedule, plotting style, and optional Optuna search can all be changed in the user-configuration section.
 
