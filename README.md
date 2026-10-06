@@ -36,6 +36,7 @@
 1. **[mM3GNet](./mM3GNet)** - modified M3GNet (mM3GNet)
 1. **[mSchNet](./mSchNet)** - modified SchNet (mSchNet)
 1. **[mGATGNN](./mGATGNN)** - modified GATGNN (mGATGNN)
+1. **[mMODNet](./mMODNet)** - modified MODNet (mMODNet)
 
 ## Computational Software Environment
 
