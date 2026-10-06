@@ -40,6 +40,7 @@
 1. **[mMatformer](./mMatformer)** - modified Matformer (mMatformer)
 1. **[mPotNet](./mPotNet)** - modified PotNet (mPotNet)
 1. **[mDenseGNN](./mDenseGNN)** - modified DenseGNN (mDenseGNN)
+1. **[mCrystalFramer](./mCrystalFramer)** - modified CrystalFramer (mCrystalFramer)
 
 ## Computational Software Environment
 
