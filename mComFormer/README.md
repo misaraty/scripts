@@ -124,7 +124,7 @@ The script also provides `load_trained_model()` and `predict_cifs()` for loading
 
 Original ComFormer reference:
 
-* [Yan K, Fu C, Qian X, et al. Complete and efficient graph transformers for crystal material property prediction International Conference on Learning Representations. 2024, 2024: 2564-2590.](https://proceedings.iclr.cc/paper_files/paper/2024/hash/0ab51646ca369140c3c3ece011b66587-Abstract-Conference.html)
+* [Yan K, Fu C, Qian X, et al. Complete and efficient graph transformers for crystal material property prediction. International Conference on Learning Representations. 2024, 2024: 2564-2590.](https://proceedings.iclr.cc/paper_files/paper/2024/hash/0ab51646ca369140c3c3ece011b66587-Abstract-Conference.html)
 
 This work:
 
