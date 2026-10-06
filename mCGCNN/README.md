@@ -144,10 +144,10 @@ Original CGCNN reference:
 
 This work:
 
-v2
+v2:
 
 To be added after the paper is officially published.
 
-v1
+v1:
 
 * [Zhang, Z.*; Liu, Y.; Liu, J.; Zhang, W.; Xiong, Q. Electronegativity Informed Graph Neural Networks for Superconducting Temperature Prediction with Generative Crystal Validation. Inorg. Chem. 2026, 65, 9625-9632.](https://pubs.acs.org/doi/full/10.1021/acs.inorgchem.6c01169)
