@@ -32,6 +32,7 @@
 1. **[mcoNGN](./mcoNGN)** - modified coGN/coNGN (mcoNGN)
 1. **[mComFormer](./mComFormer)** - modified iComFormer/eComFormer (mComFormer)
 1. **[mCrystalformer](./mCrystalformer)** - modified Crystalformer (mCrystalformer)
+1. **[mReciNet](./mReciNet)** - modified ReciNet (mReciNet)
 
 ## Computational Software Environment
 
