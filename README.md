@@ -30,6 +30,7 @@
 1. **[Periodic SOED](./Periodic_SOED)** - Periodic electron density overlap descriptors (Periodic SOED)
 1. **[mALIGNN](./mALIGNN)** - modified ALIGNN (mALIGNN)
 1. **[mcoNGN](./mcoNGN)** - modified mcoGN/mcoNGN (mcoNGN)
+1. **[mComFormer](./mComFormer)** - modified iComFormer/eComFormer (mComFormer)
 
 ## Computational Software Environment
 
