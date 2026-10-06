@@ -79,7 +79,7 @@ The outputs include train/validation/test MAE, RMSE, and R2; individual and comb
 
 Original Crystalformer reference:
 
-* [Taniai T, Igarashi R, Suzuki Y, et al. Crystalformer: Infinitely connected attention for periodic structure encoding. International Conference on Learning Representations. 2024, 2024: 45083-45105.](https://proceedings.iclr.cc/paper_files/paper/2024/hash/c428adf74782c2092d254329b6b02482-Abstract-Conference.html)
+* [Taniai T, Igarashi R, Suzuki Y, et al. Crystalformer: Infinitely connected attention for periodic structure encoding. International Conference on Learning Representations. 2024, 2024: 45083-45105](https://proceedings.iclr.cc/paper_files/paper/2024/hash/c428adf74782c2092d254329b6b02482-Abstract-Conference.html)
 
 This work:
 

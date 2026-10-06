@@ -68,7 +68,7 @@ The outputs include train/validation/test MAE, RMSE, and R2; individual and comb
 
 Original SchNet reference:
 
-* [Schütt K, Kindermans P J, Sauceda Felix H E, et al. Schnet: A continuous-filter convolutional neural network for modeling quantum interactions. Advances in neural information processing systems, 2017, 30.](https://proceedings.neurips.cc/paper_files/paper/2017/hash/303ed4c69846ab36c2904d3ba8573050-Abstract.html)
+* [Schütt K, Kindermans P J, Sauceda Felix H E, et al. Schnet: A continuous-filter convolutional neural network for modeling quantum interactions. Advances in neural information processing systems, 2017, 30](https://proceedings.neurips.cc/paper_files/paper/2017/hash/303ed4c69846ab36c2904d3ba8573050-Abstract.html)
 
 This work:
 

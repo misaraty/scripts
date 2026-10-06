@@ -68,7 +68,7 @@ The outputs include train/validation/test MAE, RMSE, and R2; parity plots and da
 
 Original M3GNet reference:
 
-* [Chen C, Ong S P. A universal graph deep learning interatomic potential for the periodic table. Nature Computational Science, 2022, 2(11): 718-728.](https://www.nature.com/articles/s43588-022-00349-3)
+* [Chen C, Ong S P. A universal graph deep learning interatomic potential for the periodic table. Nature Computational Science, 2022, 2(11): 718-728](https://www.nature.com/articles/s43588-022-00349-3)
 
 This work:
 

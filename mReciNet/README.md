@@ -74,7 +74,7 @@ Set `USE_OPTUNA = True` to optimize the batch size, learning rate, weight decay,
 
 Original ReciNet reference:
 
-* [Nie J, Xiao P, Ji K, et al. ReciNet: Reciprocal space-aware long-range modeling for crystalline property prediction. arXiv preprint arXiv:2502.02748, 2025.](https://arxiv.org/abs/2502.02748)
+* [Nie J, Xiao P, Ji K, et al. ReciNet: Reciprocal space-aware long-range modeling for crystalline property prediction. arXiv preprint arXiv:2502.02748, 2025](https://arxiv.org/abs/2502.02748)
 
 This work:
 

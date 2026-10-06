@@ -78,7 +78,7 @@ The saved checkpoint contains the model state, model and graph configurations, t
 
 Original GATGNN reference:
 
-* [Louis S Y, Zhao Y, Nasiri A, et al. Graph convolutional neural networks with global attention for improved materials property prediction. Physical Chemistry Chemical Physics, 2020, 22(32): 18141-18148.](https://pubs.rsc.org/cp/article-abstract/22/32/18141/679461/Graph-convolutional-neural-networks-with-global)
+* [Louis S Y, Zhao Y, Nasiri A, et al. Graph convolutional neural networks with global attention for improved materials property prediction. Physical Chemistry Chemical Physics, 2020, 22(32): 18141-18148](https://pubs.rsc.org/cp/article-abstract/22/32/18141/679461/Graph-convolutional-neural-networks-with-global)
 
 This work:
 

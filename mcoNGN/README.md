@@ -109,7 +109,7 @@ The checkpoint includes the trained weights, model and graph configurations, tar
 
 Original ALIGNN reference:
 
-* [Ruff R, Reiser P, Stühmer J, et al. Connectivity optimized nested line graph networks for crystal structures. Digital Discovery, 2024, 3(3): 594-601.](https://pubs.rsc.org/dd/article/3/3/594/846022/Connectivity-optimized-nested-line-graph-networks)
+* [Ruff R, Reiser P, Stühmer J, et al. Connectivity optimized nested line graph networks for crystal structures. Digital Discovery, 2024, 3(3): 594-601](https://pubs.rsc.org/dd/article/3/3/594/846022/Connectivity-optimized-nested-line-graph-networks)
 
 This work:
 

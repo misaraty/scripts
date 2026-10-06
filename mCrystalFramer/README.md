@@ -85,7 +85,7 @@ Keep `LATTICE_RANGE = 1` whenever possible because setting it to zero removes no
 
 Original CrystalFramer reference:
 
-* [Ito Y, Taniai T, Igarashi R, et al. Rethinking the role of frames for SE (3)-invariant crystal structure modeling. International Conference on Learning Representations. 2025, 2025: 8655-8676.](https://proceedings.iclr.cc/paper_files/paper/2025/hash/187d94b3c93343f0e925b5cf729eadd5-Abstract-Conference.html)
+* [Ito Y, Taniai T, Igarashi R, et al. Rethinking the role of frames for SE (3)-invariant crystal structure modeling. International Conference on Learning Representations. 2025, 2025: 8655-8676](https://proceedings.iclr.cc/paper_files/paper/2025/hash/187d94b3c93343f0e925b5cf729eadd5-Abstract-Conference.html)
 
 This work:
 

@@ -94,7 +94,7 @@ The saved checkpoint can also be loaded programmatically with `load_trained_mode
 
 Original DenseGNN reference:
 
-* [Du H, Wang J, Hui J, et al. DenseGNN: universal and scalable deeper graph neural networks for high-performance property prediction in crystals and molecules. npj Computational Materials, 2024, 10(1): 292.](https://www.nature.com/articles/s41524-024-01444-x)
+* [Du H, Wang J, Hui J, et al. DenseGNN: universal and scalable deeper graph neural networks for high-performance property prediction in crystals and molecules. npj Computational Materials, 2024, 10(1): 292](https://www.nature.com/articles/s41524-024-01444-x)
 
 Original DenseGNN repository:
 
