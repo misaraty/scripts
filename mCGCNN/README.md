@@ -141,6 +141,7 @@ Run: `python mCGCNN_v1.py`
 Original CGCNN reference:
 
 * [Xie T, Grossman J C. Crystal graph convolutional neural networks for an accurate and interpretable prediction of material properties. Physical review letters, 2018, 120(14): 145301](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.120.145301)
+
 This work:
 
 v2
