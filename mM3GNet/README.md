@@ -1,4 +1,4 @@
-## [中文版本](https://www.misaraty.com/2026-10-06-mm3gnet/)
+## [中文版本](https://www.misaraty.com/2026-10-06_mm3gnet/)
 
 ## mM3GNet
 
