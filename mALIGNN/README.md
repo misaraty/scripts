@@ -28,7 +28,7 @@ data.xlsx
 cif/
 |-- 1.cif
 |-- 2.cif
-`-- 3.cif
+|-- 3.cif
 ```
 
 The first two columns of `data.xlsx` are used:
@@ -59,7 +59,7 @@ ALIGNN_v2/
 |-- table/
 |-- log/
 |-- split/
-`-- cache/
+|-- cache/
 ```
 
 The outputs include train/validation/test MAE, RMSE, and R2; parity plots and data; the RMSE learning curve and data; the fixed data split; the best checkpoint; and the complete training log.
