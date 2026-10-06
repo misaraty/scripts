@@ -1,4 +1,4 @@
-## [中文版本](待补充)
+## [中文版本](https://www.misaraty.com/2026-10-06_malignn/)
 
 ## mALIGNN
 
