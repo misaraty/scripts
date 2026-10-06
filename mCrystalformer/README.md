@@ -1,32 +1,17 @@
-## [中文版本](https://www.misaraty.com/2026-10-06_mcomformer/)
+## [中文版本](https://www.misaraty.com/2026-10-06_mcrystalformer/)
 
-## mComFormer
+## mCrystalformer
 
-`mComFormer` is a standalone PyTorch/PyTorch Geometric implementation of iComFormer and eComFormer for crystal band-gap prediction from CIF structures. Both models are included in one Python script and can be selected through `MODEL_NAME`.
+`mCrystalformer` is a standalone pure-PyTorch implementation of Crystalformer for crystal band-gap prediction from CIF structures.
 
-The code uses `pymatgen` for CIF parsing and periodic graph construction and does not depend on DGL, JARVIS, or the original ComFormer repository.
+The code retains the central Crystalformer design: fully connected periodic attention, real-space and reciprocal-space periodic encoding, query-dependent Gaussian attention, radial value encoding, alternating Latticeformer encoder blocks, T-Fixup initialization, crystal-level pooling, and a scalar regression head. `pymatgen` is used for CIF parsing and primitive-cell standardization.
 
-## Models
-
-| Model | Geometric representation | Main components |
-| --- | --- | --- |
-| iComFormer | SE(3)-invariant | Interatomic distances, three canonical lattice reference vectors, angle encoding, four node-wise ComFormer layers, and one edge update layer |
-| eComFormer | SO(3)-equivariant | Interatomic displacement vectors, spherical harmonics, three node-wise ComFormer layers, and one equivariant tensor-product update layer |
-
-Both models use a learned 92-dimensional atomic embedding, radial basis distance encoding, graph-level mean pooling, and a scalar regression head.
+This version does not depend on PyTorch Geometric, DGL, JARVIS, CuPy, `pytorch-pfn-extras`, custom CUDA source files, JSON parameter files, or the original Crystalformer repository. When CUDA is available, the standard PyTorch tensor operations still run on the GPU. The pure-PyTorch implementation may be slower than the fused CUDA-kernel implementation in the original repository.
 
 ## Requirements
 
-Install the common dependencies:
-
 ```bash
-pip install torch torch-geometric pymatgen numpy pandas openpyxl scikit-learn matplotlib tqdm
-```
-
-eComFormer additionally requires e3nn:
-
-```bash
-pip install e3nn
+pip install torch pymatgen numpy pandas openpyxl scikit-learn matplotlib tqdm
 ```
 
 Install Optuna only when `USE_OPTUNA = True`:
@@ -40,7 +25,7 @@ pip install optuna
 Prepare the following files in the script directory:
 
 ```text
-mComFormer_v1.py
+mCrystalformer_v2.py
 data.xlsx
 cif/
 |-- 1.cif
@@ -56,75 +41,45 @@ The first two columns of `data.xlsx` are used:
 | 2 | 0.87 |
 | 3 | 2.15 |
 
-The value `1` in the first column is converted to `1.cif` and corresponds to `./cif/1.cif`. CIF structures containing disordered or partially occupied sites are skipped and recorded in the training log.
+The first column must contain integer-compatible identifiers. The value `1` is converted to `1.cif` and matched to `./cif/1.cif`. The second column contains the band gap in eV.
 
-## Model Selection
-
-Select one of the two models at the beginning of `mComFormer_v1.py`:
-
-```python
-MODEL_NAME = "iComFormer"
-```
-
-or:
-
-```python
-MODEL_NAME = "eComFormer"
-```
-
-The run version can be changed independently:
-
-```python
-RUN_VERSION = "v1"
-```
+Invalid targets, missing CIF files, unparsable structures, invalid occupancies, and singular lattices are skipped and recorded in the training log. At least 20 valid structures are required.
 
 ## Usage
 
 ```bash
-python mComFormer_v1.py
+python mCrystalformer_v2.py
 ```
 
-The script automatically performs CIF validation, periodic graph construction and caching, a fixed 80/10/10 train/validation/test split, target normalization based only on the training set, model training, early stopping, evaluation, and plotting. CUDA is used when available; otherwise, the script runs on CPU.
+The script automatically performs CIF validation and caching, primitive-cell standardization, a fixed 80/10/10 train/validation/test split with `SEED = 42`, target normalization fitted only on the training set, model training, validation-RMSE early stopping, checkpoint reloading, final evaluation, and plotting. CUDA is used when available; otherwise, the script runs on CPU.
 
-Training uses MSE loss, AdamW, and ReduceLROnPlateau. The best checkpoint is selected according to validation RMSE. The saved split is reused when the same valid CIF set is detected.
+The default model uses four 128-dimensional Latticeformer blocks with eight attention heads. `DOMAIN = "real-reci"` alternates real-space and reciprocal-space periodic attention between blocks. Training uses MSE loss, AdamW, inverse-square-root learning-rate decay, and a maximum of 300 epochs. Optional Optuna optimization is controlled by `USE_OPTUNA`.
 
-## Outputs
-
-All results are saved in a directory determined by `MODEL_NAME` and `RUN_VERSION`. For example:
+All results are saved in the directory determined by `MODEL_NAME` and `RUN_VERSION`. With the default settings, the output directory is:
 
 ```text
-iComFormer_v1/
-|-- iComFormer_best.pt
+Crystalformer_v2/
+|-- Crystalformer_best.pt
 |-- figure/
+|   |-- Crystalformer_parity_train.jpg
+|   |-- Crystalformer_parity_val.jpg
+|   |-- Crystalformer_parity_test.jpg
+|   |-- Crystalformer_parity_all.jpg
+|   `-- Crystalformer_rmse_curve.jpg
 |-- dat/
 |-- table/
 |-- log/
 |-- split/
-|-- cache/
+`-- cache/
 ```
 
-or:
-
-```text
-eComFormer_v1/
-|-- eComFormer_best.pt
-|-- figure/
-|-- dat/
-|-- table/
-|-- log/
-|-- split/
-|-- cache/
-```
-
-The outputs include train/validation/test MAE, RMSE, and R2; individual and combined parity plots with data files; the RMSE learning curve and data; the fixed data split; cached crystal graphs; the best checkpoint; optional Optuna results; and the complete training log.
-
-The script also provides `load_trained_model()` and `predict_cifs()` for loading a saved checkpoint and predicting band gaps for new CIF structures.
+The outputs include train/validation/test MAE, RMSE, and R2; individual and combined parity plots with tab-separated prediction data; the RMSE learning curve and data; the reusable fixed split; the parsed-structure cache; the best checkpoint selected by validation RMSE; and the complete training log. Set a new `RUN_VERSION` to create a separate result directory without overwriting earlier runs.
 
 ## Citation
 
-Original ComFormer reference:
+Original Crystalformer reference:
 
-* [Yan K, Fu C, Qian X, et al. Complete and efficient graph transformers for crystal material property prediction. International Conference on Learning Representations. 2024, 2024: 2564-2590.](https://proceedings.iclr.cc/paper_files/paper/2024/hash/0ab51646ca369140c3c3ece011b66587-Abstract-Conference.html)
+* [Taniai T, Igarashi R, Suzuki Y, et al. Crystalformer: Infinitely connected attention for periodic structure encoding. International Conference on Learning Representations. 2024, 2024: 45083-45105.](https://proceedings.iclr.cc/paper_files/paper/2024/hash/c428adf74782c2092d254329b6b02482-Abstract-Conference.html)
 
 This work:
 
