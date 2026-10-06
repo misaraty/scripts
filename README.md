@@ -29,8 +29,9 @@
 1. **[GoalDFT](./GoalDFT)** - A implementation for joint numerical error control in plane-wave DFT
 1. **[Periodic SOED](./Periodic_SOED)** - Periodic electron density overlap descriptors (Periodic SOED)
 1. **[mALIGNN](./mALIGNN)** - modified ALIGNN (mALIGNN)
-1. **[mcoNGN](./mcoNGN)** - modified mcoGN/mcoNGN (mcoNGN)
+1. **[mcoNGN](./mcoNGN)** - modified coGN/coNGN (mcoNGN)
 1. **[mComFormer](./mComFormer)** - modified iComFormer/eComFormer (mComFormer)
+1. **[mCrystalformer](./mCrystalformer)** - modified Crystalformer (mCrystalformer)
 
 ## Computational Software Environment
 
