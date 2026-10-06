@@ -41,6 +41,7 @@
 1. **[mPotNet](./mPotNet)** - modified PotNet (mPotNet)
 1. **[mDenseGNN](./mDenseGNN)** - modified DenseGNN (mDenseGNN)
 1. **[mCrystalFramer](./mCrystalFramer)** - modified CrystalFramer (mCrystalFramer)
+1. **[FlyCrysNet](./FlyCrysNet)** - A connectome-inspired crystal graph neural network using MaleCNS-derived sparse latent message passing
 
 ## Computational Software Environment
 
