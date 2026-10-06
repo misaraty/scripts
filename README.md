@@ -39,6 +39,7 @@
 1. **[mMODNet](./mMODNet)** - modified MODNet (mMODNet)
 1. **[mMatformer](./mMatformer)** - modified Matformer (mMatformer)
 1. **[mPotNet](./mPotNet)** - modified PotNet (mPotNet)
+1. **[mDenseGNN](./mDenseGNN)** - modified DenseGNN (mDenseGNN)
 
 ## Computational Software Environment
 
