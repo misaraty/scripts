@@ -1,0 +1,15 @@
+# temperature_C: 30.0
+# time_unit: min
+# signal_unit: deg
+# time_min	optical_rotation_deg
+5	10.924
+10	9.0332
+15	7.414
+20	5.955
+25	4.741
+30	3.632
+35	2.675
+40	1.843
+45	1.098
+50	0.474
+55	-0.083

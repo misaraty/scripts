@@ -1,0 +1,14 @@
+# temperature_C: 38.0
+# time_unit: min
+# signal_unit: uS cm^-1
+# time_min	conductivity_uS_cm_1
+2	2100
+4	1891
+6	1690
+8	1576
+10	1522
+15	1375
+20	1295
+25	1240
+30	1197
+35	1167
